@@ -13,7 +13,9 @@ By completing this assignment, you will:
 
 1. Set up your personal capstone project repository on GitHub
 2. Clone the repository to Posit Cloud
-3. Create a basic directory structure for your project
+3. Create a proper directory structure for your project with raw and processed data folders
+4. Upload your dataset to the appropriate folder
+5. Document your data using a comprehensive README template
 
 ## {{< fa terminal >}} Assignment Tasks
 
@@ -47,11 +49,23 @@ By completing this assignment, you will:
 
 1. In your capstone project on Posit Cloud, create the following directory structure:
    - `data/` - for storing your datasets
+     - `data/raw/` - for original, unprocessed datasets
+     - `data/processed/` - for cleaned and processed datasets
    - `docs/` - for documentation and supplementary materials
 
 2. You can create these directories by:
    - Using the Files panel in RStudio: Click "New Folder" and enter the folder names
-   - Or using the terminal/console with: `dir.create("data")` and `dir.create("docs")`
+   - Or using the terminal/console with: `dir.create("data")`, `dir.create("data/raw")`, `dir.create("data/processed")`, and `dir.create("docs")`
+
+### Add your dataset
+
+1. **Upload your data file**: Add your capstone project dataset to the `data/raw/` folder. Your data must be in CSV or Excel format (.csv, .xlsx, or .xls).
+
+2. **Upload methods**:
+   - **Option 1**: Use the RStudio Files panel - click "Upload" and select your data file from your computer
+   - **Option 2**: If your data is available online, download it directly using R commands in the console
+
+3. **File naming**: Use descriptive filenames without spaces (use underscores or hyphens instead). For example: `household_survey_2023.csv` or `water-quality-measurements.xlsx`
 
 ### Create a README for your data folder
 
@@ -69,7 +83,16 @@ By completing this assignment, you will:
 
 7. Copy the content displayed in the browser and paste it into the `README.md` file.
 
-8. Save the file.
+8. **Complete the template**: Fill out all sections of the README template with information about your specific dataset:
+   - **Title**: Give your dataset a descriptive title
+   - **Description**: Explain what the data contains and why it was collected
+   - **Data source**: Where did the data come from? Include URLs, citations, or collection details
+   - **Data collection methods**: How was the data gathered?
+   - **Variable descriptions**: Describe each column/variable in your dataset
+   - **Data files**: List and describe each file in your data folder
+   - **Contact information**: Your information as the dataset maintainer
+
+9. Save the file.
 
 ### Commit and push your changes
 

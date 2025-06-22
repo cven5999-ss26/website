@@ -308,11 +308,11 @@
     "text": "Always respect your data types!\n\nsurvey_data_small |&gt; \n  mutate(price_glass_new = case_when(\n    price_glass == \"5 to 10\" ~ \"7.5\",\n    price_glass == \"05-Oct\" ~ \"7.5\",\n    str_detect(price_glass, pattern = \"20\") == TRUE ~ \"20\",\n    str_detect(price_glass, pattern = \"See comment\") == TRUE ~ NA_character_,\n    TRUE ~ price_glass\n  )) |&gt; \n  mutate(price_glass_new = as.numeric(price_glass_new)) |&gt; \n  summarise(mean_price_glass = mean(price_glass_new, na.rm = TRUE))\n\n# A tibble: 1 × 1\n  mean_price_glass\n             &lt;dbl&gt;\n1             4.76"
   },
   {
-    "objectID": "slides/lec-04-tidy-data.html#live-05a-vectors",
-    "href": "slides/lec-04-tidy-data.html#live-05a-vectors",
+    "objectID": "slides/lec-04-tidy-data.html#live-vectors",
+    "href": "slides/lec-04-tidy-data.html#live-vectors",
     "title": "Concept of tidy data, vectors and pivoting",
-    "section": "live-05a-vectors",
-    "text": "live-05a-vectors\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen your “course-materials” project\nFollow along with me"
+    "section": "live-vectors",
+    "text": "live-vectors\n\n\n\n\n\n\nFollow along on the screen\n\n\n\nOpen the GitHub organisation for the course: https://github.com/cven5999-ss25\nYou will find a repository titled: wk-05-USERNAME (with your GitHub Username)\nYou will “clone” this repository to Posit Cloud"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#section",
@@ -438,7 +438,7 @@
     "href": "slides/lec-04-tidy-data.html#live-05a-tidyr-pivoting",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "live-05a-tidyr-pivoting",
-    "text": "live-05a-tidyr-pivoting\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen your “course-materials” project\nFollow along with me"
+    "text": "live-05a-tidyr-pivoting\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen “Content”\nOpen your project\nFollow along with me"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#homework-due-dates",
@@ -688,7 +688,7 @@
     "href": "weeks/wk-04.html#homework-assignment",
     "title": "Week 4",
     "section": " Homework assignment",
-    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-06-27\nComplete the homework programming assignments that are in your project folder for week 4 on Posit Cloud\n\nhw-04a-data-transformation.qmd",
+    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-06-27\nComplete the homework programming assignments that are in your project folder for week 4 on Posit Cloud\n\nhw-04a-data-transformation.qmd\n\nComplete the following assignment, which is not documented in your week 4 project folder.\n\nhw-04b-capstone-project-setup.qmd",
     "crumbs": [
       "Week 4"
     ]
@@ -847,6 +847,41 @@
     "title": "CVEN 5999 - Summer 2025",
     "section": "",
     "text": "All of the material here is available under the Creative Commons Attribution license.\nYou are free:\n\nto Share - to copy and redistribute the material in any medium or format\nto Adapt - remix, transform, and build upon the material for any purpose, even commercially.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit using “(c) Copyright 2022, Lars Schöbitz”, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\nNotice - For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to http://creativecommons.org/licenses/by/4.0/.\n\nFor the full legal text of this license, please see: http://creativecommons.org/licenses/by/4.0/legalcode."
+  },
+  {
+    "objectID": "assignments/hw-04b-capstone-project-setup.html",
+    "href": "assignments/hw-04b-capstone-project-setup.html",
+    "title": "HW 04b: Capstone Project Setup",
+    "section": "",
+    "text": "By completing this assignment, you will:\n\nSet up your personal capstone project repository on GitHub\nClone the repository to Posit Cloud\nCreate a proper directory structure for your project with raw and processed data folders\nUpload your dataset to the appropriate folder\nDocument your data using a comprehensive README template"
+  },
+  {
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#learning-objectives",
+    "href": "assignments/hw-04b-capstone-project-setup.html#learning-objectives",
+    "title": "HW 04b: Capstone Project Setup",
+    "section": "",
+    "text": "By completing this assignment, you will:\n\nSet up your personal capstone project repository on GitHub\nClone the repository to Posit Cloud\nCreate a proper directory structure for your project with raw and processed data folders\nUpload your dataset to the appropriate folder\nDocument your data using a comprehensive README template"
+  },
+  {
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#assignment-tasks",
+    "href": "assignments/hw-04b-capstone-project-setup.html#assignment-tasks",
+    "title": "HW 04b: Capstone Project Setup",
+    "section": " Assignment Tasks",
+    "text": "Assignment Tasks\n\nCreate a new repository on GitHub & clone to Posit Cloud\n\nOpen the GitHub Organisation for the course: https://github.com/cven5999-ss25\nTo the right of the field “Find a repository”, click on the green “New” button.\nIn the “Repository name” field write capstone-project-username. Replace username with your GitHub username. Avoid using spaces. For example: capstone-project-rainbow-train for the user with the username rainbow-train\nScroll down on the same page, and click “Create repository”.\nIn the “Quick setup” field, click on the clipboard next to the HTTPS URL\nOpen the Posit Cloud workspace for the course: cven5999-ss25\nOpen the Content page\nClick on New Project -&gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nKeep the tick next to Add packages from the base project\nClick the OK button\nWait until the project is deployed.\n\n\n\nSet up initial directory structure\n\nIn your capstone project on Posit Cloud, create the following directory structure:\n\ndata/ - for storing your datasets\n\ndata/raw/ - for original, unprocessed datasets\ndata/processed/ - for cleaned and processed datasets\n\ndocs/ - for documentation and supplementary materials\n\nYou can create these directories by:\n\nUsing the Files panel in RStudio: Click “New Folder” and enter the folder names\nOr using the terminal/console with: dir.create(\"data\"), dir.create(\"data/raw\"), dir.create(\"data/processed\"), and dir.create(\"docs\")\n\n\n\n\nAdd your dataset\n\nUpload your data file: Add your capstone project dataset to the data/raw/ folder. Your data must be in CSV or Excel format (.csv, .xlsx, or .xls).\nUpload methods:\n\nOption 1: Use the RStudio Files panel - click “Upload” and select your data file from your computer\nOption 2: If your data is available online, download it directly using R commands in the console\n\nFile naming: Use descriptive filenames without spaces (use underscores or hyphens instead). For example: household_survey_2023.csv or water-quality-measurements.xlsx\n\n\n\nCreate a README for your data folder\n\nNavigate to the Files tab in the bottom right window of RStudio.\nOpen the data folder you just created.\nClick on the “Blank File” button to create a new file.\nSelect “Text file”.\nEnter the name “README.md” and click OK.\nGo to: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md\nCopy the content displayed in the browser and paste it into the README.md file.\nComplete the template: Fill out all sections of the README template with information about your specific dataset:\n\nTitle: Give your dataset a descriptive title\nDescription: Explain what the data contains and why it was collected\nData source: Where did the data come from? Include URLs, citations, or collection details\nData collection methods: How was the data gathered?\nVariable descriptions: Describe each column/variable in your dataset\nData files: List and describe each file in your data folder\nContact information: Your information as the dataset maintainer\n\nSave the file.\n\n\n\nCommit and push your changes\n\nIn the Git panel (usually in the top right), stage all new files by checking the boxes next to them.\nClick “Commit”.\nWrite a meaningful commit message such as “Initial project setup with directory structure and data README”.\nClick “Commit”.\nClick “Push” to upload your changes to GitHub.\n\n\n\nFinal step\nRespond to the Questions & Answer for the Capstone Project report issue on the GitHub issue tracker of your repository and tag the course instructor using the @ sign in combination with larnsce as the username."
+  },
+  {
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#due-date",
+    "href": "assignments/hw-04b-capstone-project-setup.html#due-date",
+    "title": "HW 04b: Capstone Project Setup",
+    "section": " Due Date",
+    "text": "Due Date\nThis assignment is due: 2025-06-27"
+  },
+  {
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#submission",
+    "href": "assignments/hw-04b-capstone-project-setup.html#submission",
+    "title": "HW 04b: Capstone Project Setup",
+    "section": " Submission",
+    "text": "Submission\nNo separate submission is required. Your instructor will check your GitHub repository to verify completion of the setup tasks."
   },
   {
     "objectID": "weeks/wk-03.html",
@@ -1417,11 +1452,11 @@
     "text": "dplyr rules\nRules of dplyr functions:\n\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
   },
   {
-    "objectID": "slides/lec-03-transformation.html#live-04a-data-transformation",
-    "href": "slides/lec-03-transformation.html#live-04a-data-transformation",
+    "objectID": "slides/lec-03-transformation.html#live-data-transformation",
+    "href": "slides/lec-03-transformation.html#live-data-transformation",
     "title": "Data transformation and descriptive statistics",
-    "section": "live-04a-data-transformation",
-    "text": "live-04a-data-transformation\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen “Projects”\nOpen your “course-materials” project\nFollow along with me"
+    "section": "live-data-transformation",
+    "text": "live-data-transformation\n\n\n\n\n\n\nFollow along on the screen\n\n\n\nOpen the GitHub organisation for the course: https://github.com/cven5999-ss25\nYou will find a repository titled: wk-04-USERNAME (with your GitHub Username)\nYou will “clone” this repository to Posit Cloud"
   },
   {
     "objectID": "slides/lec-03-transformation.html#break",
@@ -1438,11 +1473,11 @@
     "text": "Pair Programming Exercises\n\nTwo learners work together in a break out session\nOne person (the driver) shares the screen and does the typing\nThe other person (the navigator) offers comments and suggestions\nRoles get switched"
   },
   {
-    "objectID": "slides/lec-03-transformation.html#hw-04a-data-visualiation",
-    "href": "slides/lec-03-transformation.html#hw-04a-data-visualiation",
+    "objectID": "slides/lec-03-transformation.html#hw-data-transformation",
+    "href": "slides/lec-03-transformation.html#hw-data-transformation",
     "title": "Data transformation and descriptive statistics",
-    "section": "hw-04a-data-visualiation",
-    "text": "hw-04a-data-visualiation\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen “Projects”\nOpen your “course-materials” project\nFollow along with me"
+    "section": "hw-data-transformation",
+    "text": "hw-data-transformation\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen “Content”\nOpen your project\nOpen the hw-data-transformation.qmd file\nStart working through the exercises in the file together"
   },
   {
     "objectID": "slides/lec-03-transformation.html#homework-due-dates",
@@ -1483,7 +1518,7 @@
     "href": "project/index.html#github-repository",
     "title": "Capstone Project",
     "section": " GitHub repository",
-    "text": "GitHub repository\nA repository for each student is established. This repository contains self-identified data that was shared in week 3 of the course. Some data cleaning steps are performed by the course instructor, so that each student has a tidy dataset to work with.\nThe repository further contains an empty Quarto file (report.qmd), which students must use to write their report. A list of graded items was prepared to guide students in writing the report.",
+    "text": "GitHub repository\nA repository for each student is established during week 4 of the course (see HW 04b: Capstone Project Setup). This repository contains self-identified data that was shared in week 3 of the course. Some data cleaning steps are performed by the course instructor, so that each student has a tidy dataset to work with.\nThe repository further contains an empty Quarto file (report.qmd), which students must use to write their report. A list of graded items was prepared to guide students in writing the report.",
     "crumbs": [
       "Capstone Project"
     ]
@@ -1519,27 +1554,23 @@
     ]
   },
   {
-    "objectID": "project/index.html#get-started",
-    "href": "project/index.html#get-started",
+    "objectID": "project/index.html#directory-structure",
+    "href": "project/index.html#directory-structure",
     "title": "Capstone Project",
-    "section": " Get started",
-    "text": "Get started\n\nOpen the GitHub Organisation for the course: https://github.com/cven5999-ss25\nLocate the capstone-project repository with your username capstone-project-GITHUB-USERNAME\nOpen your capstone-project repository\nClick on the green button titled “Code” (see screenshot below)\nClick on the link in the pop-up window to your clipboard (see screenshot below)\n\n\n\nOpen the Posit Cloud workspace for the course: cven5999-ss25\nOpen the Content page\nClick on New Project -&gt; New Project from Git Repository\nPaste the link to your capstone-project repository from your clipboard\nKeep the tick next to Add packages from the base project\nClick the OK button\nRespond to the Questions & Answer for the Capstone Project report issue on the GitHub issue tracker of the repository and tag the course instructor with using the @ sign in combination with larnsce as the username",
+    "section": " Directory structure",
+    "text": "Directory structure\nOnce your capstone project repository is set up (completed in HW 04b), organize your project with the following directory structure:\n\nRequired folders\n\ndata/ - Store your datasets and related files\ndocs/ - Documentation and supplementary materials\n\n\n\nData folder organization\nYour data/ folder should be well-documented to ensure reproducibility. Create a README.md file in the data/ folder that includes:\n\nData source information: Where the data comes from\nData collection methods: How the data was collected\nVariable descriptions: What each column/variable represents\nData processing notes: Any cleaning or transformation steps\nFile descriptions: What each data file contains\nDate information: When the data was collected/last updated\n\nUse the template from: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md",
     "crumbs": [
       "Capstone Project"
     ]
   },
   {
-    "objectID": "slides/lec-03-transformation.html#live-data-transformation",
-    "href": "slides/lec-03-transformation.html#live-data-transformation",
-    "title": "Data transformation and descriptive statistics",
-    "section": "live-data-transformation",
-    "text": "live-data-transformation\n\n\n\n\n\n\nFollow along on the screen\n\n\n\nOpen the GitHub organisation for the course: https://github.com/cven5999-ss25\nYou will find a repository titled: wk-04-USERNAME (with your GitHub Username)\nYou will “clone” this repository to Posit Cloud"
-  },
-  {
-    "objectID": "slides/lec-03-transformation.html#hw-data-transformation",
-    "href": "slides/lec-03-transformation.html#hw-data-transformation",
-    "title": "Data transformation and descriptive statistics",
-    "section": "hw-data-transformation",
-    "text": "hw-data-transformation\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen “Content”\nOpen your project\nOpen the hw-data-transformation.qmd file\nStart working through the exercises in the file together"
+    "objectID": "project/index.html#getting-started",
+    "href": "project/index.html#getting-started",
+    "title": "Capstone Project",
+    "section": " Getting started",
+    "text": "Getting started\n\nAccess your capstone project repository on Posit Cloud\nEnsure you have completed the directory structure setup from HW 04b\nBegin working on your report.qmd file using the graded items below as guidance",
+    "crumbs": [
+      "Capstone Project"
+    ]
   }
 ]
