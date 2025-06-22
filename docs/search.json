@@ -1527,5 +1527,19 @@
     "crumbs": [
       "Capstone Project"
     ]
+  },
+  {
+    "objectID": "slides/lec-03-transformation.html#live-data-transformation",
+    "href": "slides/lec-03-transformation.html#live-data-transformation",
+    "title": "Data transformation and descriptive statistics",
+    "section": "live-data-transformation",
+    "text": "live-data-transformation\n\n\n\n\n\n\nFollow along on the screen\n\n\n\nOpen the GitHub organisation for the course: https://github.com/cven5999-ss25\nYou will find a repository titled: wk-04-USERNAME (with your GitHub Username)\nYou will “clone” this repository to Posit Cloud"
+  },
+  {
+    "objectID": "slides/lec-03-transformation.html#hw-data-transformation",
+    "href": "slides/lec-03-transformation.html#hw-data-transformation",
+    "title": "Data transformation and descriptive statistics",
+    "section": "hw-data-transformation",
+    "text": "hw-data-transformation\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen “Content”\nOpen your project\nOpen the hw-data-transformation.qmd file\nStart working through the exercises in the file together"
   }
 ]

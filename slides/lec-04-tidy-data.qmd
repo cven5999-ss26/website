@@ -303,12 +303,14 @@ survey_data_small |>
 
 # Live Coding Exercise: Vectors {background-color="#0F4C81"}
 
-## live-05a-vectors
+## live-vectors
 
-1. Head over to posit.cloud
-2. Open the workspace for the course [{{< var course.code >}}]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
-3. Open your "course-materials" project
-4. Follow along with me
+::: {.callout-note}
+## **Follow along on the screen**
+1. Open the GitHub organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+2. You will find a repository titled: **wk-05-USERNAME** (with your GitHub Username)
+3. You will "clone" this repository to Posit Cloud
+:::
 
 # Break One
 
@@ -560,8 +562,9 @@ ggplot(data = waste_data_tidy,
 
 1. Head over to posit.cloud
 2. Open the workspace for the course [{{< var course.code >}}]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
-3. Open your "course-materials" project
-4. Follow along with me
+3. Open "Content"
+4. Open your project
+5. Follow along with me
 
 
 # Homework week 5 {background-color="#0F4C81"}

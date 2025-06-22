@@ -115,13 +115,14 @@ Rules of `dplyr` functions:
 
 # Live Coding Exercise: SDG 6.2.1 {background-color="#0F4C81"}
 
-## live-04a-data-transformation
+## live-data-transformation
 
-1. Head over to posit.cloud
-2. Open the workspace for the course [{{< var course.code >}}]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
-3. Open "Projects"
-4. Open your "course-materials" project
-5. Follow along with me
+::: {.callout-note}
+## **Follow along on the screen**
+1. Open the GitHub organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+2. You will find a repository titled: **wk-04-USERNAME** (with your GitHub Username)
+3. You will "clone" this repository to Posit Cloud
+:::
 
 ## Break
 
@@ -151,13 +152,14 @@ Photo by [Blake Wisz](https://unsplash.com/@blakewisz)
 - The other person (the navigator) offers comments and suggestions
 - Roles get switched 
 
-## hw-04a-data-visualiation
+## hw-data-transformation
 
 1. Head over to posit.cloud
 2. Open the workspace for the course [{{< var course.code >}}]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
-3. Open "Projects"
-4. Open your "course-materials" project
-5. Follow along with me
+3. Open "Content"
+4. Open your project
+5. Open the `hw-data-transformation.qmd` file
+6. Start working through the exercises in the file together
 
 # Homework week 4 {background-color="#0F4C81"}
 
