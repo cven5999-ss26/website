@@ -1,0 +1,96 @@
+---
+title: "HW 04b: Capstone Project Setup"
+subtitle: "Set up your capstone project repository"
+editor: source
+execute: 
+  echo: false
+  warning: false
+---
+
+## {{< fa bullseye >}} Learning Objectives
+
+By completing this assignment, you will:
+
+1. Set up your personal capstone project repository on GitHub
+2. Clone the repository to Posit Cloud
+3. Create a basic directory structure for your project
+
+## {{< fa terminal >}} Assignment Tasks
+
+### Create a new repository on GitHub & clone to Posit Cloud
+
+1. Open the GitHub Organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+
+2. To the right of the field ["Find a repository"]{.highlight-yellow}, click on the green ["New"]{.highlight-yellow} button.
+
+3. In the ["Repository name"]{.highlight-yellow} field write `capstone-project-username`. [Replace username with your GitHub username]{.highlight-yellow}. Avoid using spaces. For example: `capstone-project-rainbow-train` for the user with the username `rainbow-train`
+
+4. Scroll down on the same page, and click ["Create repository"]{.highlight-yellow}.
+
+5. In the ["Quick setup"]{.highlight-yellow} field, click on the clipboard next to the HTTPS URL 
+
+6. Open the Posit Cloud workspace for the course: [{{< var course.code >}}]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
+
+7. Open the **Content** page
+
+8. Click on **New Project -> New Project from Git Repository**
+
+9. Paste the HTTPS URL from GitHub into the ["URL of your Git Repository"]{.highlight-yellow} field.
+
+10. Keep the **tick** next to **Add packages from the base project**
+
+11. Click the **OK** button
+
+12. Wait until the project is deployed.
+
+### Set up initial directory structure
+
+1. In your capstone project on Posit Cloud, create the following directory structure:
+   - `data/` - for storing your datasets
+   - `docs/` - for documentation and supplementary materials
+
+2. You can create these directories by:
+   - Using the Files panel in RStudio: Click "New Folder" and enter the folder names
+   - Or using the terminal/console with: `dir.create("data")` and `dir.create("docs")`
+
+### Create a README for your data folder
+
+1. Navigate to the Files tab in the bottom right window of RStudio.
+
+2. Open the `data` folder you just created.
+
+3. Click on the "Blank File" button to create a new file.
+
+4. Select "Text file".
+
+5. Enter the name "README.md" and click OK.
+
+6. Go to: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md
+
+7. Copy the content displayed in the browser and paste it into the `README.md` file.
+
+8. Save the file.
+
+### Commit and push your changes
+
+1. In the Git panel (usually in the top right), stage all new files by checking the boxes next to them.
+
+2. Click "Commit".
+
+3. Write a meaningful commit message such as "Initial project setup with directory structure and data README".
+
+4. Click "Commit".
+
+5. Click "Push" to upload your changes to GitHub.
+
+### Final step
+
+Respond to the **Questions & Answer for the Capstone Project report** issue on the GitHub issue tracker of your repository and tag the course instructor using the `@` sign in combination with larnsce as the username.
+
+## {{< fa calendar-check >}} Due Date
+
+This assignment is due: [**{{< var md-04.homework-due >}}**]{.highlight-yellow}
+
+## {{< fa list-check >}} Submission
+
+No separate submission is required. Your instructor will check your GitHub repository to verify completion of the setup tasks.

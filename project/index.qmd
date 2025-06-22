@@ -36,7 +36,7 @@ lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
 
 ## {{< fa code >}} GitHub repository
 
-A repository for each student is established. This repository contains self-identified data that was shared in week 3 of the course. Some data cleaning steps are performed by the course instructor, so that each student has a tidy dataset to work with.
+A repository for each student is established during week 4 of the course (see [HW 04b: Capstone Project Setup](../assignments/hw-04b-capstone-project-setup.qmd)). This repository contains self-identified data that was shared in week 3 of the course. Some data cleaning steps are performed by the course instructor, so that each student has a tidy dataset to work with.
 
 The repository further contains an empty Quarto file (report.qmd), which students must use to write their report. A list of graded items was prepared to guide students in writing the report.
 
@@ -73,21 +73,31 @@ grading |>
 
 ```
 
-## {{< fa terminal >}} Get started
+## {{< fa folder >}} Directory structure
 
-1. Open the GitHub Organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
-2. Locate the capstone-project repository with your username `capstone-project-GITHUB-USERNAME`
-3. Open your capstone-project repository
-4. Click on the green button titled "Code" (**see screenshot below**)
-5. Click on the link in the pop-up window to your clipboard (**see screenshot below**)
- 
-![](img/clone-repo.png)
+Once your capstone project repository is set up (completed in [HW 04b](../assignments/hw-04b-capstone-project-setup.qmd)), organize your project with the following directory structure:
 
-6. Open the Posit Cloud workspace for the course: [{{< var course.code >}}]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
-7. Open the **Content** page
-8. Click on **New Project -> New Project from Git Repository**
-9. Paste the link to your capstone-project repository from your clipboard
-10. Keep the **tick** next to **Add packages from the base project**
-11. Click the **OK** button
-12. Respond to the **Questions & Answer for the Capstone Project report** issue on the GitHub issue tracker of the repository and tag the course instructor with using the `@` sign in combination with larnsce as the username
+### Required folders
+
+- `data/` - Store your datasets and related files
+- `docs/` - Documentation and supplementary materials
+
+### Data folder organization
+
+Your `data/` folder should be well-documented to ensure reproducibility. Create a `README.md` file in the `data/` folder that includes:
+
+- **Data source information**: Where the data comes from
+- **Data collection methods**: How the data was collected
+- **Variable descriptions**: What each column/variable represents
+- **Data processing notes**: Any cleaning or transformation steps
+- **File descriptions**: What each data file contains
+- **Date information**: When the data was collected/last updated
+
+Use the template from: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md
+
+## {{< fa terminal >}} Getting started
+
+1. Access your capstone project repository on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
+2. Ensure you have completed the directory structure setup from [HW 04b](../assignments/hw-04b-capstone-project-setup.qmd)
+3. Begin working on your `report.qmd` file using the graded items below as guidance
 
