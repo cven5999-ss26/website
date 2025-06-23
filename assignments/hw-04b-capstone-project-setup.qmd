@@ -1,5 +1,5 @@
 ---
-title: "HW 04b: Capstone Project Setup"
+title: "HW: Capstone Project Setup"
 subtitle: "Set up your capstone project repository"
 editor: source
 execute: 
@@ -27,21 +27,23 @@ By completing this assignment, you will:
 
 3. In the ["Repository name"]{.highlight-yellow} field write `capstone-project-username`. [Replace username with your GitHub username]{.highlight-yellow}. Avoid using spaces. For example: `capstone-project-rainbow-train` for the user with the username `rainbow-train`
 
-4. Scroll down on the same page, and click ["Create repository"]{.highlight-yellow}.
+4. Make sure the repository is set to [**Public**]{.highlight-yellow}.
 
-5. In the ["Quick setup"]{.highlight-yellow} field, click on the clipboard next to the HTTPS URL 
+5. Scroll down on the same page, and click ["Create repository"]{.highlight-yellow}.
 
-6. Open the Posit Cloud workspace for the course: [{{< var course.code >}}]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
+6. In the ["Quick setup"]{.highlight-yellow} field, click on the clipboard next to the HTTPS URL 
 
-7. Open the **Content** page
+7. Open the Posit Cloud workspace for the course: [{{< var course.code >}}]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
 
-8. Click on **New Project -> New Project from Git Repository**
+8. Open the **Content** page
 
-9. Paste the HTTPS URL from GitHub into the ["URL of your Git Repository"]{.highlight-yellow} field.
+9. Click on **New Project -> New Project from Git Repository**
 
-10. Keep the **tick** next to **Add packages from the base project**
+10. Paste the HTTPS URL from GitHub into the ["URL of your Git Repository"]{.highlight-yellow} field.
 
-11. Click the **OK** button
+11. Keep the **tick** next to **Add packages from the base project**
+
+12. Click the **OK** button
 
 12. Wait until the project is deployed.
 
@@ -55,7 +57,7 @@ By completing this assignment, you will:
 
 2. You can create these directories by:
    - Using the Files panel in RStudio: Click "New Folder" and enter the folder names
-   - Or using the terminal/console with: `dir.create("data")`, `dir.create("data/raw")`, `dir.create("data/processed")`, and `dir.create("docs")`
+   - Or using the Console with: `dir.create("data")`, `dir.create("data/raw")`, `dir.create("data/processed")`, and `dir.create("docs")`
 
 ### Add your dataset
 
@@ -79,11 +81,11 @@ By completing this assignment, you will:
 
 5. Enter the name "README.md" and click OK.
 
-6. Go to: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md
+6. Go to: <https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md>
 
 7. Copy the content displayed in the browser and paste it into the `README.md` file.
 
-8. **Complete the template**: Fill out all sections of the README template with information about your specific dataset:
+8. **Complete the template**: Fill out all sections of the README template with information about your specific dataset (if you don't have the information for some sections, state it):
    - **Title**: Give your dataset a descriptive title
    - **Description**: Explain what the data contains and why it was collected
    - **Data source**: Where did the data come from? Include URLs, citations, or collection details
@@ -108,7 +110,7 @@ By completing this assignment, you will:
 
 ### Final step
 
-Respond to the **Questions & Answer for the Capstone Project report** issue on the GitHub issue tracker of your repository and tag the course instructor using the `@` sign in combination with larnsce as the username.
+Open a **Questions & Answers for the Capstone Project report** issue on the GitHub issue tracker of your repository and tag the course instructor using the `@` sign in combination with larnsce as the username.
 
 ## {{< fa calendar-check >}} Due Date
 
