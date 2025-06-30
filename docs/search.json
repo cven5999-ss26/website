@@ -235,7 +235,7 @@
     "href": "slides/lec-04-tidy-data.html#learning-objectives-for-this-week",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\nlobj1 &lt;- readr::read_csv(here::here(\"data/tbl-02-learning-objectives.csv\")) |&gt;\n  dplyr::filter(week == params$week) |&gt;\n  dplyr::pull(learning_objectives)\n\nRows: 26 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): title, learning_objectives\ndbl (1): week\nlgl (1): date\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\nLearners can apply functions from the dplyr R Package to transform their data from a wide to a long format and vice versa.\nLearners can list the four main atomic vector types in R.\nLearners can explain the three characteristics of tidy data."
+    "text": "Learning Objectives (for this week)\n\nLearners can apply functions from the dplyr R Package to transform their data from a wide to a long format and vice versa.\nLearners can list the four main atomic vector types in R.\nLearners can explain the three characteristics of tidy data."
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#why-care-about-data-types",
@@ -256,14 +256,14 @@
     "href": "slides/lec-04-tidy-data.html#oh-why-wont-you-work",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "Oh why won’t you work?!",
-    "text": "Oh why won’t you work?!\n\nsurvey_data_small |&gt; \n  summarise(mean_price_glass = mean(price_glass))\n\nWarning: There was 1 warning in `summarise()`.\nℹ In argument: `mean_price_glass = mean(price_glass)`.\nCaused by warning in `mean.default()`:\n! argument is not numeric or logical: returning NA\n\n\n# A tibble: 1 × 1\n  mean_price_glass\n             &lt;dbl&gt;\n1               NA"
+    "text": "Oh why won’t you work?!\n\nsurvey_data_small |&gt; \n  summarise(mean_price_glass = mean(price_glass))\n\n# A tibble: 1 × 1\n  mean_price_glass\n             &lt;dbl&gt;\n1               NA"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#oh-why-wont-you-still-work",
     "href": "slides/lec-04-tidy-data.html#oh-why-wont-you-still-work",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "Oh why won’t you still work??!!",
-    "text": "Oh why won’t you still work??!!\n\nsurvey_data_small |&gt; \n  summarise(mean_price_glass = mean(price_glass, na.rm = TRUE))\n\nWarning: There was 1 warning in `summarise()`.\nℹ In argument: `mean_price_glass = mean(price_glass, na.rm = TRUE)`.\nCaused by warning in `mean.default()`:\n! argument is not numeric or logical: returning NA\n\n\n# A tibble: 1 × 1\n  mean_price_glass\n             &lt;dbl&gt;\n1               NA"
+    "text": "Oh why won’t you still work??!!\n\nsurvey_data_small |&gt; \n  summarise(mean_price_glass = mean(price_glass, na.rm = TRUE))\n\n# A tibble: 1 × 1\n  mean_price_glass\n             &lt;dbl&gt;\n1               NA"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#take-a-breath-and-look-at-your-data",
@@ -291,14 +291,14 @@
     "href": "slides/lec-04-tidy-data.html#sumamrise-argh",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "Sumamrise? Argh!!!!",
-    "text": "Sumamrise? Argh!!!!\n\nsurvey_data_small |&gt; \n  mutate(price_glass_new = case_when(\n    price_glass == \"5 to 10\" ~ \"7.5\",\n    price_glass == \"05-Oct\" ~ \"7.5\",\n    str_detect(price_glass, pattern = \"20\") == TRUE ~ \"20\",\n    str_detect(price_glass, pattern = \"See comment\") == TRUE ~ NA_character_,\n    TRUE ~ price_glass\n  )) |&gt; \n  summarise(mean_price_glass = mean(price_glass_new, na.rm = TRUE))\n\nWarning: There was 1 warning in `summarise()`.\nℹ In argument: `mean_price_glass = mean(price_glass_new, na.rm = TRUE)`.\nCaused by warning in `mean.default()`:\n! argument is not numeric or logical: returning NA\n\n\n# A tibble: 1 × 1\n  mean_price_glass\n             &lt;dbl&gt;\n1               NA"
+    "text": "Sumamrise? Argh!!!!\n\nsurvey_data_small |&gt; \n  mutate(price_glass_new = case_when(\n    price_glass == \"5 to 10\" ~ \"7.5\",\n    price_glass == \"05-Oct\" ~ \"7.5\",\n    str_detect(price_glass, pattern = \"20\") == TRUE ~ \"20\",\n    str_detect(price_glass, pattern = \"See comment\") == TRUE ~ NA_character_,\n    TRUE ~ price_glass\n  )) |&gt; \n  summarise(mean_price_glass = mean(price_glass_new, na.rm = TRUE))\n\n# A tibble: 1 × 1\n  mean_price_glass\n             &lt;dbl&gt;\n1               NA"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#always-respect-your-data-types",
     "href": "slides/lec-04-tidy-data.html#always-respect-your-data-types",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "Always respect your data types!",
-    "text": "Always respect your data types!\n\n\n\n\n\n\nTaking the mean of vector with type “character” is not possible.\n\n\n\n\nsurvey_data_small |&gt; \n  mutate(price_glass_new = case_when(\n    price_glass == \"5 to 10\" ~ \"7.5\",\n    price_glass == \"05-Oct\" ~ \"7.5\",\n    str_detect(price_glass, pattern = \"20\") == TRUE ~ \"20\",\n    str_detect(price_glass, pattern = \"See comment\") == TRUE ~ NA_character_,\n    TRUE ~ price_glass\n  )) \n\n# A tibble: 22 × 4\n      id job      price_glass price_glass_new\n   &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;          \n 1     1 Student  0           0              \n 2     2 Retired  0           0              \n 3     3 Other    0           0              \n 4     4 Employed 10          10             \n 5     5 Employed See comment &lt;NA&gt;           \n 6     6 Student  05-Oct      7.5            \n 7     7 Student  0           0              \n 8     8 Retired  0           0              \n 9     9 Student  10          10             \n10    10 Employed 0           0              \n# ℹ 12 more rows"
+    "text": "Always respect your data types!\n\n\n\n\n\n\nTaking the mean of vector with type “character” is not possible.\n\n\n\n\n\n# A tibble: 22 × 4\n      id job      price_glass price_glass_new\n   &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;          \n 1     1 Student  0           0              \n 2     2 Retired  0           0              \n 3     3 Other    0           0              \n 4     4 Employed 10          10             \n 5     5 Employed See comment &lt;NA&gt;           \n 6     6 Student  05-Oct      7.5            \n 7     7 Student  0           0              \n 8     8 Retired  0           0              \n 9     9 Student  10          10             \n10    10 Employed 0           0              \n# ℹ 12 more rows"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#always-respect-your-data-types-1",
@@ -308,11 +308,11 @@
     "text": "Always respect your data types!\n\nsurvey_data_small |&gt; \n  mutate(price_glass_new = case_when(\n    price_glass == \"5 to 10\" ~ \"7.5\",\n    price_glass == \"05-Oct\" ~ \"7.5\",\n    str_detect(price_glass, pattern = \"20\") == TRUE ~ \"20\",\n    str_detect(price_glass, pattern = \"See comment\") == TRUE ~ NA_character_,\n    TRUE ~ price_glass\n  )) |&gt; \n  mutate(price_glass_new = as.numeric(price_glass_new)) |&gt; \n  summarise(mean_price_glass = mean(price_glass_new, na.rm = TRUE))\n\n# A tibble: 1 × 1\n  mean_price_glass\n             &lt;dbl&gt;\n1             4.76"
   },
   {
-    "objectID": "slides/lec-04-tidy-data.html#live-vectors",
-    "href": "slides/lec-04-tidy-data.html#live-vectors",
+    "objectID": "slides/lec-04-tidy-data.html#wk-05-repository",
+    "href": "slides/lec-04-tidy-data.html#wk-05-repository",
     "title": "Concept of tidy data, vectors and pivoting",
-    "section": "live-vectors",
-    "text": "live-vectors\n\n\n\n\n\n\nFollow along on the screen\n\n\n\nOpen the GitHub organisation for the course: https://github.com/cven5999-ss25\nYou will find a repository titled: wk-05-USERNAME (with your GitHub Username)\nYou will “clone” this repository to Posit Cloud"
+    "section": "wk-05 repository",
+    "text": "wk-05 repository\n\n\n\n\n\n\nFollow along on the screen\n\n\n\nOpen the GitHub organisation for the course: https://github.com/cven5999-ss25\nYou will find a repository titled: wk-05-USERNAME (with your GitHub Username)\nYou will “clone” this repository to Posit Cloud"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#section",
@@ -347,28 +347,28 @@
     "href": "slides/lec-04-tidy-data.html#pivoting-data",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "Pivoting data",
-    "text": "Pivoting data\n\nknitr::include_graphics(\"img/lec-04/tidyr-longer-wider.gif\")"
+    "text": "Pivoting data"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#waste-characterisation-data",
     "href": "slides/lec-04-tidy-data.html#waste-characterisation-data",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "Waste characterisation data",
-    "text": "Waste characterisation data\n\nwaste_data_untidy |&gt; \n  select(-recyclable) |&gt; \n  rename(other = non_recyclable) |&gt; \n  knitr::kable(digits = 2)\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\ntotal\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n2.05\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n3.64\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n1.99\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n2.19\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n1.12\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n0.50\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n2.33\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99\n4.07"
+    "text": "Waste characterisation data\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\ntotal\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n2.05\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n3.64\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n1.99\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n2.19\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n1.12\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n0.50\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n2.33\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99\n4.07"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#how-would-you-plot-this",
     "href": "slides/lec-04-tidy-data.html#how-would-you-plot-this",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "How would you plot this?",
-    "text": "How would you plot this?\n\nggplot(data = waste_data_untidy,\n       mapping = aes(x = objid, y = total, fill = location)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
+    "text": "How would you plot this?"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#three-variables",
     "href": "slides/lec-04-tidy-data.html#three-variables",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "Three variables",
-    "text": "Three variables\n\nwaste_data_untidy |&gt; \n  select(objid, location, total) |&gt; \n  knitr::kable(digits = 2)\n\n\n\n\nobjid\nlocation\ntotal\n\n\n\n\n900\neth\n2.05\n\n\n899\neth\n3.64\n\n\n921\nold_town\n1.99\n\n\n916\nold_town\n2.19\n\n\n900\neth\n1.12\n\n\n899\neth\n0.50\n\n\n921\nold_town\n2.33\n\n\n916\nold_town\n4.07"
+    "text": "Three variables\n\n\n\n\n\nobjid\nlocation\ntotal\n\n\n\n\n900\neth\n2.05\n\n\n899\neth\n3.64\n\n\n921\nold_town\n1.99\n\n\n916\nold_town\n2.19\n\n\n900\neth\n1.12\n\n\n899\neth\n0.50\n\n\n921\nold_town\n2.33\n\n\n916\nold_town\n4.07"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#three-variables---three-aesthetics",
@@ -382,21 +382,21 @@
     "href": "slides/lec-04-tidy-data.html#and-how-to-plot-this",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "And how to plot this?",
-    "text": "And how to plot this?\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid, \n                     y = weight, \n                     fill = waste_category)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
+    "text": "And how to plot this?"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#reminder-data-in-wide-format",
     "href": "slides/lec-04-tidy-data.html#reminder-data-in-wide-format",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "Reminder: Data (in wide format)",
-    "text": "Reminder: Data (in wide format)\n\nwaste_data_untidy |&gt; \n  select(-recyclable, -total) |&gt; \n  rename(other = non_recyclable) |&gt; \n  knitr::kable(digits = 2)\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
+    "text": "Reminder: Data (in wide format)\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#you-need-a-long-format",
     "href": "slides/lec-04-tidy-data.html#you-need-a-long-format",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "You need: A long format",
-    "text": "You need: A long format\n\nwaste_data_tidy |&gt; \n  select(-percent, -type) |&gt; \n  knitr::kable(digits = 2)\n\n\n\n\nobjid\nlocation\nwaste_category\nweight\n\n\n\n\n900\neth\npet\n0.06\n\n\n900\neth\nmetal_alu\n0.06\n\n\n900\neth\nglass\n0.58\n\n\n900\neth\npaper\n0.21\n\n\n900\neth\nother\n1.14\n\n\n899\neth\npet\n0.14\n\n\n899\neth\nmetal_alu\n0.01\n\n\n899\neth\nglass\n0.18\n\n\n899\neth\npaper\n0.28\n\n\n899\neth\nother\n3.04\n\n\n921\nold_town\npet\n0.00\n\n\n921\nold_town\nmetal_alu\n0.00\n\n\n921\nold_town\nglass\n0.00\n\n\n921\nold_town\npaper\n0.41\n\n\n921\nold_town\nother\n1.57\n\n\n916\nold_town\npet\n0.17\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.80\n\n\n916\nold_town\npaper\n0.55\n\n\n916\nold_town\nother\n0.62\n\n\n900\neth\npet\n0.10\n\n\n900\neth\nmetal_alu\n0.04\n\n\n900\neth\nglass\n0.00\n\n\n900\neth\npaper\n0.40\n\n\n900\neth\nother\n0.58\n\n\n899\neth\npet\n0.08\n\n\n899\neth\nmetal_alu\n0.03\n\n\n899\neth\nglass\n0.00\n\n\n899\neth\npaper\n0.05\n\n\n899\neth\nother\n0.34\n\n\n921\nold_town\npet\n0.08\n\n\n921\nold_town\nmetal_alu\n0.03\n\n\n921\nold_town\nglass\n0.30\n\n\n921\nold_town\npaper\n0.40\n\n\n921\nold_town\nother\n1.52\n\n\n916\nold_town\npet\n0.11\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.92\n\n\n916\nold_town\npaper\n1.01\n\n\n916\nold_town\nother\n1.99"
+    "text": "You need: A long format\n\n\n\n\n\nobjid\nlocation\nwaste_category\nweight\n\n\n\n\n900\neth\npet\n0.06\n\n\n900\neth\nmetal_alu\n0.06\n\n\n900\neth\nglass\n0.58\n\n\n900\neth\npaper\n0.21\n\n\n900\neth\nother\n1.14\n\n\n899\neth\npet\n0.14\n\n\n899\neth\nmetal_alu\n0.01\n\n\n899\neth\nglass\n0.18\n\n\n899\neth\npaper\n0.28\n\n\n899\neth\nother\n3.04\n\n\n921\nold_town\npet\n0.00\n\n\n921\nold_town\nmetal_alu\n0.00\n\n\n921\nold_town\nglass\n0.00\n\n\n921\nold_town\npaper\n0.41\n\n\n921\nold_town\nother\n1.57\n\n\n916\nold_town\npet\n0.17\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.80\n\n\n916\nold_town\npaper\n0.55\n\n\n916\nold_town\nother\n0.62\n\n\n900\neth\npet\n0.10\n\n\n900\neth\nmetal_alu\n0.04\n\n\n900\neth\nglass\n0.00\n\n\n900\neth\npaper\n0.40\n\n\n900\neth\nother\n0.58\n\n\n899\neth\npet\n0.08\n\n\n899\neth\nmetal_alu\n0.03\n\n\n899\neth\nglass\n0.00\n\n\n899\neth\npaper\n0.05\n\n\n899\neth\nother\n0.34\n\n\n921\nold_town\npet\n0.08\n\n\n921\nold_town\nmetal_alu\n0.03\n\n\n921\nold_town\nglass\n0.30\n\n\n921\nold_town\npaper\n0.40\n\n\n921\nold_town\nother\n1.52\n\n\n916\nold_town\npet\n0.11\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.92\n\n\n916\nold_town\npaper\n1.01\n\n\n916\nold_town\nother\n1.99"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#three-variables---three-aesthetics-1",
@@ -410,7 +410,7 @@
     "href": "slides/lec-04-tidy-data.html#how-to",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "How to",
-    "text": "How to\n\nwaste_data_untidy &lt;- waste_data_untidy |&gt; \n  select(-recyclable, -total) |&gt; \n  rename(other = non_recyclable)\n\n\nwaste_data_untidy \n\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
+    "text": "How to\n\nwaste_data_untidy \n\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#how-to-1",
@@ -434,11 +434,11 @@
     "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid, \n                     y = weight, \n                     fill = waste_category)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
   },
   {
-    "objectID": "slides/lec-04-tidy-data.html#live-05a-tidyr-pivoting",
-    "href": "slides/lec-04-tidy-data.html#live-05a-tidyr-pivoting",
+    "objectID": "slides/lec-04-tidy-data.html#live-tidyr-pivoting",
+    "href": "slides/lec-04-tidy-data.html#live-tidyr-pivoting",
     "title": "Concept of tidy data, vectors and pivoting",
-    "section": "live-05a-tidyr-pivoting",
-    "text": "live-05a-tidyr-pivoting\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen “Content”\nOpen your project\nFollow along with me"
+    "section": "live-tidyr-pivoting",
+    "text": "live-tidyr-pivoting\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss25\nOpen “Content”\nOpen your project\nFollow along with me"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#homework-due-dates",

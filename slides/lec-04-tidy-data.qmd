@@ -303,7 +303,7 @@ survey_data_small |>
 
 # Live Coding Exercise: Vectors {background-color="#0F4C81"}
 
-## live-vectors
+## wk-05 repository
 
 ::: {.callout-note}
 ## **Follow along on the screen**
@@ -312,7 +312,7 @@ survey_data_small |>
 3. You will "clone" this repository to Posit Cloud
 :::
 
-# Break One
+# Break
 
 ![](img/lec-01/coffee-break.jpg)
 
@@ -558,7 +558,7 @@ ggplot(data = waste_data_tidy,
 
 # Live Coding Exercise: Pivoting {background-color="#0F4C81"}
 
-## live-05a-tidyr-pivoting
+## live-tidyr-pivoting
 
 1. Head over to posit.cloud
 2. Open the workspace for the course [{{< var course.code >}}]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
