@@ -44,6 +44,10 @@ Complete the homework programming assignments that are in your project folder fo
 
 - hw-05a-tidyr.qmd 
 
+Complete the following assignment, which is not documented in your week 5 project folder:
+
+- [HW: Capstone Project Data Exploration](../assignments/hw-05-project-data-exploration.qmd) 
+
 ## {{< fa pen-clip >}} Learning reflection
 
 Complete the learning reflection that is in your project folder for week 5 by [**{{< var md-05.homework-due >}}**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all) 
