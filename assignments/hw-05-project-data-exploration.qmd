@@ -1,0 +1,173 @@
+---
+title: "HW: Project Data Exploration"
+subtitle: "Read your data and perform initial exploration"
+editor: source
+execute: 
+  echo: false
+  warning: false
+---
+
+## {{< fa bullseye >}} Learning Objectives
+
+By completing this assignment, you will:
+
+1. Create a Quarto document (`index.qmd`) in your project's docs folder
+2. Read your dataset into R using appropriate functions
+3. Perform initial data exploration and tidying
+4. Document your process with regular Git commits
+5. Create GitHub issues to track questions and challenges
+
+## {{< fa terminal >}} Assignment Tasks
+
+### Version control requirements
+
+**Make regular commits throughout your work:**
+
+1. After creating the `index.qmd` file
+2. After successfully reading in your data
+3. After each major section is completed
+4. Use descriptive commit messages:
+   - "Add index.qmd to docs folder"
+   - "Successfully read raw data file"
+   - "Complete initial data exploration"
+   - "Document data quality issues"
+   - "Perform initial data tidying and save processed data"
+
+### Create a Quarto document
+
+1. Open your capstone project in Posit Cloud
+
+2. Navigate to your `docs/` folder in the Files panel
+
+3. Create a new Quarto document:
+   - Click **File -> New File -> Quarto Document**
+   - Title: "Data Exploration for [Your Project Name]"
+   - Author: Your name
+   - Save it as `index.qmd` in the `docs/` folder
+
+4. Update the YAML header to include:
+   ```yaml
+   ---
+   title: "Give your project a title"
+   author:
+     - name: "Your Full Name"
+       orcid: "0000-0000-0000-0000"
+       email: "your.email@colorado.edu"
+       affiliation:
+         - name: "University of Colorado Boulder"
+           department: "Department of Civil, Environmental and Architectural Engineering"
+           city: "Boulder"
+           state: "CO"
+           country: "USA"
+   date: today
+   format: html
+   editor: visual
+   ---
+   ```
+
+### Set up your document structure
+
+The report must render without errors to HTML format and contain at least four chapters of heading level 1:
+
+```markdown
+# Introduction
+
+[Brief description of your project and dataset]
+
+# Methods
+
+## Reading the Data
+
+## Data Exploration Approach
+
+## Initial Data Tidying
+
+# Results
+
+[This will be the core of your analysis with specific requirements]
+
+# Conclusions
+
+## Summary of Findings
+
+## Questions and Next Steps
+```
+
+### Read in your data
+
+1. In the "Methods" chapter under "Reading the Data", create a code chunk that:
+   - Loads necessary packages (at minimum `tidyverse`)
+   - Reads your data from the `data/raw/` folder
+   - Stores it in an appropriately named object
+
+2. Example structure:
+   ```r
+   # Load packages
+   library(tidyverse)
+   
+   # Read data
+   my_data <- read_csv(here::here("data/raw/your_file.csv"))
+   ```
+
+3. If you encounter any issues reading the data, document them and potential solutions
+
+### Explore your data
+
+In the "Results" chapter under "Initial Data Exploration", add code chunks to:
+
+1. **View the first few rows**: Use `head()` or `glimpse()`
+
+2. **Check dimensions**: Use `dim()` to see number of rows and columns
+
+3. **Summarize the data**: Use `group_by()` and `summarize()` to compute descriptive statistics
+
+### Perform initial tidying
+
+In the "Methods" chapter under "Initial Data Tidying":
+
+1. Address at least 2-3 data quality issues you identified
+
+2. Examples of tidying operations:
+   - Convert character dates to date format
+   - Standardize inconsistent categories
+   - Handle obvious data entry errors
+   - Create new variables if needed
+   - Use consistent variable naming conventions (e.g. `janitor::clean_names()` for snake_case convention.)
+
+3. Save your tidied data:
+   ```r
+   write_csv(tidied_data, here::here("data/processed/your_file_tidied.csv")
+   ```
+
+
+### Create GitHub issues
+
+1. As you work, create GitHub issues in your repository documenting:
+   - Questions about your data
+   - Challenges you encountered
+   - Decisions you need to make
+   - Next steps for analysis
+
+2. Use descriptive titles and provide context in the issue description
+
+3. Tag your instructor (@larnsce) in at least one issue where you need guidance
+
+## {{< fa lightbulb >}} Tips
+
+- If you're unsure how to read your specific file type, search for examples or ask in an issue
+- Remember to render your `index.qmd` to HTML periodically to check your output
+
+## {{< fa calendar-check >}} Due Date
+
+This assignment is due: [**{{< var md-05.homework-due >}}**]{.highlight-yellow}
+
+## {{< fa list-check >}} Submission
+
+1. Ensure all your changes are committed and pushed to GitHub
+
+2. Your repository should now contain:
+   - `docs/index.qmd` with your data exploration
+   - `docs/index.html` (the rendered output)
+   - Updated data in `data/processed/` folder
+   - GitHub issues documenting questions/challenges
+   
