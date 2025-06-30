@@ -688,7 +688,7 @@
     "href": "weeks/wk-04.html#homework-assignment",
     "title": "Week 4",
     "section": " Homework assignment",
-    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-06-27\nComplete the homework programming assignments that are in your project folder for week 4 on Posit Cloud\n\nhw-data-transformation.qmd\n\nComplete the following assignment, which is not documented in your week 4 project folder.\n\nHW: Capstone Project Setup: Set up your capstone project repository",
+    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-06-27\nComplete the homework programming assignments that are in your project folder for week 4 on Posit Cloud\n\nhw-data-transformation.qmd\n\nComplete the following assignment, which is not documented in your week 4 project folder:\n\nHW: Capstone Project Setup: Set up your capstone project repository",
     "crumbs": [
       "Week 4"
     ]
@@ -840,6 +840,48 @@
     "crumbs": [
       "Week 1"
     ]
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html",
+    "href": "assignments/hw-05-project-data-exploration.html",
+    "title": "HW: Project Data Exploration",
+    "section": "",
+    "text": "By completing this assignment, you will:\n\nCreate a Quarto document (index.qmd) in your project’s docs folder\nRead your dataset into R using appropriate functions\nPerform initial data exploration and tidying\nDocument your process with regular Git commits\nCreate GitHub issues to track questions and challenges"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#learning-objectives",
+    "href": "assignments/hw-05-project-data-exploration.html#learning-objectives",
+    "title": "HW: Project Data Exploration",
+    "section": "",
+    "text": "By completing this assignment, you will:\n\nCreate a Quarto document (index.qmd) in your project’s docs folder\nRead your dataset into R using appropriate functions\nPerform initial data exploration and tidying\nDocument your process with regular Git commits\nCreate GitHub issues to track questions and challenges"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#assignment-tasks",
+    "href": "assignments/hw-05-project-data-exploration.html#assignment-tasks",
+    "title": "HW: Project Data Exploration",
+    "section": " Assignment Tasks",
+    "text": "Assignment Tasks\n\nVersion control requirements\nMake regular commits throughout your work:\n\nAfter creating the index.qmd file\nAfter successfully reading in your data\nAfter each major section is completed\nUse descriptive commit messages:\n\n“Add index.qmd to docs folder”\n“Successfully read raw data file”\n“Complete initial data exploration”\n“Document data quality issues”\n“Perform initial data tidying and save processed data”\n\n\n\n\nCreate a Quarto document\n\nOpen your capstone project in Posit Cloud\nNavigate to your docs/ folder in the Files panel\nCreate a new Quarto document:\n\nClick File -&gt; New File -&gt; Quarto Document\nTitle: “Data Exploration for [Your Project Name]”\nAuthor: Your name\nSave it as index.qmd in the docs/ folder\n\nUpdate the YAML header to include:\n---\ntitle: \"Give your project a title\"\nauthor:\n  - name: \"Your Full Name\"\n    orcid: \"0000-0000-0000-0000\"\n    email: \"your.email@colorado.edu\"\n    affiliation:\n      - name: \"University of Colorado Boulder\"\n        department: \"Department of Civil, Environmental and Architectural Engineering\"\n        city: \"Boulder\"\n        state: \"CO\"\n        country: \"USA\"\ndate: today\nformat: html\neditor: visual\n---\n\n\n\nSet up your document structure\nThe report must render without errors to HTML format and contain at least four chapters of heading level 1:\n# Introduction\n\n[Brief description of your project and dataset]\n\n# Methods\n\n## Reading the Data\n\n## Data Exploration Approach\n\n## Initial Data Tidying\n\n# Results\n\n[This will be the core of your analysis with specific requirements]\n\n# Conclusions\n\n## Summary of Findings\n\n## Questions and Next Steps\n\n\nRead in your data\n\nIn the “Methods” chapter under “Reading the Data”, create a code chunk that:\n\nLoads necessary packages (at minimum tidyverse)\nReads your data from the data/raw/ folder\nStores it in an appropriately named object\n\nExample structure:\n# Load packages\nlibrary(tidyverse)\n\n# Read data\nmy_data &lt;- read_csv(here::here(\"data/raw/your_file.csv\"))\nIf you encounter any issues reading the data, document them and potential solutions\n\n\n\nExplore your data\nIn the “Results” chapter under “Initial Data Exploration”, add code chunks to:\n\nView the first few rows: Use head() or glimpse()\nCheck dimensions: Use dim() to see number of rows and columns\nSummarize the data: Use group_by() and summarize() to compute descriptive statistics\n\n\n\nPerform initial tidying\nIn the “Methods” chapter under “Initial Data Tidying”:\n\nAddress at least 2-3 data quality issues you identified\nExamples of tidying operations:\n\nConvert character dates to date format\nStandardize inconsistent categories\nHandle obvious data entry errors\nCreate new variables if needed\nUse consistent variable naming conventions (e.g. janitor::clean_names() for snake_case convention.)\n\nSave your tidied data:\nwrite_csv(tidied_data, here::here(\"data/processed/your_file_tidied.csv\")\n\n\n\nCreate GitHub issues\n\nAs you work, create GitHub issues in your repository documenting:\n\nQuestions about your data\nChallenges you encountered\nDecisions you need to make\nNext steps for analysis\n\nUse descriptive titles and provide context in the issue description\nTag your instructor (@larnsce) in at least one issue where you need guidance"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#tips",
+    "href": "assignments/hw-05-project-data-exploration.html#tips",
+    "title": "HW: Project Data Exploration",
+    "section": " Tips",
+    "text": "Tips\n\nIf you’re unsure how to read your specific file type, search for examples or ask in an issue\nRemember to render your index.qmd to HTML periodically to check your output"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#due-date",
+    "href": "assignments/hw-05-project-data-exploration.html#due-date",
+    "title": "HW: Project Data Exploration",
+    "section": " Due Date",
+    "text": "Due Date\nThis assignment is due: 2025-07-04"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#submission",
+    "href": "assignments/hw-05-project-data-exploration.html#submission",
+    "title": "HW: Project Data Exploration",
+    "section": " Submission",
+    "text": "Submission\n\nEnsure all your changes are committed and pushed to GitHub\nYour repository should now contain:\n\ndocs/index.qmd with your data exploration\ndocs/index.html (the rendered output)\nUpdated data in data/processed/ folder\nGitHub issues documenting questions/challenges"
   },
   {
     "objectID": "LICENSE.html",
@@ -1048,7 +1090,7 @@
     "href": "weeks/wk-05.html#homework-assignment",
     "title": "Week 5",
     "section": " Homework assignment",
-    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-07-04\nComplete the homework programming assignments that are in your project folder for week 5 on Posit Cloud:\n\nhw-05a-tidyr.qmd",
+    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-07-04\nComplete the homework programming assignments that are in your project folder for week 5 on Posit Cloud:\n\nhw-05a-tidyr.qmd\n\nComplete the following assignment, which is not documented in your week 5 project folder:\n\nHW: Capstone Project Data Exploration",
     "crumbs": [
       "Week 5"
     ]
@@ -1518,7 +1560,7 @@
     "href": "project/index.html#github-repository",
     "title": "Capstone Project",
     "section": " GitHub repository",
-    "text": "GitHub repository\nA repository for each student is established during week 4 of the course (see HW 04b: Capstone Project Setup). This repository contains self-identified data that was shared in week 3 of the course. Some data cleaning steps are performed by the course instructor, so that each student has a tidy dataset to work with.\nThe repository further contains an empty Quarto file (report.qmd), which students must use to write their report. A list of graded items was prepared to guide students in writing the report.",
+    "text": "GitHub repository\nA repository for each student is established during week 4 of the course (see HW 04b: Capstone Project Setup). Students begin exploring their data and performing initial tidying in week 5 (see HW 05: Project Data Exploration). This repository contains self-identified data that was shared in week 3 of the course. Some data cleaning steps may be performed by the course instructor, so that each student has a tidy dataset to work with.\nThe repository further contains an empty Quarto file (index.qmd), which students must use to write their report. A list of graded items was prepared to guide students in writing the report.",
     "crumbs": [
       "Capstone Project"
     ]
@@ -1549,26 +1591,6 @@
     "title": "Capstone Project",
     "section": " Graded items",
     "text": "Graded items\nTable 1 is a detailed list of items for grading of the capstone project report are presented. The sum of points is 100 and spread over technical and intellectual items as presented in Table 2.\n\n\n\n\nTable 1: List of items and points for grading of the capstone project report.\n\n\n\n\n\n\n\n\n\n\n\ncategory\nitems\npoints\n\n\n\n\ntechnical\nThe report renders without errors to HTML format and contains at least four chapters of heading level 1 that are named: Introduction, Methods, Results, Conclusions.\n10\n\n\ntechnical\nYAML header of report has title, author, date, and table of contents that are correctly displayed in the compiled HTML output.\n8\n\n\ntechnical\nWarnings are hidden from the compiled output, but code is shown in the compiled output.\n2\n\n\ntechnical\nThe report has at least two data visualisations.\n20\n\n\ntechnical\nEach data visualisation has edited human-readable labels (e.g. axis labels, legend title).\n4\n\n\ntechnical\nEach data visualisation applies at least of once scaling function (e.g. color/fill, axes).\n4\n\n\ntechnical\nEach data visualisation has a label defined in the code-chunk options.\n4\n\n\ntechnical\nEach data visualisation has a caption defined in the code-chunk options.\n4\n\n\ntechnical\nEach data visualisation has an alternative text that describes what type of visualisation it is and trends or learnings from the visualisation.\n4\n\n\ntechnical\nEach data visualisation is cross-referenced in the narrative using the defined label from the code-chunk options.\n4\n\n\ntechnical\nThe report has at least one table with summary statistics (e.g. count, mean, median, standard deviation, etc.)\n8\n\n\ntechnical\nEach table is formatted in the rendered output using a function taught during the course (e.g. kable() function or gt() function)\n2\n\n\ntechnical\nEach table has a label defined in the code-chunk options.\n2\n\n\ntechnical\nEach table has a caption defined in the code-chunk options.\n2\n\n\ntechnical\nEach table is cross-referenced in the narrative using the defined label from the code-chunk options.\n2\n\n\nintellectual\nIntroduction section with 3 to 5 sentences introduces the context within which the data was created.\n5\n\n\nintellectual\nMethods section describes in 3 to 5 sentences how the data was obtained.\n5\n\n\nintellectual\nFigures and tables in Results section are interpreted with 2 to 3 sentences each.\n5\n\n\nintellectual\nConclusions concisely summarize findings in a bullet point format.\n5\n\n\n\n\n\n\n\n\n\n\n\n\nTable 2: Sum of points for technical and intellectual part of report.\n\n\n\n\n\n\n\n\n\n\n\ncategory\ndescription\npoints\n\n\n\n\nintellectual\nThis item is part of the intellectual framing of the capstone project report.\n20\n\n\ntechnical\nThis item is a technical part of the capstone project report.\n80",
-    "crumbs": [
-      "Capstone Project"
-    ]
-  },
-  {
-    "objectID": "project/index.html#directory-structure",
-    "href": "project/index.html#directory-structure",
-    "title": "Capstone Project",
-    "section": " Directory structure",
-    "text": "Directory structure\nOnce your capstone project repository is set up (completed in HW 04b), organize your project with the following directory structure:\n\nRequired folders\n\ndata/ - Store your datasets and related files\ndocs/ - Documentation and supplementary materials\n\n\n\nData folder organization\nYour data/ folder should be well-documented to ensure reproducibility. Create a README.md file in the data/ folder that includes:\n\nData source information: Where the data comes from\nData collection methods: How the data was collected\nVariable descriptions: What each column/variable represents\nData processing notes: Any cleaning or transformation steps\nFile descriptions: What each data file contains\nDate information: When the data was collected/last updated\n\nUse the template from: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md",
-    "crumbs": [
-      "Capstone Project"
-    ]
-  },
-  {
-    "objectID": "project/index.html#getting-started",
-    "href": "project/index.html#getting-started",
-    "title": "Capstone Project",
-    "section": " Getting started",
-    "text": "Getting started\n\nAccess your capstone project repository on Posit Cloud\nEnsure you have completed the directory structure setup from HW 04b\nBegin working on your report.qmd file using the graded items below as guidance",
     "crumbs": [
       "Capstone Project"
     ]

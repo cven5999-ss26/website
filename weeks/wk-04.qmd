@@ -44,7 +44,7 @@ Complete the homework programming assignments that are in your project folder fo
 
 - hw-data-transformation.qmd
 
-Complete the following assignment, which is not documented in your week 4 project folder.
+Complete the following assignment, which is not documented in your week 4 project folder:
 
 - [HW: Capstone Project Setup](../assignments/hw-04b-capstone-project-setup.qmd): Set up your capstone project repository
 
