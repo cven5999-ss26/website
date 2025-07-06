@@ -704,226 +704,64 @@
     ]
   },
   {
-    "objectID": "weeks/wk-07.html#slides",
-    "href": "weeks/wk-07.html#slides",
-    "title": "Week 7",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "weeks/wk-07.html#readings",
-    "href": "weeks/wk-07.html#readings",
-    "title": "Week 7",
-    "section": "Readings",
-    "text": "Readings"
-  },
-  {
-    "objectID": "weeks/wk-07.html#homework-assignment",
-    "href": "weeks/wk-07.html#homework-assignment",
-    "title": "Week 7",
-    "section": "Homework assignment",
-    "text": "Homework assignment"
-  },
-  {
-    "objectID": "weeks/wk-07.html#learning-reflection",
-    "href": "weeks/wk-07.html#learning-reflection",
-    "title": "Week 7",
-    "section": "Learning reflection",
-    "text": "Learning reflection"
-  },
-  {
-    "objectID": "weeks/wk-02.html",
-    "href": "weeks/wk-02.html",
-    "title": "Week 2",
+    "objectID": "weeks/wk-06.html",
+    "href": "weeks/wk-06.html",
+    "title": "Week 6",
     "section": "",
-    "text": "Learners can navigate the platforms (Posit Cloud, GitHub, Course Website) that are used to for the course.\nLearners can render a Quarto file to an output file in HTML, PDF and DOCX format.\nLearners can list the six elements of the data science lifecycle.\nLearners can identify four components of a Quarto file (YAML, code chunk, R code, markdown).",
+    "text": "Learners can use Quarto and GitHub Pages to publish an HTML file.\nLearners can add literature references to Quarto files using the navigation menu of RStudio visual editor.\nLearners can cross-reference figures and tables within an Quarto file.\nLearners can apply functions from the dplyr R Package to join multiple data sets.",
     "crumbs": [
-      "Week 2"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/wk-02.html#learning-objectives",
-    "href": "weeks/wk-02.html#learning-objectives",
-    "title": "Week 2",
+    "objectID": "weeks/wk-06.html#learning-objectives",
+    "href": "weeks/wk-06.html#learning-objectives",
+    "title": "Week 6",
     "section": "",
-    "text": "Learners can navigate the platforms (Posit Cloud, GitHub, Course Website) that are used to for the course.\nLearners can render a Quarto file to an output file in HTML, PDF and DOCX format.\nLearners can list the six elements of the data science lifecycle.\nLearners can identify four components of a Quarto file (YAML, code chunk, R code, markdown).",
+    "text": "Learners can use Quarto and GitHub Pages to publish an HTML file.\nLearners can add literature references to Quarto files using the navigation menu of RStudio visual editor.\nLearners can cross-reference figures and tables within an Quarto file.\nLearners can apply functions from the dplyr R Package to join multiple data sets.",
     "crumbs": [
-      "Week 2"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/wk-02.html#slides",
-    "href": "weeks/wk-02.html#slides",
-    "title": "Week 2",
+    "objectID": "weeks/wk-06.html#slides",
+    "href": "weeks/wk-06.html#slides",
+    "title": "Week 6",
     "section": " Slides",
     "text": "Slides\nView slides in full screen | Download slides as PDF",
     "crumbs": [
-      "Week 2"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/wk-02.html#readings",
-    "href": "weeks/wk-02.html#readings",
-    "title": "Week 2",
+    "objectID": "weeks/wk-06.html#readings",
+    "href": "weeks/wk-06.html#readings",
+    "title": "Week 6",
     "section": " Readings",
-    "text": "Readings\nRead R for Data Science - Section 1 - Introduction through Section 1.3.4\nRead R for Data Science - Section 2 - Introduction\nRead R for Data Science - Section 4 - Workflow basics",
+    "text": "Readings\n\nRead R for Data Science - Section 13 - Relational data",
     "crumbs": [
-      "Week 2"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/wk-02.html#homework-assignment",
-    "href": "weeks/wk-02.html#homework-assignment",
-    "title": "Week 2",
+    "objectID": "weeks/wk-06.html#homework-assignment",
+    "href": "weeks/wk-06.html#homework-assignment",
+    "title": "Week 6",
     "section": " Homework assignment",
-    "text": "Homework assignment\nComplete the homework programming assignment that is in your project folder for week 2 by 2025-06-13 on Posit Cloud\n\nhw-02-data-science-lifecycle.qmd",
+    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-07-11\nComplete the homework programming assignments that are in your project folder for week 6 on Posit Cloud:\n\nhw-06a-section-01.qmd\nhw-06b-section-02.qmd\nhw-06c-section-03.qmd\nhw-06d-section-04.qmd",
     "crumbs": [
-      "Week 2"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/wk-02.html#learning-reflection",
-    "href": "weeks/wk-02.html#learning-reflection",
-    "title": "Week 2",
+    "objectID": "weeks/wk-06.html#learning-reflection",
+    "href": "weeks/wk-06.html#learning-reflection",
+    "title": "Week 6",
     "section": " Learning reflection",
-    "text": "Learning reflection\nComplete the learning reflection that is in your project folder for week 2 by 2025-06-13 on Posit Cloud\n\nlearning-02.qmd",
+    "text": "Learning reflection\nComplete the learning reflection that is in your project folder for week 6 by 2025-07-11 on Posit Cloud\n\nlearning-06.qmd",
     "crumbs": [
-      "Week 2"
+      "Week 6"
     ]
-  },
-  {
-    "objectID": "weeks/wk-01.html",
-    "href": "weeks/wk-01.html",
-    "title": "Week 1",
-    "section": "",
-    "text": "This first week will be used to get you set up for the course. Work through the homework assignments one after the other.",
-    "crumbs": [
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/wk-01.html#learning-objectives",
-    "href": "weeks/wk-01.html#learning-objectives",
-    "title": "Week 1",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nLearners can access the Posit Cloud workspace for the course.\nLearners have understood the grading scheme for the course.\nLearners can open an issue on GitHub and tag the course instructor.",
-    "crumbs": [
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/wk-01.html#readings",
-    "href": "weeks/wk-01.html#readings",
-    "title": "Week 1",
-    "section": "Readings",
-    "text": "Readings\n📖 Read the Course Overview and pay special attention to the sections Assignments, Grading scheme, and late work.\n📖 Read Wilson et al. (2017) “Good enough practices in scientific computing”.",
-    "crumbs": [
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/wk-01.html#homework-assignments",
-    "href": "weeks/wk-01.html#homework-assignments",
-    "title": "Week 1",
-    "section": "Homework assignments",
-    "text": "Homework assignments\nThese homework assigments are pre-requisities for Week 2 of the. Complete them by 2025-06-06 to receive the points for this assignment.\n\nPrepare questions\n📖 Read the Course Overview and pay special attention to the sections Assignments, Grading scheme, and Late Work. Prepare at least one question.\n\n\nGet an account for GitHub\nTo set up an account on GitHub, follow these general steps:\n\nGo to the GitHub website at https://github.com/.\nClick on the “Sign up” button on the top right corner of the page.\nEnter your preferred username, email address, and password in the provided fields.\nChoose whether you want to receive updates and announcements via email.\nComplete the verification process by solving a puzzle and entering a verification code sent to your email.\n\n\n\n\n\n\n\nUsername advice from: Happy Git and GitHub for the useR\n\n\n\nYou will be able to upgrade to a paid level of service, apply discounts, join organizations, etc. in the future, so don’t fret about any of that now. Except your username. You might want to give that some thought.\nA few tips, which sadly tend to contradict each other:\n\nIncorporate your actual name! People like to know who they’re dealing with. Also makes your username easier for people to guess or remember.\nReuse your username from other contexts, e.g., Twitter or Slack. But, of course, someone with no GitHub activity will probably be squatting on that.\nPick a username you will be comfortable revealing to your future boss.\nShorter is better than longer.\nBe as unique as possible in as few characters as possible. In some settings GitHub auto-completes or suggests usernames.\nMake it timeless. Don’t highlight your current university, employer, or place of residence, e.g. JennyFromTheBlock.\nAvoid words laden with special meaning in programming.\nAvoid the use of upper vs. lower case to separate words. We highly recommend all lowercase. GitHub treats usernames in a case insensitive way, but using all lowercase is kinder to people doing downstream regular expression work with usernames, in various languages. A better strategy for word separation is to use a hyphen -.\n\nYou can change your username later, but better to get this right the first time.\n\nhttps://help.github.com/articles/changing-your-github-username/\nhttps://help.github.com/articles/what-happens-when-i-change-my-username/\n\n\n\n\n\nCreate your personal unique ORCID iD\n\nCreate your ORCID iD at: https://orcid.org/register\nLearn more about ORCID and why you should get one: https://the-turing-way.netlify.app/communication/citable/citable-orcid.html?highlight=orcid\n\n\n\nLog into Posit Cloud with GitHub account\nHere are the instructions to login to Posit Cloud using a GitHub account:\n\nGo to the Posit Cloud Sign Up page: https://login.posit.cloud/register\nClick on the “Sign Up with GitHub” button.\nEnter your GitHub username and password when prompted.\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\nNote that you will need to have a GitHub account in order to use this login method. If you do not have a GitHub account, you will need to create one before you can log in to Posit Cloud.\n\n\nJoin the course workspace on Posit Cloud\n\nOpen this link: https://posit.cloud/spaces/658092/join?access_code=dLb2qZ63VzXDcDP8VCY614F70S8DhyS8ucqfzfoe\n\n\n\nSet up a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token:\n\nLog in to your GitHub account.\nClick on your profile picture in the top-right corner of the page.\nSelect “Settings” from the dropdown menu.\nIn the left sidebar, click on “Developer settings”.\nClick on “Personal access tokens”.\nClick on “Tokens (classic)”.\nClick on “Generate new token” and from the dropdown menu select “Generate new token (classic)”.\nIn the “Note” field, give your token the name: GITHUB_PAT\nUnder Expiration, select “No expiration”\nUnder “Select scopes”, select: repo, workflow, user\nClick on “Generate token”.\nYour personal access token will be displayed on the screen. Copy it and store it in a safe place.\n\nRemember to treat your access tokens like passwords and keep them secure (e.g. a password manager software).\n\n\nComplete the pre-course survey\n\nSurvey link: https://forms.gle/uCcoH4SvoTasDeEF7\n\n\n\nOpen an issue on GitHub\n\nOpen the issue tracker on the website repository: https://github.com/cven5999-ss25/website/issues.\nClick on “New issue” button.\nIn the “Title” field\n\nwrite: “Homework assignments for week 1 completed”.\n\nIn the “Leave a comment” field,\n\ntag the course instructor with using the @ sign in combination with larnsce as the username,\npost your question that you prepared after reading the Course Overview,\nadd anything that you would like to add.",
-    "crumbs": [
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/wk-01.html#thanks",
-    "href": "weeks/wk-01.html#thanks",
-    "title": "Week 1",
-    "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nThank you for working through these assignments. I am looking forward to meeting you next week.",
-    "crumbs": [
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "assignments/hw-05-project-data-exploration.html",
-    "href": "assignments/hw-05-project-data-exploration.html",
-    "title": "HW: Project Data Exploration",
-    "section": "",
-    "text": "By completing this assignment, you will:\n\nCreate a Quarto document (index.qmd) in your project’s docs folder\nRead your dataset into R using appropriate functions\nPerform initial data exploration and tidying\nDocument your process with regular Git commits\nCreate GitHub issues to track questions and challenges"
-  },
-  {
-    "objectID": "assignments/hw-05-project-data-exploration.html#learning-objectives",
-    "href": "assignments/hw-05-project-data-exploration.html#learning-objectives",
-    "title": "HW: Project Data Exploration",
-    "section": "",
-    "text": "By completing this assignment, you will:\n\nCreate a Quarto document (index.qmd) in your project’s docs folder\nRead your dataset into R using appropriate functions\nPerform initial data exploration and tidying\nDocument your process with regular Git commits\nCreate GitHub issues to track questions and challenges"
-  },
-  {
-    "objectID": "assignments/hw-05-project-data-exploration.html#assignment-tasks",
-    "href": "assignments/hw-05-project-data-exploration.html#assignment-tasks",
-    "title": "HW: Project Data Exploration",
-    "section": " Assignment Tasks",
-    "text": "Assignment Tasks\n\nVersion control requirements\nMake regular commits throughout your work:\n\nAfter creating the index.qmd file\nAfter successfully reading in your data\nAfter each major section is completed\nUse descriptive commit messages:\n\n“Add index.qmd to docs folder”\n“Successfully read raw data file”\n“Complete initial data exploration”\n“Document data quality issues”\n“Perform initial data tidying and save processed data”\n\n\n\n\nCreate a Quarto document\n\nOpen your capstone project in Posit Cloud\nNavigate to your docs/ folder in the Files panel\nCreate a new Quarto document:\n\nClick File -&gt; New File -&gt; Quarto Document\nTitle: “Data Exploration for [Your Project Name]”\nAuthor: Your name\nSave it as index.qmd in the docs/ folder\n\nUpdate the YAML header to include:\n---\ntitle: \"Give your project a title\"\nauthor:\n  - name: \"Your Full Name\"\n    orcid: \"0000-0000-0000-0000\"\n    email: \"your.email@colorado.edu\"\n    affiliation:\n      - name: \"University of Colorado Boulder\"\n        department: \"Department of Civil, Environmental and Architectural Engineering\"\n        city: \"Boulder\"\n        state: \"CO\"\n        country: \"USA\"\ndate: today\nformat: html\neditor: visual\n---\n\n\n\nSet up your document structure\nThe report must render without errors to HTML format and contain at least four chapters of heading level 1:\n# Introduction\n\n[Brief description of your project and dataset]\n\n# Methods\n\n## Reading the Data\n\n## Data Exploration Approach\n\n## Initial Data Tidying\n\n# Results\n\n[This will be the core of your analysis with specific requirements]\n\n# Conclusions\n\n## Summary of Findings\n\n## Questions and Next Steps\n\n\nRead in your data\n\nIn the “Methods” chapter under “Reading the Data”, create a code chunk that:\n\nLoads necessary packages (at minimum tidyverse)\nReads your data from the data/raw/ folder\nStores it in an appropriately named object\n\nExample structure:\n# Load packages\nlibrary(tidyverse)\n\n# Read data\nmy_data &lt;- read_csv(here::here(\"data/raw/your_file.csv\"))\nIf you encounter any issues reading the data, document them and potential solutions\n\n\n\nExplore your data\nIn the “Results” chapter under “Initial Data Exploration”, add code chunks to:\n\nView the first few rows: Use head() or glimpse()\nCheck dimensions: Use dim() to see number of rows and columns\nSummarize the data: Use group_by() and summarize() to compute descriptive statistics\n\n\n\nPerform initial tidying\nIn the “Methods” chapter under “Initial Data Tidying”:\n\nAddress at least 2-3 data quality issues you identified\nExamples of tidying operations:\n\nConvert character dates to date format\nStandardize inconsistent categories\nHandle obvious data entry errors\nCreate new variables if needed\nUse consistent variable naming conventions (e.g. janitor::clean_names() for snake_case convention.)\n\nSave your tidied data:\nwrite_csv(tidied_data, here::here(\"data/processed/your_file_tidied.csv\")\n\n\n\nCreate GitHub issues\n\nAs you work, create GitHub issues in your repository documenting:\n\nQuestions about your data\nChallenges you encountered\nDecisions you need to make\nNext steps for analysis\n\nUse descriptive titles and provide context in the issue description\nTag your instructor (@larnsce) in at least one issue where you need guidance"
-  },
-  {
-    "objectID": "assignments/hw-05-project-data-exploration.html#tips",
-    "href": "assignments/hw-05-project-data-exploration.html#tips",
-    "title": "HW: Project Data Exploration",
-    "section": " Tips",
-    "text": "Tips\n\nIf you’re unsure how to read your specific file type, search for examples or ask in an issue\nRemember to render your index.qmd to HTML periodically to check your output"
-  },
-  {
-    "objectID": "assignments/hw-05-project-data-exploration.html#due-date",
-    "href": "assignments/hw-05-project-data-exploration.html#due-date",
-    "title": "HW: Project Data Exploration",
-    "section": " Due Date",
-    "text": "Due Date\nThis assignment is due: 2025-07-04"
-  },
-  {
-    "objectID": "assignments/hw-05-project-data-exploration.html#submission",
-    "href": "assignments/hw-05-project-data-exploration.html#submission",
-    "title": "HW: Project Data Exploration",
-    "section": " Submission",
-    "text": "Submission\n\nEnsure all your changes are committed and pushed to GitHub\nYour repository should now contain:\n\ndocs/index.qmd with your data exploration\ndocs/index.html (the rendered output)\nUpdated data in data/processed/ folder\nGitHub issues documenting questions/challenges"
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "CVEN 5999 - Summer 2025",
-    "section": "",
-    "text": "All of the material here is available under the Creative Commons Attribution license.\nYou are free:\n\nto Share - to copy and redistribute the material in any medium or format\nto Adapt - remix, transform, and build upon the material for any purpose, even commercially.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit using “(c) Copyright 2022, Lars Schöbitz”, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\nNotice - For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to http://creativecommons.org/licenses/by/4.0/.\n\nFor the full legal text of this license, please see: http://creativecommons.org/licenses/by/4.0/legalcode."
-  },
-  {
-    "objectID": "assignments/hw-04b-capstone-project-setup.html",
-    "href": "assignments/hw-04b-capstone-project-setup.html",
-    "title": "HW: Capstone Project Setup",
-    "section": "",
-    "text": "By completing this assignment, you will:\n\nSet up your personal capstone project repository on GitHub\nClone the repository to Posit Cloud\nCreate a proper directory structure for your project with raw and processed data folders\nUpload your dataset to the appropriate folder\nDocument your data using a comprehensive README template"
-  },
-  {
-    "objectID": "assignments/hw-04b-capstone-project-setup.html#learning-objectives",
-    "href": "assignments/hw-04b-capstone-project-setup.html#learning-objectives",
-    "title": "HW: Capstone Project Setup",
-    "section": "",
-    "text": "By completing this assignment, you will:\n\nSet up your personal capstone project repository on GitHub\nClone the repository to Posit Cloud\nCreate a proper directory structure for your project with raw and processed data folders\nUpload your dataset to the appropriate folder\nDocument your data using a comprehensive README template"
-  },
-  {
-    "objectID": "assignments/hw-04b-capstone-project-setup.html#assignment-tasks",
-    "href": "assignments/hw-04b-capstone-project-setup.html#assignment-tasks",
-    "title": "HW: Capstone Project Setup",
-    "section": " Assignment Tasks",
-    "text": "Assignment Tasks\n\nCreate a new repository on GitHub & clone to Posit Cloud\n\nOpen the GitHub Organisation for the course: https://github.com/cven5999-ss25\nTo the right of the field “Find a repository”, click on the green “New” button.\nIn the “Repository name” field write capstone-project-username. Replace username with your GitHub username. Avoid using spaces. For example: capstone-project-rainbow-train for the user with the username rainbow-train\nMake sure the repository is set to Public.\nScroll down on the same page, and click “Create repository”.\nIn the “Quick setup” field, click on the clipboard next to the HTTPS URL\nOpen the Posit Cloud workspace for the course: cven5999-ss25\nOpen the Content page\nClick on New Project -&gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nKeep the tick next to Add packages from the base project\nClick the OK button\nWait until the project is deployed.\n\n\n\nSet up initial directory structure\n\nIn your capstone project on Posit Cloud, create the following directory structure:\n\ndata/ - for storing your datasets\n\ndata/raw/ - for original, unprocessed datasets\ndata/processed/ - for cleaned and processed datasets\n\ndocs/ - for documentation and supplementary materials\n\nYou can create these directories by:\n\nUsing the Files panel in RStudio: Click “New Folder” and enter the folder names\nOr using the Console with: dir.create(\"data\"), dir.create(\"data/raw\"), dir.create(\"data/processed\"), and dir.create(\"docs\")\n\n\n\n\nAdd your dataset\n\nUpload your data file: Add your capstone project dataset to the data/raw/ folder. Your data must be in CSV or Excel format (.csv, .xlsx, or .xls).\nUpload methods:\n\nOption 1: Use the RStudio Files panel - click “Upload” and select your data file from your computer\nOption 2: If your data is available online, download it directly using R commands in the console\n\nFile naming: Use descriptive filenames without spaces (use underscores or hyphens instead). For example: household_survey_2023.csv or water-quality-measurements.xlsx\n\n\n\nCreate a README for your data folder\n\nNavigate to the Files tab in the bottom right window of RStudio.\nOpen the data folder you just created.\nClick on the “Blank File” button to create a new file.\nSelect “Text file”.\nEnter the name “README.md” and click OK.\nGo to: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md\nCopy the content displayed in the browser and paste it into the README.md file.\nComplete the template: Fill out all sections of the README template with information about your specific dataset (if you don’t have the information for some sections, state it):\n\nTitle: Give your dataset a descriptive title\nDescription: Explain what the data contains and why it was collected\nData source: Where did the data come from? Include URLs, citations, or collection details\nData collection methods: How was the data gathered?\nVariable descriptions: Describe each column/variable in your dataset\nData files: List and describe each file in your data folder\nContact information: Your information as the dataset maintainer\n\nSave the file.\n\n\n\nCommit and push your changes\n\nIn the Git panel (usually in the top right), stage all new files by checking the boxes next to them.\nClick “Commit”.\nWrite a meaningful commit message such as “Initial project setup with directory structure and data README”.\nClick “Commit”.\nClick “Push” to upload your changes to GitHub.\n\n\n\nFinal step\nOpen a Questions & Answers for the Capstone Project report issue on the GitHub issue tracker of your repository and tag the course instructor using the @ sign in combination with larnsce as the username."
-  },
-  {
-    "objectID": "assignments/hw-04b-capstone-project-setup.html#due-date",
-    "href": "assignments/hw-04b-capstone-project-setup.html#due-date",
-    "title": "HW: Capstone Project Setup",
-    "section": " Due Date",
-    "text": "Due Date\nThis assignment is due: 2025-06-27"
-  },
-  {
-    "objectID": "assignments/hw-04b-capstone-project-setup.html#submission",
-    "href": "assignments/hw-04b-capstone-project-setup.html#submission",
-    "title": "HW: Capstone Project Setup",
-    "section": " Submission",
-    "text": "Submission\nNo separate submission is required. Your instructor will check your GitHub repository to verify completion of the setup tasks."
   },
   {
     "objectID": "weeks/wk-03.html",
@@ -986,63 +824,197 @@
     ]
   },
   {
-    "objectID": "weeks/wk-06.html",
-    "href": "weeks/wk-06.html",
-    "title": "Week 6",
+    "objectID": "assignments/hw-04b-capstone-project-setup.html",
+    "href": "assignments/hw-04b-capstone-project-setup.html",
+    "title": "HW: Capstone Project Setup",
     "section": "",
-    "text": "Learners can use Quarto and GitHub Pages to publish an HTML file.\nLearners can add literature references to Quarto files using the navigation menu of RStudio visual editor.\nLearners can cross-reference figures and tables within an Quarto file.\nLearners can apply functions from the dplyr R Package to join multiple data sets.",
+    "text": "By completing this assignment, you will:\n\nSet up your personal capstone project repository on GitHub\nClone the repository to Posit Cloud\nCreate a proper directory structure for your project with raw and processed data folders\nUpload your dataset to the appropriate folder\nDocument your data using a comprehensive README template"
+  },
+  {
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#learning-objectives",
+    "href": "assignments/hw-04b-capstone-project-setup.html#learning-objectives",
+    "title": "HW: Capstone Project Setup",
+    "section": "",
+    "text": "By completing this assignment, you will:\n\nSet up your personal capstone project repository on GitHub\nClone the repository to Posit Cloud\nCreate a proper directory structure for your project with raw and processed data folders\nUpload your dataset to the appropriate folder\nDocument your data using a comprehensive README template"
+  },
+  {
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#assignment-tasks",
+    "href": "assignments/hw-04b-capstone-project-setup.html#assignment-tasks",
+    "title": "HW: Capstone Project Setup",
+    "section": " Assignment Tasks",
+    "text": "Assignment Tasks\n\nCreate a new repository on GitHub & clone to Posit Cloud\n\nOpen the GitHub Organisation for the course: https://github.com/cven5999-ss25\nTo the right of the field “Find a repository”, click on the green “New” button.\nIn the “Repository name” field write capstone-project-username. Replace username with your GitHub username. Avoid using spaces. For example: capstone-project-rainbow-train for the user with the username rainbow-train\nMake sure the repository is set to Public.\nScroll down on the same page, and click “Create repository”.\nIn the “Quick setup” field, click on the clipboard next to the HTTPS URL\nOpen the Posit Cloud workspace for the course: cven5999-ss25\nOpen the Content page\nClick on New Project -&gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nKeep the tick next to Add packages from the base project\nClick the OK button\nWait until the project is deployed.\n\n\n\nSet up initial directory structure\n\nIn your capstone project on Posit Cloud, create the following directory structure:\n\ndata/ - for storing your datasets\n\ndata/raw/ - for original, unprocessed datasets\ndata/processed/ - for cleaned and processed datasets\n\ndocs/ - for documentation and supplementary materials\n\nYou can create these directories by:\n\nUsing the Files panel in RStudio: Click “New Folder” and enter the folder names\nOr using the Console with: dir.create(\"data\"), dir.create(\"data/raw\"), dir.create(\"data/processed\"), and dir.create(\"docs\")\n\n\n\n\nAdd your dataset\n\nUpload your data file: Add your capstone project dataset to the data/raw/ folder. Your data must be in CSV or Excel format (.csv, .xlsx, or .xls).\nUpload methods:\n\nOption 1: Use the RStudio Files panel - click “Upload” and select your data file from your computer\nOption 2: If your data is available online, download it directly using R commands in the console\n\nFile naming: Use descriptive filenames without spaces (use underscores or hyphens instead). For example: household_survey_2023.csv or water-quality-measurements.xlsx\n\n\n\nCreate a README for your data folder\n\nNavigate to the Files tab in the bottom right window of RStudio.\nOpen the data folder you just created.\nClick on the “Blank File” button to create a new file.\nSelect “Text file”.\nEnter the name “README.md” and click OK.\nGo to: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md\nCopy the content displayed in the browser and paste it into the README.md file.\nComplete the template: Fill out all sections of the README template with information about your specific dataset (if you don’t have the information for some sections, state it):\n\nTitle: Give your dataset a descriptive title\nDescription: Explain what the data contains and why it was collected\nData source: Where did the data come from? Include URLs, citations, or collection details\nData collection methods: How was the data gathered?\nVariable descriptions: Describe each column/variable in your dataset\nData files: List and describe each file in your data folder\nContact information: Your information as the dataset maintainer\n\nSave the file.\n\n\n\nCommit and push your changes\n\nIn the Git panel (usually in the top right), stage all new files by checking the boxes next to them.\nClick “Commit”.\nWrite a meaningful commit message such as “Initial project setup with directory structure and data README”.\nClick “Commit”.\nClick “Push” to upload your changes to GitHub.\n\n\n\nFinal step\nOpen a Questions & Answers for the Capstone Project report issue on the GitHub issue tracker of your repository and tag the course instructor using the @ sign in combination with larnsce as the username."
+  },
+  {
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#due-date",
+    "href": "assignments/hw-04b-capstone-project-setup.html#due-date",
+    "title": "HW: Capstone Project Setup",
+    "section": " Due Date",
+    "text": "Due Date\nThis assignment is due: 2025-06-27"
+  },
+  {
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#submission",
+    "href": "assignments/hw-04b-capstone-project-setup.html#submission",
+    "title": "HW: Capstone Project Setup",
+    "section": " Submission",
+    "text": "Submission\nNo separate submission is required. Your instructor will check your GitHub repository to verify completion of the setup tasks."
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "CVEN 5999 - Summer 2025",
+    "section": "",
+    "text": "All of the material here is available under the Creative Commons Attribution license.\nYou are free:\n\nto Share - to copy and redistribute the material in any medium or format\nto Adapt - remix, transform, and build upon the material for any purpose, even commercially.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit using “(c) Copyright 2022, Lars Schöbitz”, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\nNotice - For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to http://creativecommons.org/licenses/by/4.0/.\n\nFor the full legal text of this license, please see: http://creativecommons.org/licenses/by/4.0/legalcode."
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html",
+    "href": "assignments/hw-05-project-data-exploration.html",
+    "title": "HW: Project Data Exploration",
+    "section": "",
+    "text": "By completing this assignment, you will:\n\nCreate a Quarto document (index.qmd) in your project’s docs folder\nRead your dataset into R using appropriate functions\nPerform initial data exploration and tidying\nDocument your process with regular Git commits\nCreate GitHub issues to track questions and challenges"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#learning-objectives",
+    "href": "assignments/hw-05-project-data-exploration.html#learning-objectives",
+    "title": "HW: Project Data Exploration",
+    "section": "",
+    "text": "By completing this assignment, you will:\n\nCreate a Quarto document (index.qmd) in your project’s docs folder\nRead your dataset into R using appropriate functions\nPerform initial data exploration and tidying\nDocument your process with regular Git commits\nCreate GitHub issues to track questions and challenges"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#assignment-tasks",
+    "href": "assignments/hw-05-project-data-exploration.html#assignment-tasks",
+    "title": "HW: Project Data Exploration",
+    "section": " Assignment Tasks",
+    "text": "Assignment Tasks\n\nVersion control requirements\nMake regular commits throughout your work:\n\nAfter creating the index.qmd file\nAfter successfully reading in your data\nAfter each major section is completed\nUse descriptive commit messages:\n\n“Add index.qmd to docs folder”\n“Successfully read raw data file”\n“Complete initial data exploration”\n“Document data quality issues”\n“Perform initial data tidying and save processed data”\n\n\n\n\nCreate a Quarto document\n\nOpen your capstone project in Posit Cloud\nNavigate to your docs/ folder in the Files panel\nCreate a new Quarto document:\n\nClick File -&gt; New File -&gt; Quarto Document\nTitle: “Data Exploration for [Your Project Name]”\nAuthor: Your name\nSave it as index.qmd in the docs/ folder\n\nUpdate the YAML header to include:\n---\ntitle: \"Give your project a title\"\nauthor:\n  - name: \"Your Full Name\"\n    orcid: \"0000-0000-0000-0000\"\n    email: \"your.email@colorado.edu\"\n    affiliation:\n      - name: \"University of Colorado Boulder\"\n        department: \"Department of Civil, Environmental and Architectural Engineering\"\n        city: \"Boulder\"\n        state: \"CO\"\n        country: \"USA\"\ndate: today\nformat: html\neditor: visual\n---\n\n\n\nSet up your document structure\nThe report must render without errors to HTML format and contain at least four chapters of heading level 1:\n# Introduction\n\n[Brief description of your project and dataset]\n\n# Methods\n\n## Reading the Data\n\n## Data Exploration Approach\n\n## Initial Data Tidying\n\n# Results\n\n[This will be the core of your analysis with specific requirements]\n\n# Conclusions\n\n## Summary of Findings\n\n## Questions and Next Steps\n\n\nRead in your data\n\nIn the “Methods” chapter under “Reading the Data”, create a code chunk that:\n\nLoads necessary packages (at minimum tidyverse)\nReads your data from the data/raw/ folder\nStores it in an appropriately named object\n\nExample structure:\n# Load packages\nlibrary(tidyverse)\n\n# Read data\nmy_data &lt;- read_csv(here::here(\"data/raw/your_file.csv\"))\nIf you encounter any issues reading the data, document them and potential solutions\n\n\n\nExplore your data\nIn the “Results” chapter under “Initial Data Exploration”, add code chunks to:\n\nView the first few rows: Use head() or glimpse()\nCheck dimensions: Use dim() to see number of rows and columns\nSummarize the data: Use group_by() and summarize() to compute descriptive statistics\n\n\n\nPerform initial tidying\nIn the “Methods” chapter under “Initial Data Tidying”:\n\nAddress at least 2-3 data quality issues you identified\nExamples of tidying operations:\n\nConvert character dates to date format\nStandardize inconsistent categories\nHandle obvious data entry errors\nCreate new variables if needed\nUse consistent variable naming conventions (e.g. janitor::clean_names() for snake_case convention.)\n\nSave your tidied data:\nwrite_csv(tidied_data, here::here(\"data/processed/your_file_tidied.csv\")\n\n\n\nCreate GitHub issues\n\nAs you work, create GitHub issues in your repository documenting:\n\nQuestions about your data\nChallenges you encountered\nDecisions you need to make\nNext steps for analysis\n\nUse descriptive titles and provide context in the issue description\nTag your instructor (@larnsce) in at least one issue where you need guidance"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#tips",
+    "href": "assignments/hw-05-project-data-exploration.html#tips",
+    "title": "HW: Project Data Exploration",
+    "section": " Tips",
+    "text": "Tips\n\nIf you’re unsure how to read your specific file type, search for examples or ask in an issue\nRemember to render your index.qmd to HTML periodically to check your output"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#due-date",
+    "href": "assignments/hw-05-project-data-exploration.html#due-date",
+    "title": "HW: Project Data Exploration",
+    "section": " Due Date",
+    "text": "Due Date\nThis assignment is due: 2025-07-04"
+  },
+  {
+    "objectID": "assignments/hw-05-project-data-exploration.html#submission",
+    "href": "assignments/hw-05-project-data-exploration.html#submission",
+    "title": "HW: Project Data Exploration",
+    "section": " Submission",
+    "text": "Submission\n\nEnsure all your changes are committed and pushed to GitHub\nYour repository should now contain:\n\ndocs/index.qmd with your data exploration\ndocs/index.html (the rendered output)\nUpdated data in data/processed/ folder\nGitHub issues documenting questions/challenges"
+  },
+  {
+    "objectID": "weeks/wk-01.html",
+    "href": "weeks/wk-01.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "This first week will be used to get you set up for the course. Work through the homework assignments one after the other.",
     "crumbs": [
-      "Week 6"
+      "Week 1"
     ]
   },
   {
-    "objectID": "weeks/wk-06.html#learning-objectives",
-    "href": "weeks/wk-06.html#learning-objectives",
-    "title": "Week 6",
-    "section": "",
-    "text": "Learners can use Quarto and GitHub Pages to publish an HTML file.\nLearners can add literature references to Quarto files using the navigation menu of RStudio visual editor.\nLearners can cross-reference figures and tables within an Quarto file.\nLearners can apply functions from the dplyr R Package to join multiple data sets.",
+    "objectID": "weeks/wk-01.html#learning-objectives",
+    "href": "weeks/wk-01.html#learning-objectives",
+    "title": "Week 1",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nLearners can access the Posit Cloud workspace for the course.\nLearners have understood the grading scheme for the course.\nLearners can open an issue on GitHub and tag the course instructor.",
     "crumbs": [
-      "Week 6"
+      "Week 1"
     ]
   },
   {
-    "objectID": "weeks/wk-06.html#slides",
-    "href": "weeks/wk-06.html#slides",
-    "title": "Week 6",
+    "objectID": "weeks/wk-01.html#readings",
+    "href": "weeks/wk-01.html#readings",
+    "title": "Week 1",
+    "section": "Readings",
+    "text": "Readings\n📖 Read the Course Overview and pay special attention to the sections Assignments, Grading scheme, and late work.\n📖 Read Wilson et al. (2017) “Good enough practices in scientific computing”.",
+    "crumbs": [
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/wk-01.html#homework-assignments",
+    "href": "weeks/wk-01.html#homework-assignments",
+    "title": "Week 1",
+    "section": "Homework assignments",
+    "text": "Homework assignments\nThese homework assigments are pre-requisities for Week 2 of the. Complete them by 2025-06-06 to receive the points for this assignment.\n\nPrepare questions\n📖 Read the Course Overview and pay special attention to the sections Assignments, Grading scheme, and Late Work. Prepare at least one question.\n\n\nGet an account for GitHub\nTo set up an account on GitHub, follow these general steps:\n\nGo to the GitHub website at https://github.com/.\nClick on the “Sign up” button on the top right corner of the page.\nEnter your preferred username, email address, and password in the provided fields.\nChoose whether you want to receive updates and announcements via email.\nComplete the verification process by solving a puzzle and entering a verification code sent to your email.\n\n\n\n\n\n\n\nUsername advice from: Happy Git and GitHub for the useR\n\n\n\nYou will be able to upgrade to a paid level of service, apply discounts, join organizations, etc. in the future, so don’t fret about any of that now. Except your username. You might want to give that some thought.\nA few tips, which sadly tend to contradict each other:\n\nIncorporate your actual name! People like to know who they’re dealing with. Also makes your username easier for people to guess or remember.\nReuse your username from other contexts, e.g., Twitter or Slack. But, of course, someone with no GitHub activity will probably be squatting on that.\nPick a username you will be comfortable revealing to your future boss.\nShorter is better than longer.\nBe as unique as possible in as few characters as possible. In some settings GitHub auto-completes or suggests usernames.\nMake it timeless. Don’t highlight your current university, employer, or place of residence, e.g. JennyFromTheBlock.\nAvoid words laden with special meaning in programming.\nAvoid the use of upper vs. lower case to separate words. We highly recommend all lowercase. GitHub treats usernames in a case insensitive way, but using all lowercase is kinder to people doing downstream regular expression work with usernames, in various languages. A better strategy for word separation is to use a hyphen -.\n\nYou can change your username later, but better to get this right the first time.\n\nhttps://help.github.com/articles/changing-your-github-username/\nhttps://help.github.com/articles/what-happens-when-i-change-my-username/\n\n\n\n\n\nCreate your personal unique ORCID iD\n\nCreate your ORCID iD at: https://orcid.org/register\nLearn more about ORCID and why you should get one: https://the-turing-way.netlify.app/communication/citable/citable-orcid.html?highlight=orcid\n\n\n\nLog into Posit Cloud with GitHub account\nHere are the instructions to login to Posit Cloud using a GitHub account:\n\nGo to the Posit Cloud Sign Up page: https://login.posit.cloud/register\nClick on the “Sign Up with GitHub” button.\nEnter your GitHub username and password when prompted.\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\nNote that you will need to have a GitHub account in order to use this login method. If you do not have a GitHub account, you will need to create one before you can log in to Posit Cloud.\n\n\nJoin the course workspace on Posit Cloud\n\nOpen this link: https://posit.cloud/spaces/658092/join?access_code=dLb2qZ63VzXDcDP8VCY614F70S8DhyS8ucqfzfoe\n\n\n\nSet up a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token:\n\nLog in to your GitHub account.\nClick on your profile picture in the top-right corner of the page.\nSelect “Settings” from the dropdown menu.\nIn the left sidebar, click on “Developer settings”.\nClick on “Personal access tokens”.\nClick on “Tokens (classic)”.\nClick on “Generate new token” and from the dropdown menu select “Generate new token (classic)”.\nIn the “Note” field, give your token the name: GITHUB_PAT\nUnder Expiration, select “No expiration”\nUnder “Select scopes”, select: repo, workflow, user\nClick on “Generate token”.\nYour personal access token will be displayed on the screen. Copy it and store it in a safe place.\n\nRemember to treat your access tokens like passwords and keep them secure (e.g. a password manager software).\n\n\nComplete the pre-course survey\n\nSurvey link: https://forms.gle/uCcoH4SvoTasDeEF7\n\n\n\nOpen an issue on GitHub\n\nOpen the issue tracker on the website repository: https://github.com/cven5999-ss25/website/issues.\nClick on “New issue” button.\nIn the “Title” field\n\nwrite: “Homework assignments for week 1 completed”.\n\nIn the “Leave a comment” field,\n\ntag the course instructor with using the @ sign in combination with larnsce as the username,\npost your question that you prepared after reading the Course Overview,\nadd anything that you would like to add.",
+    "crumbs": [
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/wk-01.html#thanks",
+    "href": "weeks/wk-01.html#thanks",
+    "title": "Week 1",
+    "section": "Thanks! 🌻",
+    "text": "Thanks! 🌻\nThank you for working through these assignments. I am looking forward to meeting you next week.",
+    "crumbs": [
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/wk-02.html",
+    "href": "weeks/wk-02.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "Learners can navigate the platforms (Posit Cloud, GitHub, Course Website) that are used to for the course.\nLearners can render a Quarto file to an output file in HTML, PDF and DOCX format.\nLearners can list the six elements of the data science lifecycle.\nLearners can identify four components of a Quarto file (YAML, code chunk, R code, markdown).",
+    "crumbs": [
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/wk-02.html#learning-objectives",
+    "href": "weeks/wk-02.html#learning-objectives",
+    "title": "Week 2",
+    "section": "",
+    "text": "Learners can navigate the platforms (Posit Cloud, GitHub, Course Website) that are used to for the course.\nLearners can render a Quarto file to an output file in HTML, PDF and DOCX format.\nLearners can list the six elements of the data science lifecycle.\nLearners can identify four components of a Quarto file (YAML, code chunk, R code, markdown).",
+    "crumbs": [
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/wk-02.html#slides",
+    "href": "weeks/wk-02.html#slides",
+    "title": "Week 2",
     "section": " Slides",
     "text": "Slides\nView slides in full screen | Download slides as PDF",
     "crumbs": [
-      "Week 6"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/wk-06.html#readings",
-    "href": "weeks/wk-06.html#readings",
-    "title": "Week 6",
+    "objectID": "weeks/wk-02.html#readings",
+    "href": "weeks/wk-02.html#readings",
+    "title": "Week 2",
     "section": " Readings",
-    "text": "Readings\n\nRead R for Data Science - Section 13 - Relational data",
+    "text": "Readings\nRead R for Data Science - Section 1 - Introduction through Section 1.3.4\nRead R for Data Science - Section 2 - Introduction\nRead R for Data Science - Section 4 - Workflow basics",
     "crumbs": [
-      "Week 6"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/wk-06.html#homework-assignment",
-    "href": "weeks/wk-06.html#homework-assignment",
-    "title": "Week 6",
+    "objectID": "weeks/wk-02.html#homework-assignment",
+    "href": "weeks/wk-02.html#homework-assignment",
+    "title": "Week 2",
     "section": " Homework assignment",
-    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-07-11\nClone your Capstone Project repository to the workspace for the course on Posit Cloud:\n\nFollow the Instructions\n\nComplete the homework programming assignments that are in your project folder for week 6 on Posit Cloud:\n\nhw-06a-section-01.qmd\nhw-06b-section-02.qmd\nhw-06c-section-03.qmd\nhw-06d-section-04.qmd",
+    "text": "Homework assignment\nComplete the homework programming assignment that is in your project folder for week 2 by 2025-06-13 on Posit Cloud\n\nhw-02-data-science-lifecycle.qmd",
     "crumbs": [
-      "Week 6"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/wk-06.html#learning-reflection",
-    "href": "weeks/wk-06.html#learning-reflection",
-    "title": "Week 6",
+    "objectID": "weeks/wk-02.html#learning-reflection",
+    "href": "weeks/wk-02.html#learning-reflection",
+    "title": "Week 2",
     "section": " Learning reflection",
-    "text": "Learning reflection\nComplete the learning reflection that is in your project folder for week 6 by 2025-07-11 on Posit Cloud\n\nlearning-06.qmd",
+    "text": "Learning reflection\nComplete the learning reflection that is in your project folder for week 2 by 2025-06-13 on Posit Cloud\n\nlearning-02.qmd",
     "crumbs": [
-      "Week 6"
+      "Week 2"
     ]
   },
   {
