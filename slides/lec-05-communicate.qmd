@@ -560,7 +560,7 @@ No slide breaks to remove, no citation style to change, no headings to re-level.
 ## Clone GitHub repository from GitHub
 
 1. Open the GitHub Organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
-2. Locate the **wk-06** repository with your username `wk-06-GITHUB-USERNAME`
+2. Locate the **wk-06-writing** repository with your username `wk-06-writing-GITHUB-USERNAME`
 3. Follow along with me
 
 # Break 

@@ -200,7 +200,7 @@
     "href": "slides/lec-05-communicate.html#clone-github-repository-from-github",
     "title": "Joining data & data communication using Quarto",
     "section": "Clone GitHub repository from GitHub",
-    "text": "Clone GitHub repository from GitHub\n\nOpen the GitHub Organisation for the course: https://github.com/cven5999-ss25\nLocate the wk-06 repository with your username wk-06-GITHUB-USERNAME\nFollow along with me"
+    "text": "Clone GitHub repository from GitHub\n\nOpen the GitHub Organisation for the course: https://github.com/cven5999-ss25\nLocate the wk-06-writing repository with your username wk-06-writing-GITHUB-USERNAME\nFollow along with me"
   },
   {
     "objectID": "slides/lec-05-communicate.html#cross-references",
@@ -748,7 +748,7 @@
     "href": "weeks/wk-06.html#homework-assignment",
     "title": "Week 6",
     "section": " Homework assignment",
-    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-07-11\nComplete the homework programming assignments that are in your project folder for week 6 on Posit Cloud:\n\nhw-06a-section-01.qmd\nhw-06b-section-02.qmd\nhw-06c-section-03.qmd\nhw-06d-section-04.qmd",
+    "text": "Homework assignment\nHomework assignment & learning reflection due: 2025-07-11\nComplete the homework programming assignments that are in your folder for week 6 on Posit Cloud:\nYou will need to clone your wk-06-USERNAME folder to Posit Cloud first and then complete:\n\nhw-01-data-import-exploration.qmd\nhw-02-filter-join.qmd\nhw-03-data-analysis.qmd\nhw-04-data-visualization.qmd",
     "crumbs": [
       "Week 6"
     ]
@@ -758,7 +758,7 @@
     "href": "weeks/wk-06.html#learning-reflection",
     "title": "Week 6",
     "section": " Learning reflection",
-    "text": "Learning reflection\nComplete the learning reflection that is in your project folder for week 6 by 2025-07-11 on Posit Cloud\n\nlearning-06.qmd",
+    "text": "Learning reflection\nComplete the learning reflection that is in your folder for week 6 by 2025-07-11 on Posit Cloud\n\nlearning-06.qmd",
     "crumbs": [
       "Week 6"
     ]
