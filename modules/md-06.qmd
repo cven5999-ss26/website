@@ -1,27 +1,37 @@
 ---
 title: "Module 6"
-subtitle: "Concept of tidy data, vectors and pivoting"
+subtitle: "{{< var md-06.title >}}"
 editor: source
 params:
     module: 6
-execute: 
+execute:
   echo: false
   warning: false
 ---
 
-## {{< fa bullseye >}} Learning Objectives
+```{r}
+#| label: setup
+
+library(epoxy)
+```
 
 ```{r}
+#| label: learning-objectives
 
-lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |> 
+lobj <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
   dplyr::filter(module == params$module) |>
   dplyr::pull(learning_objectives)
 
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+session_date <- format(as.Date(vars$`md-06`$date), "%B %d, %Y")
+homework_due_date <- format(as.Date(vars$`md-06`$`homework-due`), "%B %d, %Y")
 ```
 
-1. `r lobj1[1]`
-2. `r lobj1[2]`
-3. `r lobj1[3]`
+## {{< fa bullseye >}} Learning Objectives
+
+```{epoxy}
+{1:length(lobj)}. {lobj[1:length(lobj)]}
+```
 
 ## {{< fa display >}} Slides
 
@@ -33,12 +43,12 @@ lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
 
 ## {{< fa book >}} Readings
 
-1. Read [R for Data Science - Section 12 - Tidy data](https://r4ds.had.co.nz/tidy-data.html)  
-2. Read [R for Data Science - Section 15 - Factors](https://r4ds.had.co.nz/factors.html#factors)  
+1. Read [R for Data Science - Section 12 - Tidy data](https://r4ds.had.co.nz/tidy-data.html)
+2. Read [R for Data Science - Section 15 - Factors](https://r4ds.had.co.nz/factors.html#factors)
 
-## {{< fa code >}} Homework assignment 
+## {{< fa code >}} Homework assignment
 
-Homework assignment & learning reflection due: [**{{< var md-06.homework-due >}}**]{.highlight-yellow}
+[Due date:]{.highlight-yellow} `r homework_due_date`
 
 Complete the homework programming assignments that are in your project folder for Module 6 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all):
 
@@ -46,10 +56,16 @@ Complete the homework programming assignments that are in your project folder fo
 
 Complete the following assignment, which is not documented in your Module 6 project folder:
 
-- [HW: Capstone Project Data Exploration](../assignments/hw-05-project-data-exploration.qmd) 
+- [HW: Capstone Project Data Exploration](../assignments/hw-05-project-data-exploration.qmd)
 
 ## {{< fa pen-clip >}} Learning reflection
 
-Complete the learning reflection that is in your project folder for Module 6 by [**{{< var md-06.homework-due >}}**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all) 
+Complete the learning reflection that is in your project folder for Module 6 by [**`r homework_due_date`**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
 
 - learning-06.qmd
+
+## {{< fa video >}} Session Recording
+
+You can access the recording of the Module 6 session held on `r session_date`.
+
+[Recording link will be added after the live session.]{.highlight-yellow}

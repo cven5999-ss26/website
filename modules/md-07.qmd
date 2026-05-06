@@ -1,29 +1,37 @@
 ---
 title: "Module 7"
-subtitle: "Joining data & communicating results with Quarto"
+subtitle: "{{< var md-07.title >}}"
 editor: source
 params:
     module: 7
-execute: 
+execute:
   echo: false
   warning: false
 ---
 
+```{r}
+#| label: setup
 
-## {{< fa bullseye >}} Learning Objectives
+library(epoxy)
+```
 
 ```{r}
+#| label: learning-objectives
 
-lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |> 
+lobj <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
   dplyr::filter(module == params$module) |>
   dplyr::pull(learning_objectives)
 
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+session_date <- format(as.Date(vars$`md-07`$date), "%B %d, %Y")
+homework_due_date <- format(as.Date(vars$`md-07`$`homework-due`), "%B %d, %Y")
 ```
 
-1. `r lobj1[1]`
-2. `r lobj1[2]`
-3. `r lobj1[3]`
-4. `r lobj1[4]`
+## {{< fa bullseye >}} Learning Objectives
+
+```{epoxy}
+{1:length(lobj)}. {lobj[1:length(lobj)]}
+```
 
 ## {{< fa display >}} Slides
 
@@ -37,11 +45,11 @@ lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
 
 1. Read [R for Data Science - Section 13 - Relational data](https://r4ds.had.co.nz/relational-data.html)
 
-## {{< fa code >}} Homework assignment 
+## {{< fa code >}} Homework assignment
 
-Homework assignment & learning reflection due: [**{{< var md-07.homework-due >}}**]{.highlight-yellow}
+[Due date:]{.highlight-yellow} `r homework_due_date`
 
-Complete the homework programming assignments that are in your folder for Module 7 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all):
+Complete the homework programming assignments that are in your folder for Module 7 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
 
 You will need to clone your `md-07-USERNAME` folder to Posit Cloud first and then complete:
 
@@ -49,9 +57,15 @@ You will need to clone your `md-07-USERNAME` folder to Posit Cloud first and the
 - hw-02-filter-join.qmd
 - hw-03-data-analysis.qmd
 - hw-04-data-visualization-pivoting.qmd
- 
+
 ## {{< fa pen-clip >}} Learning reflection
 
-Complete the learning reflection that is in your folder for Module 7 by [**{{< var md-07.homework-due >}}**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all)
+Complete the learning reflection that is in your folder for Module 7 by [**`r homework_due_date`**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
 
-- learning-07.qmd 
+- learning-07.qmd
+
+## {{< fa video >}} Session Recording
+
+You can access the recording of the Module 7 session held on `r session_date`.
+
+[Recording link will be added after the live session.]{.highlight-yellow}

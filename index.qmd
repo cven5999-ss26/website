@@ -14,6 +14,8 @@ Summer Online - Session C - May 25, 2026 - July 17, 2026; Monday 2:30 - 5:00 pm 
 
 Instructor: [Lars Schöbitz](https://www.linkedin.com/in/larsschoebitz/)
 
+Canvas: <https://canvas.colorado.edu/courses/143788>
+
 # Course Information
 
 This course provides students with skills in using the collection of R tidyverse packages as a tool for data analysis, reproducible research and communication. Lectures will be delivered through participatory live coding for students to learn how to write code in code-along exercises. We will use publicly available data related to waste management, air quality, and sanitation. Students will learn how to help themselves and others to build upon the obtained skills to apply them to their data analysis projects.
