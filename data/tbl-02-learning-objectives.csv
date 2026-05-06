@@ -6,22 +6,22 @@ date,week,title,learning_objectives
 ,2,Welcome! & Data Science Life-cycle,"Learners can render a Quarto file to an output file in HTML, PDF and DOCX format."
 ,2,Welcome! & Data Science Life-cycle,Learners can list the six elements of the data science lifecycle.
 ,2,Welcome! & Data Science Life-cycle,"Learners can identify four components of a Quarto file (YAML, code chunk, R code, markdown)."
-,3,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.
-,3,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can control the colour scaling applied to a plot using colour as an aesthetic mapping.
-,3,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can compare three different geoms and their use case.
-,3,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can apply a theme to control font types and sizes within a plot.
-,3,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can apply 12 principles for data organisation in spreadsheets in the layout of a collected dataset.
-,4,Data transformation and descriptive statistics,Learners can apply ten functions from the dplyr R Package to generate a subset of data for use in a table or plot.
-,5,"Concept of tidy data, vectors and pivoting",Learners can apply functions from the dplyr R Package to transform their data from a wide to a long format and vice versa.
-,5,"Concept of tidy data, vectors and pivoting",Learners can list the four main atomic vector types in R.
-,5,"Concept of tidy data, vectors and pivoting",Learners can explain the three characteristics of tidy data.
-,6,Joining data & data communication using Quarto,Learners can use Quarto and GitHub Pages to publish an HTML file.
-,6,Joining data & data communication using Quarto,Learners can add literature references to Quarto files using the navigation menu of RStudio visual editor.
-,6,Joining data & data communication using Quarto,Learners can cross-reference figures and tables within an Quarto file.
-,6,Joining data & data communication using Quarto,Learners can apply functions from the dplyr R Package to join multiple data sets.
-,7,Capstone Project,Learners can apply the skills obtained during the course to write a short data analysis project report.
-,8,Capstone Project submission due date,NA
-,NA,NA,NA
-,NA,NA,NA
+,3,Data Management in Practice - Case Study,NA
+,3,Data Management in Practice - Case Study,NA
+,3,Data Management in Practice - Case Study,NA
+,4,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.
+,4,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can control the colour scaling applied to a plot using colour as an aesthetic mapping.
+,4,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can compare three different geoms and their use case.
+,4,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can apply a theme to control font types and sizes within a plot.
+,4,Exploratory data analysis using visualization & Data organization in spreadsheets,Learners can apply 12 principles for data organisation in spreadsheets in the layout of a collected dataset.
+,5,Data transformation and descriptive statistics,Learners can apply ten functions from the dplyr R Package to generate a subset of data for use in a table or plot.
+,6,"Concept of tidy data, vectors and pivoting",Learners can apply functions from the dplyr R Package to transform their data from a wide to a long format and vice versa.
+,6,"Concept of tidy data, vectors and pivoting",Learners can list the four main atomic vector types in R.
+,6,"Concept of tidy data, vectors and pivoting",Learners can explain the three characteristics of tidy data.
+,7,Joining data & data communication using Quarto,Learners can use Quarto and GitHub Pages to publish an HTML file.
+,7,Joining data & data communication using Quarto,Learners can add literature references to Quarto files using the navigation menu of RStudio visual editor.
+,7,Joining data & data communication using Quarto,Learners can cross-reference figures and tables within an Quarto file.
+,7,Joining data & data communication using Quarto,Learners can apply functions from the dplyr R Package to join multiple data sets.
+,8,Capstone Project submission due date,Learners can apply the skills obtained during the course to write a short data analysis project report.
 ,NA,NA,NA
 ,NA,NA,NA

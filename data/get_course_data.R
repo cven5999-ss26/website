@@ -9,11 +9,15 @@ library(googlesheets4)
 library(readr)
 library(dplyr)
 
+# authentication -----------------------------------------------------------
+
+gs4_auth(cache = ".secrets", email = Sys.getenv("GOOGLE_EMAIL"))
+
 # script ------------------------------------------------------------------
 
 ## course schedule
 
-link_course_schedule <- "https://docs.google.com/spreadsheets/d/1xEBWgVJzLu1YtgtE6V36FOXbexsF5Jjp-U1koie19yk/edit?gid=0#gid=0"
+link_course_schedule <- "https://docs.google.com/spreadsheets/d/1yTbTPM2nZ46oPA7FjwMpoNnfcDfes2blKd0vyV7gnLY/edit?gid=0#gid=0"
 
 googlesheets4::read_sheet(link_course_schedule) |> 
   mutate(title = case_when(
@@ -24,21 +28,21 @@ googlesheets4::read_sheet(link_course_schedule) |>
 
 # learning objectives ------------------------------------------------------
 
-link_learning_objectives <- "https://docs.google.com/spreadsheets/d/15LB7cT-T4_Oiqdk3m8QMkgv_D_yLENkEX0IiYddRCF0/edit?gid=0#gid=0"
+link_learning_objectives <- "https://docs.google.com/spreadsheets/d/1zZyEbJQH_qHrbl1oulViE0SsxnANbTmnsSZEGBmMcdo/edit?gid=0#gid=0"
 
 googlesheets4::read_sheet(link_learning_objectives) |> 
   write_csv(here::here("data/tbl-02-learning-objectives.csv"))
 
 # grading scheme ----------------------------------------------------------
 
-link_grading_scheme <- "https://docs.google.com/spreadsheets/d/1uwslpXXAaWOM1Lg3t47SLPbMWCHgPtYhNSnH7O5BlY8/edit?gid=0#gid=0"
+link_grading_scheme <- "https://docs.google.com/spreadsheets/d/1VrOG9b_s7V3h7O7wzrtir43Uzj5XYt-nk6JDGIShiDI/edit?gid=0#gid=0"
 
 googlesheets4::read_sheet(link_grading_scheme) |> 
   write_csv(here::here("data/tbl-03-grading-scheme.csv"))
 
 # capstone project grading ---------------------------------------------
 
-link_capstone_project_grading <- "https://docs.google.com/spreadsheets/d/1F35u_rdg9_nqkDdIZf2Kww1nYtyTNPGdMyg8gUmajYc/edit?gid=0#gid=0"
+link_capstone_project_grading <- "https://docs.google.com/spreadsheets/d/1hNqmg4bOZmJB-2n0Nm6ATeOLs5VfRQDOU6gD362x74E/edit?gid=0#gid=0"
 
 googlesheets4::read_sheet(link_capstone_project_grading) |> 
   write_csv(here::here("data/tbl-04-capstone-project-grading.csv"))

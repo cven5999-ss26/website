@@ -1,9 +1,9 @@
 date,week,title,note,page_link
-2025-06-02T00:00:00Z,1,[Get ready for the course](weeks/wk-01.qmd),no lecture,weeks/wk-01.qmd
-2025-06-09T00:00:00Z,2,[Welcome! & Data Science Life-cycle](weeks/wk-02.qmd),lecture 1,weeks/wk-02.qmd
-2025-06-16T00:00:00Z,3,[Exploratory data analysis using visualization & Data organization in spreadsheets](weeks/wk-03.qmd),lecture 2,weeks/wk-03.qmd
-2025-06-23T00:00:00Z,4,[Data transformation and descriptive statistics](weeks/wk-04.qmd),lecture 3,weeks/wk-04.qmd
-2025-06-30T00:00:00Z,5,"[Concept of tidy data, vectors and pivoting](weeks/wk-05.qmd)",lecture 4,weeks/wk-05.qmd
-2025-07-07T00:00:00Z,6,[Joining data & data communication using Quarto](weeks/wk-06.qmd),lecture 5,weeks/wk-06.qmd
-2025-07-14T00:00:00Z,7,[Capstone Project](project/),no lecture,project/
-2025-07-21T00:00:00Z,8,[Capstone Project submission due date](project/),no lecture,project/
+2026-05-25T00:00:00Z,1,[Get ready for the course](weeks/wk-01.qmd),no lecture,weeks/wk-01.qmd
+2026-06-01T00:00:00Z,2,[Welcome! & Data Science Life-cycle](weeks/wk-02.qmd),lecture 1,weeks/wk-02.qmd
+2026-06-08T00:00:00Z,3,Data Management in Practice - Case Study,no lecture,NA
+2026-06-15T00:00:00Z,4,[Exploratory data analysis using visualization & Data organization in spreadsheets](weeks/wk-03.qmd),lecture 2,weeks/wk-03.qmd
+2026-06-22T00:00:00Z,5,[Data transformation and descriptive statistics](weeks/wk-04.qmd),lecture 3,weeks/wk-04.qmd
+2026-06-29T00:00:00Z,6,"[Concept of tidy data, vectors and pivoting](weeks/wk-05.qmd)",lecture 4,weeks/wk-05.qmd
+2026-07-06T00:00:00Z,7,[Joining data & data communication using Quarto](weeks/wk-06.qmd),lecture 5,weeks/wk-06.qmd
+2026-07-17T00:00:00Z,8,[Capstone Project submission due date](project/),no lecture,project/
