@@ -120,7 +120,7 @@ Rules of `dplyr` functions:
 ::: {.callout-note}
 ## **Follow along on the screen**
 1. Open the GitHub organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
-2. You will find a repository titled: **wk-04-USERNAME** (with your GitHub Username)
+2. You will find a repository titled: **md-05-USERNAME** (with your GitHub Username)
 3. You will "clone" this repository to Posit Cloud
 :::
 

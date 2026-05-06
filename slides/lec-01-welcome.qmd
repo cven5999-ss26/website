@@ -197,7 +197,7 @@ Photo by [Daniel Korpai](https://unsplash.com/photos/N1gUD_dCvJE)
 ::: {.callout-note}
 ## **Follow along on the screen**
 1. Open the GitHub organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
-2. You will find a repository titled: **wk-02-USERNAME** (with your GitHub Username)
+2. You will find a repository titled: **md-02-USERNAME** (with your GitHub Username)
 3. You will "clone" this repository to Posit Cloud
 :::
 
@@ -404,7 +404,7 @@ Together, tidying and transforming are called wrangling, because getting your da
 1. Head over to posit.cloud
 2. Open the workspace for the course {{< var course.code >}}
 3. Open "Projects"
-4. Open the "wk-02-USERNAME" project
+4. Open the "md-02-USERNAME" project
 5. Follow along with me
 
 ## Break
