@@ -1,54 +1,54 @@
 author: "Lars Schöbitz"
 
 course:
-  code: "cven5999-ss25"
-  short-title: "cven5999-ss25"
-  long-title: "CVEN 5999 - Summer 2025"
-  site: "https://cven5999-ss25.github.io/website/"
-  site-short: "cven5999-ss25.github.io/website/"
-  github-org: "https://github.com/cven5999-ss25"
-  
+  code: "cven5999-ss26"
+  short-title: "cven5999-ss26"
+  long-title: "CVEN 5999 - Summer 2026"
+  site: "https://cven5999-ss26.github.io/website/"
+  site-short: "cven5999-ss26.github.io/website/"
+  github-org: "https://github.com/cven5999-ss26"
+
 platforms:
-  posit-cloud: "https://posit.cloud/spaces/658092/"
-  posit-cloud-access: "join?access_code=dLb2qZ63VzXDcDP8VCY614F70S8DhyS8ucqfzfoe"
-  pre-course-survey: "https://forms.gle/uCcoH4SvoTasDeEF7"
+  posit-cloud: "https://posit.cloud/spaces/784454/"
+  posit-cloud-access: "join?access_code=gwvc0zIUaURjb5YueeqY1jMRLqRNQK1MGUlMUrP_"
+  pre-course-survey: "https://forms.gle/7m14HPfbYr7n9NKZ9"
 
 md-01:
   title: "Get ready for the course"
-  date: "2025-06-02"
-  homework-due: "2025-06-06"
+  date: "2026-05-25"
+  homework-due: "2026-05-29"
 
 md-02:
   title: "Welcome! & Data Science Life-cycle"
-  date: "2025-06-09"
-  homework-due: "2025-06-13"
-  
+  date: "2026-06-01"
+  homework-due: "2026-06-05"
+
 md-03:
-  title: "Exploratory data analysis using visualization & Data organization in spreadsheets"
-  date: "2025-06-16"
-  homework-due: "2025-06-20"
-  
+  title: "Data Management in Practice - Case Study"
+  date: "2026-06-08"
+  homework-due: "2026-06-12"
+
 md-04:
-  title: "Data transformation and descriptive statistics"
-  date: "2025-06-23"
-  homework-due: "2025-06-27"
-  
+  title: "Exploratory data analysis using visualization & Data organization in spreadsheets"
+  date: "2026-06-15"
+  homework-due: "2026-06-19"
+
 md-05:
-  title: "Concept of tidy data, vectors and pivoting"
-  date: "2025-06-30"
-  homework-due: "2025-07-04"
-  
+  title: "Data transformation and descriptive statistics"
+  date: "2026-06-22"
+  homework-due: "2026-06-26"
+
 md-06:
-  title: "Joining data & data communication using Quarto"
-  date: "2025-07-07"
-  homework-due: "2025-07-11"
-  
+  title: "Concept of tidy data, vectors and pivoting"
+  date: "2026-06-29"
+  homework-due: "2026-07-03"
+
 md-07:
-  title: "Capstone Project"
-  date: "2025-07-14"
-  homework-due: "2025-07-18"
-  
+  title: "Joining data & data communication using Quarto"
+  date: "2026-07-06"
+  homework-due: "2026-07-10"
+
 md-08:
   title: "Capstone Project submission due date"
-  date: "2025-07-21"
-  homework-due: "2025-07-25"
+  date: "2026-07-17"
+  homework-due: "2026-07-17"

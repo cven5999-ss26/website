@@ -1,5 +1,5 @@
 ---
-title: "{{< var md-04.title >}}"
+title: "{{< var md-05.title >}}"
 subtitle: "{{< var course.long-title >}}"
 author: "{{< var author >}}"
 format: 
@@ -13,7 +13,7 @@ editor: source
 execute:
   freeze: auto
 params:
-    week: 4
+    module: 5
 ---
 
 
@@ -53,12 +53,12 @@ countdown(
 
 ```
 
-## Learning Objectives (for this week)
+## Learning Objectives (for this module)
 
 ```{r}
 #| echo: false
 lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
-  dplyr::filter(week == params$week) |>
+  dplyr::filter(module == params$module) |>
   dplyr::pull(learning_objectives)
 
 ```
@@ -161,18 +161,18 @@ Photo by [Blake Wisz](https://unsplash.com/@blakewisz)
 5. Open the `hw-data-transformation.qmd` file
 6. Start working through the exercises in the file together
 
-# Homework week 4 {background-color="#0F4C81"}
+# Homework Module 5 {background-color="#0F4C81"}
 
 ## Homework due dates
 
-- All material on [course website]({{< var course.site >}}weeks/wk-04.html)
+- All material on [course website]({{< var course.site >}}modules/md-05.html)
 - Homework assignment & learning reflection due: [**{{< var md-04.homework-due >}}**]{.highlight-yellow}
 
-# Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}
+# Thanks! {{< fa sun >}}  {background-color="#0F4C81"}
 
 ## 
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ 
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
 
 Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-03-transformation.pdf)
 

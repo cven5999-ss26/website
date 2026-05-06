@@ -1,0 +1,31 @@
+---
+title: "Module 3"
+subtitle: "Data Management in Practice - Case Study"
+editor: source
+params:
+    module: 3
+execute:
+  echo: false
+  warning: false
+bibliography: references.bib
+---
+
+This module focuses on a case study exploring data management practices. There is no lecture this week. The material is currently being developed.
+
+## Learning Objectives
+
+```{r}
+
+lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
+  dplyr::filter(module == params$module) |>
+  dplyr::pull(learning_objectives)
+
+```
+
+*(Learning objectives to be defined)*
+
+## Assignments
+
+Complete by [**{{< var md-03.homework-due >}}**]{.highlight-yellow}.
+
+*(Assignment details to be added)*

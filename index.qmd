@@ -4,11 +4,13 @@ editor: source
 execute: 
   echo: false
   warning: false
+editor_options: 
+  chunk_output_type: console
 ---
 
 # CVEN 5999: Special Topics - Data Analytics for Development
 
-Summer Online - Session C - June 2, 2025 - July 25, 2025; Monday 12:30 - 3:00 pm MT
+Summer Online - Session C - May 25, 2026 - July 17, 2026; Monday 2:30 - 5:00 pm CET / 6:30 - 9:00 am MT
 
 Instructor: [Lars Schöbitz](https://www.linkedin.com/in/larsschoebitz/)
 
@@ -39,25 +41,25 @@ We will rely entirely on open source and open access material for this course. W
 
 ```{r}
 readr::read_csv("data/tbl-01-course-schedule.csv") |> 
-  dplyr::select(date, week, topic = title, note) |> 
+  dplyr::select(date, module, topic = title, note) |> 
   dplyr::mutate(date = format(date, format = "%d %B %Y")) |> 
   knitr::kable()
   
 ```
 
-# Weekly Structure
+# Module Structure
 
 |          |                                           |
 |----------|-------------------------------------------|
 | **Monday**   |  Lecture              |
 | **Tuesday**  |                                   |
 | **Wednesday** |  |
-| **Thursday** |       Feedback (grading) on assignments from previous week   |
+| **Thursday** |       Feedback (grading) on assignments from previous module   |
 | **Friday**   | Homework assignment and learning reflection are due             |
 
 # Assignments
 
-**Homework assignments**: Each week will have at least one homework assignment. All assignments, but those for Week 1 are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub. Homework assignments are graded as pass/fail (100 points).
+**Homework assignments**: Each module will have at least one homework assignment. All assignments, but those for Module 1 are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub. Homework assignments are graded as pass/fail (100 points).
 
 **Readings/Learning reflections**: Additional readings will be provided. Some are required, others are optional. Students will be asked to write 100 word reflections on the material that they have learned. These reflections are delivered as Quarto documents and graded as pass/fail (100 points). Students are required to submit their work through GitHub.
 

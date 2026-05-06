@@ -1,0 +1,17 @@
+{
+  "hash": "f2236f35b31c801ccd81488910ea8721",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Module 5\"\nsubtitle: \"Data transformation with dplyr\"\neditor: source\nparams:\n    module: 5\nexecute: \n  echo: false\n  warning: false\n---\n\n\n## {{< fa bullseye >}} Learning Objectives\n\n\n::: {.cell}\n\n:::\n\n\n1. Learners can apply ten functions from the dplyr R Package to generate a subset of data for use in a table or plot.\n\n## {{< fa display >}} Slides\n\n[View slides in full screen](../slides/lec-03-transformation.html) | [Download slides as PDF]({{< var course.github-org >}}/website/raw/main/slides/lec-03-transformation.pdf)\n\n```{=html}\n<iframe class=\"slide-deck\" src=\"../slides/lec-03-transformation.html\" height=\"420\" width=\"747\" style=\"border: 1px solid #123233;\"></iframe>\n```\n\n## {{< fa book >}} Readings\n\n1. Read [R for Data Science - Section 5 - Data transformation](https://r4ds.had.co.nz/transform.html)  \n2. Read [Excuse Me, Do You Have a Moment to Talk About Version Control?](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1399928)\n\n## {{< fa code >}} Homework assignment \n\nHomework assignment & learning reflection due: [**{{< var md-05.homework-due >}}**]{.highlight-yellow}\n\nComplete the homework programming assignments that are in your project folder for Module 5 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all)\n\n- hw-data-transformation.qmd\n\nComplete the following assignment, which is not documented in your Module 5 project folder:\n\n- [HW: Capstone Project Setup](../assignments/hw-04b-capstone-project-setup.qmd): Set up your capstone project repository\n\n## {{< fa pen-clip >}} Learning reflection\n\nComplete the learning reflection that is in your project folder for Module 5 by [**{{< var md-05.homework-due >}}**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all)\n\n- learning-05.qmd\n",
+    "supporting": [
+      "md-05_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

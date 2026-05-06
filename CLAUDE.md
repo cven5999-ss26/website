@@ -4,13 +4,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Quarto-based course website for CVEN 5999: Special Topics - Data Analytics for Development, a summer course at CU Boulder. The site includes course materials, lecture slides, weekly content, and project information.
+This is a Quarto-based course website for CVEN 5999: Special Topics - Data Analytics for Development, a summer course at CU Boulder. The site includes course materials, lecture slides, module content, and project information.
+
+**Current iteration**: SS26 (Summer 2026)
 
 ## Architecture
 
 ### Content Structure
 - **Main pages**: Course overview (`index.qmd`), project details (`project/index.qmd`), schedule (`schedule.qmd`)
-- **Weekly content**: Located in `weeks/` directory (wk-01.qmd through wk-08.qmd)
+- **Module content**: Located in `modules/` directory (md-01.qmd through md-07.qmd)
 - **Lecture slides**: Located in `slides/` directory with RevealJS format (.qmd files)
 - **Data**: Course data and R scripts in `data/` directory
 - **Images**: Organized by lecture in `slides/img/` with subdirectories
@@ -37,7 +39,7 @@ quarto render
 # Render specific content
 quarto render index.qmd
 quarto render slides/lec-01-welcome.qmd
-quarto render weeks/wk-01.qmd
+quarto render modules/md-01.qmd
 ```
 
 ### Preview During Development
@@ -58,8 +60,8 @@ quarto publish gh-pages
 ## Content Guidelines
 
 ### File Organization
-- Weekly content follows naming convention: `wk-XX.qmd` where XX is week number
-- Lecture slides follow: `lec-XX-topic.qmd` pattern
+- Module content follows naming convention: `md-XX.qmd` where XX is module number (01-07)
+- Lecture slides follow: `lec-XX-topic.qmd` pattern (lecture numbers are independent of module numbers)
 - Images organized in `slides/img/lec-XX/` subdirectories
 - Data files in `data/` with R scripts for processing
 
@@ -70,8 +72,8 @@ quarto publish gh-pages
 
 ### Content Integration
 - Course data pulled from CSV files in `data/` directory using R code chunks
-- Variables from `_variables.yml` referenced throughout content using Quarto syntax
-- Cross-references between weeks, slides, and project materials via relative paths
+- Variables from `_variables.yml` referenced throughout content using Quarto syntax (e.g., `{{< var md-01.date >}}`)
+- Cross-references between modules, slides, and project materials via relative paths
 
 ## R Environment
 - Uses tidyverse packages for data manipulation and visualization
@@ -88,3 +90,18 @@ quarto publish gh-pages
 - Create pull request: `gh pr create --title "Rename geographies parameter to entities" --body "Implements #80"`
 - List pull requests: `gh pr list`
 - View pull request: `gh pr view PR_NUMBER`
+
+## Companion homework repos
+
+Homework repos live at `github.com/cven-dev/md-XX` and are cloned into Posit Cloud. Mapping:
+
+| Module | Repo | Lecture |
+|--------|------|---------|
+| 2 | `md-02` | lec-01 |
+| 4 | `md-04` | lec-02 |
+| 5 | `md-05` | lec-03 |
+| 6 | `md-06` | lec-04 |
+| 7 | `md-07` | lec-05 |
+| 7 | `md-07-writing` | (scholarly writing companion) |
+
+`learning-XX.qmd` files inside each repo match the module number. `hw-*.qmd` and `live-*.qmd` filenames remain topic-named.

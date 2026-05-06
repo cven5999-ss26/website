@@ -4,13 +4,13 @@ project:
 
 website:
   page-navigation: true
-  title: "CVEN 5999 - Summer 2025"
+  title: "CVEN 5999 - Summer 2026"
   description: "Homepage for Special Topics - Data Analytics for Development"
-  site-url: "https://cven5999-ss25.github.io/website/"
+  site-url: "https://cven5999-ss26.github.io/website/"
   
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2025, Lars Schöbitz"
+    left: "&copy; Copyright 2026, Lars Schöbitz"
     background: "#D9E3E4"
   
   sidebar:
@@ -23,24 +23,26 @@ website:
     collapse-level: 1
     tools:
       - icon: github
-        href: https://github.com/cven5999-ss25
+        href: https://github.com/cven5999-ss26
         text: "GitHub organization"
     contents: 
       - href: index.qmd
         text: Course Overview
       - text: "---"
-      - href: weeks/wk-01.qmd
-        text: "Week 1"
-      - href: weeks/wk-02.qmd
-        text: "Week 2"
-      - href: weeks/wk-03.qmd
-        text: "Week 3"
-      - href: weeks/wk-04.qmd
-        text: "Week 4"
-      - href: weeks/wk-05.qmd
-        text: "Week 5"
-      - href: weeks/wk-06.qmd
-        text: "Week 6"
+      - href: modules/md-01.qmd
+        text: "Module 1"
+      - href: modules/md-02.qmd
+        text: "Module 2"
+      - href: modules/md-03.qmd
+        text: "Module 3"
+      - href: modules/md-04.qmd
+        text: "Module 4"
+      - href: modules/md-05.qmd
+        text: "Module 5"
+      - href: modules/md-06.qmd
+        text: "Module 6"
+      - href: modules/md-07.qmd
+        text: "Module 7"
       - text: "---"
       - href: "project/index.qmd"
         text: "Capstone Project"
@@ -58,7 +60,7 @@ format:
     mainfont: "Atkinson Hyperlegible"
     include-in-header:
         - text: |
-            <script defer data-domain="cven5999-ss25.github.io/website/" src="https://plausible.io/js/script.js"></script>
+            <script defer data-domain="cven5999-ss26.github.io/website/" src="https://plausible.io/js/script.js"></script>
 
 freeze: auto
 editor: source
