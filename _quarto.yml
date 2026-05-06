@@ -4,13 +4,13 @@ project:
 
 website:
   page-navigation: true
-  title: "CVEN 5999 - Summer 2025"
+  title: "CVEN 5999 - Summer 2026"
   description: "Homepage for Special Topics - Data Analytics for Development"
-  site-url: "https://cven5999-ss25.github.io/website/"
+  site-url: "https://cven5999-ss26.github.io/website/"
   
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2025, Lars Schöbitz"
+    left: "&copy; Copyright 2026, Lars Schöbitz"
     background: "#D9E3E4"
   
   sidebar:
@@ -23,7 +23,7 @@ website:
     collapse-level: 1
     tools:
       - icon: github
-        href: https://github.com/cven5999-ss25
+        href: https://github.com/cven5999-ss26
         text: "GitHub organization"
     contents: 
       - href: index.qmd
@@ -58,7 +58,7 @@ format:
     mainfont: "Atkinson Hyperlegible"
     include-in-header:
         - text: |
-            <script defer data-domain="cven5999-ss25.github.io/website/" src="https://plausible.io/js/script.js"></script>
+            <script defer data-domain="cven5999-ss26.github.io/website/" src="https://plausible.io/js/script.js"></script>
 
 freeze: auto
 editor: source
