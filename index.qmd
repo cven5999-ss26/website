@@ -8,7 +8,7 @@ execute:
 
 # CVEN 5999: Special Topics - Data Analytics for Development
 
-Summer Online - Session C - June 2, 2025 - July 25, 2025; Monday 12:30 - 3:00 pm MT
+Summer Online - Session C - May 25, 2026 - July 17, 2026; Monday 2:30 - 5:00 pm CET / 6:30 - 9:00 am MT
 
 Instructor: [Lars Schöbitz](https://www.linkedin.com/in/larsschoebitz/)
 
