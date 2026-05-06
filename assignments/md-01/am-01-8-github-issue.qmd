@@ -1,0 +1,18 @@
+---
+title: "Prepare questions and open an issue on GitHub"
+---
+
+### Prepare questions
+
+{{< fa book >}} Read the [Course Overview](../../index.html) and pay special attention to the sections **Assignments, Grading scheme, and Late Work**. Prepare at least one question.
+
+### Open an issue on GitHub
+
+-   Open the issue tracker on the website repository: [{{< var course.github-org >}}/website/issues]({{< var course.github-org >}}/website/issues).
+-   Click on "New issue" button.
+-   In the "Title" field
+    -   write: "Homework assignments for Module 1 completed".
+-   In the "Leave a comment" field,
+    -   tag the course instructor with using the `@` sign in combination with `larnsce` as the username,
+    -   post your question that you prepared after reading the [Course Overview](../../index.html),
+    -   add anything that you would like to add.

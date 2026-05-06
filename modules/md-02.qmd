@@ -1,29 +1,39 @@
 ---
 title: "Module 2"
-subtitle: "Welcome! & Data Science life-cycle"
+subtitle: "{{< var md-02.title >}}"
 editor: source
 params:
     module: 2
-execute: 
+execute:
   echo: false
   warning: false
 ---
 
-
-## {{< fa bullseye >}} Learning Objectives
+Welcome to the course! This module introduces you to the platforms we will use and to the data science life-cycle.
 
 ```{r}
+#| label: setup
 
-lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |> 
+library(epoxy)
+```
+
+```{r}
+#| label: learning-objectives
+
+lobj <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
   dplyr::filter(module == params$module) |>
   dplyr::pull(learning_objectives)
 
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+session_date <- format(as.Date(vars$`md-02`$date), "%B %d, %Y")
+homework_due_date <- format(as.Date(vars$`md-02`$`homework-due`), "%B %d, %Y")
 ```
 
-1. `r lobj1[1]`
-2. `r lobj1[2]`
-3. `r lobj1[3]`
-4. `r lobj1[4]`
+## {{< fa bullseye >}} Learning Objectives
+
+```{epoxy}
+{1:length(lobj)}. {lobj[1:length(lobj)]}
+```
 
 ## {{< fa display >}} Slides
 
@@ -39,16 +49,24 @@ Read [R for Data Science - Section 1 - Introduction](https://r4ds.had.co.nz/intr
 
 Read [R for Data Science - Section 2 - Introduction](https://r4ds.had.co.nz/explore-intro.html)
 
-Read [R for Data Science - Section 4 - Workflow basics](https://r4ds.had.co.nz/workflow-basics.html) 
+Read [R for Data Science - Section 4 - Workflow basics](https://r4ds.had.co.nz/workflow-basics.html)
 
-## {{< fa code >}} Homework assignment 
+## {{< fa code >}} Homework assignment
 
-Complete the homework programming assignment that is in your project folder for Module 2 by [**{{< var md-02.homework-due >}}**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all)
+[Due date:]{.highlight-yellow} `r homework_due_date`
 
-- hw-02-data-science-lifecycle.qmd
+Complete the homework programming assignment that is in your project folder for Module 2 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
+
+- hw-data-science-lifecycle.qmd
 
 ## {{< fa pen-clip >}} Learning reflection
 
-Complete the learning reflection that is in your project folder for Module 2 by [**{{< var md-02.homework-due >}}**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all) 
+Complete the learning reflection that is in your project folder for Module 2 by [**`r homework_due_date`**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
 
 - learning-02.qmd
+
+## {{< fa video >}} Session Recording
+
+You can access the recording of the Module 2 session held on `r session_date`.
+
+[Recording link will be added after the live session.]{.highlight-yellow}

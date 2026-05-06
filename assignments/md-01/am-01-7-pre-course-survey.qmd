@@ -1,0 +1,5 @@
+---
+title: "Complete the pre-course survey"
+---
+
+-   Survey link: [{{< var platforms.pre-course-survey >}}]({{< var platforms.pre-course-survey >}})
