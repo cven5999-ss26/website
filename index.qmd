@@ -45,19 +45,19 @@ readr::read_csv("data/tbl-01-course-schedule.csv") |>
   
 ```
 
-# Weekly Structure
+# Module Structure
 
 |          |                                           |
 |----------|-------------------------------------------|
 | **Monday**   |  Lecture              |
 | **Tuesday**  |                                   |
 | **Wednesday** |  |
-| **Thursday** |       Feedback (grading) on assignments from previous week   |
+| **Thursday** |       Feedback (grading) on assignments from previous module   |
 | **Friday**   | Homework assignment and learning reflection are due             |
 
 # Assignments
 
-**Homework assignments**: Each week will have at least one homework assignment. All assignments, but those for Week 1 are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub. Homework assignments are graded as pass/fail (100 points).
+**Homework assignments**: Each module will have at least one homework assignment. All assignments, but those for Module 1 are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub. Homework assignments are graded as pass/fail (100 points).
 
 **Readings/Learning reflections**: Additional readings will be provided. Some are required, others are optional. Students will be asked to write 100 word reflections on the material that they have learned. These reflections are delivered as Quarto documents and graded as pass/fail (100 points). Students are required to submit their work through GitHub.
 

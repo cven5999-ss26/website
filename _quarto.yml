@@ -29,18 +29,20 @@ website:
       - href: index.qmd
         text: Course Overview
       - text: "---"
-      - href: weeks/wk-01.qmd
-        text: "Week 1"
-      - href: weeks/wk-02.qmd
-        text: "Week 2"
-      - href: weeks/wk-03.qmd
-        text: "Week 3"
-      - href: weeks/wk-04.qmd
-        text: "Week 4"
-      - href: weeks/wk-05.qmd
-        text: "Week 5"
-      - href: weeks/wk-06.qmd
-        text: "Week 6"
+      - href: modules/md-01.qmd
+        text: "Module 1"
+      - href: modules/md-02.qmd
+        text: "Module 2"
+      - href: modules/md-03.qmd
+        text: "Module 3"
+      - href: modules/md-04.qmd
+        text: "Module 4"
+      - href: modules/md-05.qmd
+        text: "Module 5"
+      - href: modules/md-06.qmd
+        text: "Module 6"
+      - href: modules/md-07.qmd
+        text: "Module 7"
       - text: "---"
       - href: "project/index.qmd"
         text: "Capstone Project"

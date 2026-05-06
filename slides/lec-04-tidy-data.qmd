@@ -1,5 +1,5 @@
 ---
-title: "{{< var md-05.title >}}"
+title: "{{< var md-06.title >}}"
 subtitle: "{{< var course.long-title >}}"
 author: "{{< var author >}}"
 format: 
@@ -13,7 +13,7 @@ editor: source
 execute:
   freeze: auto
 params:
-    week: 5
+    module: 6
 bibliography: references.bib
 editor_options: 
   chunk_output_type: console
@@ -571,7 +571,7 @@ ggplot(data = waste_data_tidy,
 
 ## Homework due dates
 
--   All material on [course website]({{< var course.site >}}weeks/wk-05.html)
+-   All material on [course website]({{< var course.site >}}modules/md-06.html)
 -   Homework assignment & learning reflection due: [**{{< var md-05.homework-due >}}**]{.highlight-yellow}
 
 # Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}

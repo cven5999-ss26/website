@@ -1,9 +1,9 @@
 ---
-title: "Week 6"
+title: "Module 7"
 subtitle: "Joining data & communicating results with Quarto"
 editor: source
 params:
-    week: 6
+    module: 7
 execute: 
   echo: false
   warning: false
@@ -15,7 +15,7 @@ execute:
 ```{r}
 
 lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |> 
-  dplyr::filter(week == params$week) |>
+  dplyr::filter(module == params$module) |>
   dplyr::pull(learning_objectives)
 
 ```
@@ -39,11 +39,11 @@ lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
 
 ## {{< fa code >}} Homework assignment 
 
-Homework assignment & learning reflection due: [**{{< var md-06.homework-due >}}**]{.highlight-yellow}
+Homework assignment & learning reflection due: [**{{< var md-07.homework-due >}}**]{.highlight-yellow}
 
-Complete the homework programming assignments that are in your folder for week 6 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all):
+Complete the homework programming assignments that are in your folder for Module 7 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all):
 
-You will need to clone your `wk-06-USERNAME` folder to Posit Cloud first and then complete:
+You will need to clone your `md-07-USERNAME` folder to Posit Cloud first and then complete:
 
 - hw-01-data-import-exploration.qmd
 - hw-02-filter-join.qmd
@@ -52,6 +52,6 @@ You will need to clone your `wk-06-USERNAME` folder to Posit Cloud first and the
  
 ## {{< fa pen-clip >}} Learning reflection
 
-Complete the learning reflection that is in your folder for week 6 by [**{{< var md-06.homework-due >}}**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all)
+Complete the learning reflection that is in your folder for Module 7 by [**{{< var md-07.homework-due >}}**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all)
 
 - learning-06.qmd 

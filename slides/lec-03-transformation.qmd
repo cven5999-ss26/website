@@ -1,5 +1,5 @@
 ---
-title: "{{< var md-04.title >}}"
+title: "{{< var md-05.title >}}"
 subtitle: "{{< var course.long-title >}}"
 author: "{{< var author >}}"
 format: 
@@ -13,7 +13,7 @@ editor: source
 execute:
   freeze: auto
 params:
-    week: 4
+    module: 5
 ---
 
 
@@ -165,7 +165,7 @@ Photo by [Blake Wisz](https://unsplash.com/@blakewisz)
 
 ## Homework due dates
 
-- All material on [course website]({{< var course.site >}}weeks/wk-04.html)
+- All material on [course website]({{< var course.site >}}modules/md-05.html)
 - Homework assignment & learning reflection due: [**{{< var md-04.homework-due >}}**]{.highlight-yellow}
 
 # Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}

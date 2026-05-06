@@ -1,9 +1,9 @@
 ---
-title: "Week 1"
+title: "Module 1"
 subtitle: "Get ready for the course!"
 editor: source
 params:
-    week: 1
+    module: 1
 execute: 
   echo: false
   warning: false
@@ -18,7 +18,7 @@ This first week will be used to get you set up for the course. Work through the 
 ```{r}
 
 lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |> 
-  dplyr::filter(week == params$week) |>
+  dplyr::filter(module == params$module) |>
   dplyr::pull(learning_objectives)
 
 ```
@@ -35,7 +35,7 @@ lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
 
 ## Homework assignments
 
-These homework assigments are pre-requisities for Week 2 of the. Complete them by [**{{< var md-01.homework-due >}}**]{.highlight-yellow} to receive the points for this assignment.
+These homework assignments are pre-requisites for Module 2. Complete them by [**{{< var md-01.homework-due >}}**]{.highlight-yellow} to receive the points for this assignment.
 
 ### Prepare questions
 
@@ -122,7 +122,7 @@ Remember to treat your access tokens like passwords and keep them secure (e.g. a
 -   Open the issue tracker on the website repository: [{{< var course.github-org >}}/website/issues]({{< var course.github-org >}}/website/issues).
 -   Click on "New issue" button.
 -   In the "Title" field
-    -   write: "Homework assignments for week 1 completed".
+    -   write: "Homework assignments for Module 1 completed".
 -   In the "Leave a comment" field,
     -   tag the course instructor with using the `@` sign in combination with `larnsce` as the username,
     -   post your question that you prepared after reading the [Course Overview](../index.html),
@@ -130,4 +130,4 @@ Remember to treat your access tokens like passwords and keep them secure (e.g. a
 
 ## Thanks! `r emo::ji("sunflower")`
 
-Thank you for working through these assignments. I am looking forward to meeting you next week.
+Thank you for working through these assignments. I am looking forward to meeting you in Module 2.

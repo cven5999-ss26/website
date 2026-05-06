@@ -2,7 +2,7 @@
 title: "Capstone Project"
 editor: source
 params:
-    week: 7
+    module: 8
 execute: 
   echo: false
   warning: false

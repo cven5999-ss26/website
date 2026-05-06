@@ -1,5 +1,5 @@
 ---
-title: "{{< var md-06.title >}}"
+title: "{{< var md-07.title >}}"
 subtitle: "{{< var course.long-title >}}"
 author: "{{< var author >}}"
 format: 
@@ -13,7 +13,7 @@ editor: source
 execute:
   freeze: auto
 params:
-    week: 6
+    module: 7
 ---
 
 
@@ -607,14 +607,14 @@ tibble(
 
 ## Homework due dates
 
-- All material on [course website]({{< var course.site >}}weeks/wk-06.html)
+- All material on [course website]({{< var course.site >}}modules/md-07.html)
 - Homework assignment & learning reflection due: [**{{< var md-06.homework-due >}}**]{.highlight-yellow}
 
 # Capstone Project Report
 
 ## Information
 
-- All material on [course website]({{< var course.site >}}weeks/wk-07.html)
+- All material on [course website]({{< var course.site >}}modules/md-08.html)
 - Due date for report: [**{{< var md-08.homework-due >}}**]{.highlight-yellow}
 
 # Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}

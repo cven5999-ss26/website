@@ -13,7 +13,7 @@ editor: source
 execute:
   freeze: auto
 params:
-    week: 2
+    module: 2
 ---
 
 
@@ -603,7 +603,7 @@ readr::read_csv(here::here("data/tbl-03-grading-scheme.csv")) |>
 
 ## Homework due dates
 
-- All material on [course website]({{< var course.site >}}weeks/wk-01.html)
+- All material on [course website]({{< var course.site >}}modules/md-02.html)
 - Homework assignment & learning reflection due: [**{{< var md-02.homework-due >}}**]{.highlight-yellow} 
 
 # Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}
