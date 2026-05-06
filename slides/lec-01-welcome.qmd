@@ -23,7 +23,7 @@ library(countdown)
 library(magrittr)
 ```
 
-# Welcome! `r emo::ji("wave")`  {background-color="#0F4C81"}
+# Welcome! {{< fa hand >}}  {background-color="#0F4C81"}
 
 ## Meet the lecturer
 
@@ -86,12 +86,12 @@ What does the item you have picked have to do with the reason for you being here
 Share with us from which country you are joining us.
 :::
 
-## Learning Objectives (for this week)
+## Learning Objectives (for this module)
 
 ```{r}
 
 lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
-  dplyr::filter(week == params$week) |>
+  dplyr::filter(module == params$module) |>
   dplyr::pull(learning_objectives)
 
 ```
@@ -136,7 +136,7 @@ Artwork from [@juliesquid](https://twitter.com/juliesquid) for [@openscapes](htt
 - tidyverse R Packages
 - Quarto publishing system
 
-## [{{< var course.site-short >}}]({{< var course.site >}}) `r emo::ji("bookmark")`
+## [{{< var course.site-short >}}]({{< var course.site >}}) {{< fa bookmark >}}
 
 # Posit Cloud {background-color="#0F4C81"}
 
@@ -204,7 +204,7 @@ Photo by [Daniel Korpai](https://unsplash.com/photos/N1gUD_dCvJE)
 ## Break
 
 ::: {.callout-important}
-## GitHub PAT from week 1
+## GitHub PAT from Module 1
 
 Do you have your **GitHub Personal Access Token** readily accessible?
 
@@ -557,7 +557,7 @@ Rules of `dplyr` functions:
 | **Monday**   |  Lecture              |
 | **Tuesday**  |                                   |
 | **Wednesday** |  |
-| **Thursday** | Feedback (grading) on assignments from previous week |
+| **Thursday** | Feedback (grading) on assignments from previous module |
 | **Friday**   | Homework assignment and learning reflection are due             |
 
 ## Homework assignments
@@ -599,14 +599,14 @@ readr::read_csv(here::here("data/tbl-03-grading-scheme.csv")) |>
 - work not submitted by the due date will receive 0 pts
 - the lowest score for each of the assignments or learning reflections is dropped
 
-# Homework week 2 {background-color="#0F4C81"}
+# Homework Module 2 {background-color="#0F4C81"}
 
 ## Homework due dates
 
 - All material on [course website]({{< var course.site >}}modules/md-02.html)
 - Homework assignment & learning reflection due: [**{{< var md-02.homework-due >}}**]{.highlight-yellow} 
 
-# Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}
+# Thanks! {{< fa sun >}}  {background-color="#0F4C81"}
 
 ## 
 

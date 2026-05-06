@@ -39,7 +39,7 @@ We will rely entirely on open source and open access material for this course. W
 
 ```{r}
 readr::read_csv("data/tbl-01-course-schedule.csv") |> 
-  dplyr::select(date, week, topic = title, note) |> 
+  dplyr::select(date, module, topic = title, note) |> 
   dplyr::mutate(date = format(date, format = "%d %B %Y")) |> 
   knitr::kable()
   

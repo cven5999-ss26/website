@@ -34,3 +34,5 @@ _extensions/
 .positai
 .secrets/
 .secrets
+
+**/*.quarto_ipynb

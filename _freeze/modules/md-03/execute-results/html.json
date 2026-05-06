@@ -1,0 +1,15 @@
+{
+  "hash": "c3c594b4c2a97b836e23d600c58a6350",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Module 3\"\nsubtitle: \"Data Management in Practice - Case Study\"\neditor: source\nparams:\n    module: 3\nexecute:\n  echo: false\n  warning: false\nbibliography: references.bib\n---\n\nThis module focuses on a case study exploring data management practices. There is no lecture this week. The material is currently being developed.\n\n## Learning Objectives\n\n\n::: {.cell}\n\n:::\n\n\n*(Learning objectives to be defined)*\n\n## Assignments\n\nComplete by [**{{< var md-03.homework-due >}}**]{.highlight-yellow}.\n\n*(Assignment details to be added)*\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

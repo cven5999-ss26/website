@@ -11,7 +11,7 @@ bibliography: references.bib
 ---
 
 
-This first week will be used to get you set up for the course. Work through the homework assignments one after the other.
+This first module will be used to get you set up for the course. Work through the homework assignments one after the other.
 
 ## Learning Objectives
 
@@ -29,9 +29,9 @@ lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
 
 ## Readings
 
-`r emo::ji("book")` Read the [Course Overview](../index.html) and pay special attention to the sections Assignments, Grading scheme, and late work.
+{{< fa book >}} Read the [Course Overview](../index.html) and pay special attention to the sections Assignments, Grading scheme, and late work.
 
-`r emo::ji("book")` Read @wilson2017 "Good enough practices in scientific computing".
+{{< fa book >}} Read @wilson2017 "Good enough practices in scientific computing".
 
 ## Homework assignments
 
@@ -39,7 +39,7 @@ These homework assignments are pre-requisites for Module 2. Complete them by [**
 
 ### Prepare questions
 
-`r emo::ji("book")` Read the [Course Overview](../index.html) and pay special attention to the sections **Assignments, Grading scheme, and Late Work**. Prepare at least one question.
+{{< fa book >}} Read the [Course Overview](../index.html) and pay special attention to the sections **Assignments, Grading scheme, and Late Work**. Prepare at least one question.
 
 ### Get an account for GitHub
 
@@ -128,6 +128,6 @@ Remember to treat your access tokens like passwords and keep them secure (e.g. a
     -   post your question that you prepared after reading the [Course Overview](../index.html),
     -   add anything that you would like to add.
 
-## Thanks! `r emo::ji("sunflower")`
+## Thanks! {{< fa sun >}}
 
 Thank you for working through these assignments. I am looking forward to meeting you in Module 2.

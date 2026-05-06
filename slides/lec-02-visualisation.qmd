@@ -122,12 +122,12 @@ Artwork by [@allison_horst](https://twitter.com/allison_horst)
 Artwork by [@allison_horst](https://www.allisonhorst.com/)
 :::
 
-## Learning Objectives (for this week)
+## Learning Objectives (for this module)
 
 ```{r}
 
 lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
-  dplyr::filter(week == params$week) |>
+  dplyr::filter(module == params$module) |>
   dplyr::pull(learning_objectives)
 
 ```
@@ -384,7 +384,7 @@ knitr::include_graphics("img/lec-02/data-org-license.png")
 Karl Broman, GitHub repo broman/Talk_DataOrg, [Screenshot taken on 2022-03-23](https://github.com/kbroman/Talk_DataOrg)
 :::
 
-# Homework week 3 {background-color="#0F4C81"}
+# Homework Module 4 {background-color="#0F4C81"}
 
 ## Identify a dataset for the capstone project
 
@@ -397,7 +397,7 @@ Karl Broman, GitHub repo broman/Talk_DataOrg, [Screenshot taken on 2022-03-23](h
 - All material on [course website]({{< var course.site >}}modules/md-04.html)
 - Homework assignment & learning reflection due: [**{{< var md-03.homework-due >}}**]{.highlight-yellow} 
 
-# Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}
+# Thanks! {{< fa sun >}}  {background-color="#0F4C81"}
 
 ##
 

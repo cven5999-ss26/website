@@ -148,12 +148,12 @@ waste_data_tidy |>
   facet_wrap(~waste_category, ncol = 5)
 ```
 
-## Learning Objectives (for this week)
+## Learning Objectives (for this module)
 
 ```{r}
 
 lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
-  dplyr::filter(week == params$week) |>
+  dplyr::filter(module == params$module) |>
   dplyr::pull(learning_objectives)
 
 ```
@@ -567,14 +567,14 @@ ggplot(data = waste_data_tidy,
 5. Follow along with me
 
 
-# Homework week 5 {background-color="#0F4C81"}
+# Homework Module 6 {background-color="#0F4C81"}
 
 ## Homework due dates
 
 -   All material on [course website]({{< var course.site >}}modules/md-06.html)
 -   Homework assignment & learning reflection due: [**{{< var md-05.homework-due >}}**]{.highlight-yellow}
 
-# Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}
+# Thanks! {{< fa sun >}}  {background-color="#0F4C81"}
 
 ## 
 
