@@ -48,7 +48,7 @@ You will need to clone your `md-07-USERNAME` folder to Posit Cloud first and the
 - hw-01-data-import-exploration.qmd
 - hw-02-filter-join.qmd
 - hw-03-data-analysis.qmd
-- hw-04-data-visualization.qmd
+- hw-04-data-visualization-pivoting.qmd
  
 ## {{< fa pen-clip >}} Learning reflection
 
