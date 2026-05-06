@@ -91,26 +91,17 @@ quarto publish gh-pages
 - List pull requests: `gh pr list`
 - View pull request: `gh pr view PR_NUMBER`
 
-## Pending Tasks
+## Companion homework repos
 
-### Posit Cloud Homework File Renaming
-The website was restructured from "weeks" to "modules" in SS26. The homework and learning reflection files on Posit Cloud need to be renamed to match the new module numbering:
+Homework repos live at `github.com/cven-dev/md-XX` and are cloned into Posit Cloud. Mapping:
 
-**Module to lecture/homework mapping:**
-| Module | Content | Lecture | HW files to rename |
-|--------|---------|---------|-------------------|
-| 1 | Get ready | - | (no changes needed) |
-| 2 | Welcome & DS Lifecycle | lec-01 | hw-02, learning-02 |
-| 3 | Case Study | - | (new module, no lecture) |
-| 4 | EDA & Spreadsheets | lec-02 | hw-03→hw-04, learning-03→learning-04 |
-| 5 | Transformation | lec-03 | hw-04→hw-05, learning-04→learning-05 |
-| 6 | Tidy data | lec-04 | hw-05→hw-06, learning-05→learning-06 |
-| 7 | Joining & Quarto | lec-05 | hw-06→hw-07, learning-06→learning-07 |
-| 8 | Capstone submission | - | (project only) |
+| Module | Repo | Lecture |
+|--------|------|---------|
+| 2 | `md-02` | lec-01 |
+| 4 | `md-04` | lec-02 |
+| 5 | `md-05` | lec-03 |
+| 6 | `md-06` | lec-04 |
+| 7 | `md-07` | lec-05 |
+| 7 | `md-07-writing` | (scholarly writing companion) |
 
-**Files affected on Posit Cloud:**
-- Project folders need renaming (e.g., `wk-03` → `md-04`)
-- Homework .qmd files within each project
-- Learning reflection .qmd files within each project
-
-This renaming should be done in a session with access to the Posit Cloud development repositories.
+`learning-XX.qmd` files inside each repo match the module number. `hw-*.qmd` and `live-*.qmd` filenames remain topic-named.
