@@ -4,6 +4,8 @@ editor: source
 execute: 
   echo: false
   warning: false
+editor_options: 
+  chunk_output_type: console
 ---
 
 # CVEN 5999: Special Topics - Data Analytics for Development

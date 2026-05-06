@@ -401,7 +401,7 @@ Karl Broman, GitHub repo broman/Talk_DataOrg, [Screenshot taken on 2022-03-23](h
 
 ##
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
 Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-02-visualisation.pdf)
 

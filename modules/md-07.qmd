@@ -54,4 +54,4 @@ You will need to clone your `md-07-USERNAME` folder to Posit Cloud first and the
 
 Complete the learning reflection that is in your folder for Module 7 by [**{{< var md-07.homework-due >}}**]{.highlight-yellow} on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all)
 
-- learning-06.qmd 
+- learning-07.qmd 

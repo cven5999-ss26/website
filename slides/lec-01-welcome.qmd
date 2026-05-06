@@ -610,7 +610,7 @@ readr::read_csv(here::here("data/tbl-03-grading-scheme.csv")) |>
 
 ## 
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ 
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
 
 Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-01-welcome.pdf)
 

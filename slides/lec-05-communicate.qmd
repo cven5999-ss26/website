@@ -623,7 +623,7 @@ tibble(
 
 A large proportion of these slides are taken from [Mine Çetinkaya Rundel's "Hello Quarto" presentation](https://mine.quarto.pub/hello-quarto/#/hello-quarto-title) & [Thomas Mock's "Quarto for the Curious" presentation](https://jthomasmock.github.io/quarto-presentation/#/TitleSlide)
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ 
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
 
 Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-05-communicate.pdf)
 
