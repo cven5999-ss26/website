@@ -13,7 +13,7 @@ In this assignment, you will configure Git, then commit and push your first chan
 
 ## Step 1: Introduce yourself to git
 
-1. In Posit Cloud, open the [md-01-USERNAME]{.highlight-yellow} project that ends with your GitHub username. Ensure that you are in the workspace of [{{< var course.code >}}]{.highlight-yellow}. You can verify this by looking at the top left corner next to your repository name. If this says [Your Workspace]{.highlight-yellow}, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the [{{< var course.code >}}]{.highlight-yellow} workspace.
+1. In Posit Cloud, open the [md-02-USERNAME]{.highlight-yellow} project that ends with your GitHub username. Ensure that you are in the workspace of [{{< var course.code >}}]{.highlight-yellow}. You can verify this by looking at the top left corner next to your repository name. If this says [Your Workspace]{.highlight-yellow}, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the [{{< var course.code >}}]{.highlight-yellow} workspace.
 
 ![](images/github-workflow/screenshot-posit-cloud-project.png){width=100%}
 
@@ -73,7 +73,7 @@ These will be the details that git will use to identify you when you make change
 
 ![](images/github-workflow/step2/screenshot-git-credentials.png){width=100%}
 
-9. Enter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in [Assignment 4](am-01-4-github-pat.qmd).
+9. Enter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in [Assignment 4](../md-01/am-01-4-github-pat.qmd).
 
 ![](images/github-workflow/step2/screenshot-git-credentials-pat.png){width=100%}
 
@@ -85,4 +85,4 @@ If you see a message that says `HEAD -> main`, then you have successfully pushed
 If you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.
 :::
 
-Continue with the [pre-course survey](am-01-7-pre-course-survey.qmd) and the [final GitHub issue](am-01-8-github-issue.qmd) to wrap up Module 1.
+You have now completed the GitHub workflow for Module 2.

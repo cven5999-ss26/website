@@ -9,7 +9,7 @@ The screenshots in this assignment are from a previous course iteration and will
 
 ## Clone a repository
 
-In this assignment, you will clone your personal Module 1 repository from GitHub to Posit Cloud.
+In this assignment, you will clone your personal Module 2 repository from GitHub to Posit Cloud.
 
 1. Open <https://github.com/> in your browser.
 
@@ -19,10 +19,10 @@ In this assignment, you will clone your personal Module 1 repository from GitHub
 
 ![](images/github-clone/screenshot-github-org-search.png){width=100%}
 
-3. Find the repository `md-01-USERNAME` that [ends with your GitHub username]{.highlight-yellow}, and open it by clicking on the repository name.
+3. Find the repository `md-02-USERNAME` that [ends with your GitHub username]{.highlight-yellow}, and open it by clicking on the repository name.
 
 - Replace `USERNAME` with your actual GitHub username.
-- For example, if your username is `johnsmith`, the repository will be `md-01-johnsmith`.
+- For example, if your username is `johnsmith`, the repository will be `md-02-johnsmith`.
 
 ::: {.callout-tip}
 You can search for your repository by typing your username in the search bar just below the Repository heading.
@@ -54,4 +54,4 @@ You can search for your repository by typing your username in the search bar jus
 
 ![](images/github-clone/screenshot-posit-cloud-deploying.png){width=100%}
 
-10. Continue with the next assignment: [GitHub workflow](am-01-6-github-workflow.qmd).
+10. Continue with the next assignment: [GitHub workflow](am-02-2-github-workflow.qmd).

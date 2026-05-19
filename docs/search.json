@@ -174,7 +174,7 @@
     "href": "modules/md-01.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignments",
     "title": "Module 1",
     "section": " Homework assignments",
-    "text": "Homework assignments\nDue date: May 29, 2026\nThese homework assignments are pre-requisites for Module 2. Please complete them before the due date.\n\nAssignment 1: Get an account for GitHub\nAssignment 2: Create your personal unique ORCID iD\nAssignment 3: Log into Posit Cloud and join the course workspace\nAssignment 4: Set up a GitHub Personal Access Token\nAssignment 5: Clone a GitHub repository to Posit Cloud\nAssignment 6: GitHub workflow — configure git, commit, and push\nAssignment 7: Complete the pre-course survey\nAssignment 8: Prepare questions and open an issue on GitHub",
+    "text": "Homework assignments\nDue date: May 29, 2026\nThese homework assignments are pre-requisites for Module 2. Please complete them before the due date.\n\nAssignment 1: Get an account for GitHub\nAssignment 2: Create your personal unique ORCID iD\nAssignment 3: Log into Posit Cloud and join the course workspace\nAssignment 4: Set up a GitHub Personal Access Token\nAssignment 5: Complete the pre-course survey\nAssignment 6: Prepare questions and open an issue on GitHub",
     "crumbs": [
       "Module 1"
     ]
@@ -836,80 +836,25 @@
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-4-github-pat.html",
-    "href": "assignments/md-01/am-01-4-github-pat.html",
-    "title": "GitHub Personal Access Token",
+    "objectID": "assignments/md-01/am-01-6-github-issue.html",
+    "href": "assignments/md-01/am-01-6-github-issue.html",
+    "title": "Prepare questions and open an issue on GitHub",
     "section": "",
-    "text": "NoteScreenshots will be updated\n\n\n\nThe screenshots in this assignment are from a previous course iteration and will be updated before the class starts.",
+    "text": "Prepare questions\n Read the Course Overview and pay special attention to the sections Assignments, Grading scheme, and Late Work. Prepare at least one question.\n\n\nOpen an issue on GitHub\n\nOpen the issue tracker on the website repository: https://github.com/cven5999-ss26/website/issues.\nClick on “New issue” button.\nIn the “Title” field\n\nwrite: “Homework assignments for Module 1 completed”.\n\nIn the “Leave a comment” field,\n\ntag the course instructor with using the @ sign in combination with larnsce as the username,\npost your question that you prepared after reading the Course Overview,\nadd anything that you would like to add.",
     "crumbs": [
       "Module 1",
-      "am-01-4: GitHub PAT"
+      "am-01-6: GitHub issue"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-4-github-pat.html#create-a-github-personal-access-token",
-    "href": "assignments/md-01/am-01-4-github-pat.html#create-a-github-personal-access-token",
-    "title": "GitHub Personal Access Token",
-    "section": "Create a GitHub Personal Access Token",
-    "text": "Create a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token (PAT):\n\n\n\n\n\n\nImportant\n\n\n\nTreat your access tokens like passwords and keep them secure (e.g., in password management software).\n\n\n\nLog in to your GitHub account.\n\n\n\nClick on your profile picture in the top-right corner of the page.\n\n\n\nSelect Settings from the dropdown menu.\n\n\n\nIn the left sidebar, click on Developer settings.\n\n\n\nClick on Personal access tokens.\n\n\n\nClick on “Tokens (classic)”.\n\n\n\nClick on Generate new token and from the dropdown menu select Generate new token (classic).\n\n\n\nIn the Note field, give your token the name: GITHUB_PAT\n\n\n\nUnder Expiration, select No expiration\n\n\n\nUnder Select scopes, select: repo, workflow\n\n\n\nAlso select user a bit further down the list.\n\n\n\nClick on Generate token.\n\n\n\nYour personal access token will be displayed on the screen. Copy it to your clipboard by clicking the copy icon next to the token. Make sure to copy it immediately, as you will not be able to see it again after you leave the page.\n\n\n\nDo not copy and store the token in a Word document (DOCX). Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone. On Windows, you can use Notepad, and on macOS, you can use TextEdit.\n\n\n\n\n\n\n\nTip\n\n\n\nYou will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. If you lose the token, you can generate a new one.\n\n\nContinue with the next assignment: Clone a GitHub repository.",
-    "crumbs": [
-      "Module 1",
-      "am-01-4: GitHub PAT"
-    ]
-  },
-  {
-    "objectID": "assignments/md-01/am-01-6-github-workflow.html",
-    "href": "assignments/md-01/am-01-6-github-workflow.html",
-    "title": "GitHub workflow",
-    "section": "",
-    "text": "NoteScreenshots will be updated\n\n\n\nThe screenshots in this assignment are from a previous course iteration and will be updated before the class starts.",
-    "crumbs": [
-      "Module 1",
-      "am-01-6: GitHub workflow"
-    ]
-  },
-  {
-    "objectID": "assignments/md-01/am-01-6-github-workflow.html#complete-the-github-workflow",
-    "href": "assignments/md-01/am-01-6-github-workflow.html#complete-the-github-workflow",
-    "title": "GitHub workflow",
-    "section": "Complete the GitHub workflow",
-    "text": "Complete the GitHub workflow\nIn this assignment, you will configure Git, then commit and push your first changes to GitHub.",
-    "crumbs": [
-      "Module 1",
-      "am-01-6: GitHub workflow"
-    ]
-  },
-  {
-    "objectID": "assignments/md-01/am-01-6-github-workflow.html#step-1-introduce-yourself-to-git",
-    "href": "assignments/md-01/am-01-6-github-workflow.html#step-1-introduce-yourself-to-git",
-    "title": "GitHub workflow",
-    "section": "Step 1: Introduce yourself to git",
-    "text": "Step 1: Introduce yourself to git\n\nIn Posit Cloud, open the md-01-USERNAME project that ends with your GitHub username. Ensure that you are in the workspace of cven5999-ss26. You can verify this by looking at the top left corner next to your repository name. If this says Your Workspace, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the cven5999-ss26 workspace.\n\n\n\nOpen the git-configuration.qmd file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.\n\n\n\nUnder the heading Git configuration edit the code in the code chunk:\n\n\nReplace the placeholder Your Name with your GitHub username\nReplace Your Email with your email address\nKeep the quotes!\n\nThese will be the details that git will use to identify you when you make changes to your work.\n\n\nSave the file by clicking on the Save icon in the Source pane or by pressing Ctrl + S (Windows/Linux) or Cmd + S (Mac).\nRender the document by clicking the Render button in the Source pane.\n\n\n\nContinue with the next step.",
-    "crumbs": [
-      "Module 1",
-      "am-01-6: GitHub workflow"
-    ]
-  },
-  {
-    "objectID": "assignments/md-01/am-01-6-github-workflow.html#step-2-commit-and-push-your-changes",
-    "href": "assignments/md-01/am-01-6-github-workflow.html#step-2-commit-and-push-your-changes",
-    "title": "GitHub workflow",
-    "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio.\n\n\n\nCheck the box next to the git-configuration.qmd file to stage it for commit.\n\n\n\nClick on the Commit button. A new window opens.\n\n\n\nEnter a commit message in the Commit message field in the top right corner. For example: replaced placeholders with my details.\n\n\n\nClick on the Commit button.\n\n\n\nIf you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on Close. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.\n\n\n\nClick on the Push button in the top right corner.\n\n\n\nEnter your GitHub username and click OK.\n\n\n\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Assignment 4.\n\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nWarningPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\nContinue with the pre-course survey and the final GitHub issue to wrap up Module 1.",
-    "crumbs": [
-      "Module 1",
-      "am-01-6: GitHub workflow"
-    ]
-  },
-  {
-    "objectID": "assignments/md-01/am-01-7-pre-course-survey.html",
-    "href": "assignments/md-01/am-01-7-pre-course-survey.html",
+    "objectID": "assignments/md-01/am-01-5-pre-course-survey.html",
+    "href": "assignments/md-01/am-01-5-pre-course-survey.html",
     "title": "Complete the pre-course survey",
     "section": "",
     "text": "Survey link: https://forms.gle/7m14HPfbYr7n9NKZ9",
     "crumbs": [
       "Module 1",
-      "am-01-7: Pre-course survey"
+      "am-01-5: Pre-course survey"
     ]
   },
   {
@@ -946,6 +891,50 @@
     "title": "HW: Capstone Project Setup",
     "section": " Submission",
     "text": "Submission\nNo separate submission is required. Your instructor will check your GitHub repository to verify completion of the setup tasks."
+  },
+  {
+    "objectID": "assignments/md-02/am-02-2-github-workflow.html",
+    "href": "assignments/md-02/am-02-2-github-workflow.html",
+    "title": "GitHub workflow",
+    "section": "",
+    "text": "NoteScreenshots will be updated\n\n\n\nThe screenshots in this assignment are from a previous course iteration and will be updated before the class starts.",
+    "crumbs": [
+      "Module 2",
+      "am-02-2: GitHub workflow"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-2-github-workflow.html#complete-the-github-workflow",
+    "href": "assignments/md-02/am-02-2-github-workflow.html#complete-the-github-workflow",
+    "title": "GitHub workflow",
+    "section": "Complete the GitHub workflow",
+    "text": "Complete the GitHub workflow\nIn this assignment, you will configure Git, then commit and push your first changes to GitHub.",
+    "crumbs": [
+      "Module 2",
+      "am-02-2: GitHub workflow"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-2-github-workflow.html#step-1-introduce-yourself-to-git",
+    "href": "assignments/md-02/am-02-2-github-workflow.html#step-1-introduce-yourself-to-git",
+    "title": "GitHub workflow",
+    "section": "Step 1: Introduce yourself to git",
+    "text": "Step 1: Introduce yourself to git\n\nIn Posit Cloud, open the md-02-USERNAME project that ends with your GitHub username. Ensure that you are in the workspace of cven5999-ss26. You can verify this by looking at the top left corner next to your repository name. If this says Your Workspace, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the cven5999-ss26 workspace.\n\n\n\nOpen the git-configuration.qmd file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.\n\n\n\nUnder the heading Git configuration edit the code in the code chunk:\n\n\nReplace the placeholder Your Name with your GitHub username\nReplace Your Email with your email address\nKeep the quotes!\n\nThese will be the details that git will use to identify you when you make changes to your work.\n\n\nSave the file by clicking on the Save icon in the Source pane or by pressing Ctrl + S (Windows/Linux) or Cmd + S (Mac).\nRender the document by clicking the Render button in the Source pane.\n\n\n\nContinue with the next step.",
+    "crumbs": [
+      "Module 2",
+      "am-02-2: GitHub workflow"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-2-github-workflow.html#step-2-commit-and-push-your-changes",
+    "href": "assignments/md-02/am-02-2-github-workflow.html#step-2-commit-and-push-your-changes",
+    "title": "GitHub workflow",
+    "section": "Step 2: Commit and push your changes",
+    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio.\n\n\n\nCheck the box next to the git-configuration.qmd file to stage it for commit.\n\n\n\nClick on the Commit button. A new window opens.\n\n\n\nEnter a commit message in the Commit message field in the top right corner. For example: replaced placeholders with my details.\n\n\n\nClick on the Commit button.\n\n\n\nIf you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on Close. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.\n\n\n\nClick on the Push button in the top right corner.\n\n\n\nEnter your GitHub username and click OK.\n\n\n\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Assignment 4.\n\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nWarningPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\nYou have now completed the GitHub workflow for Module 2.",
+    "crumbs": [
+      "Module 2",
+      "am-02-2: GitHub workflow"
+    ]
   },
   {
     "objectID": "assignments/hw-05-project-data-exploration.html",
@@ -1096,25 +1085,25 @@
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-5-github-clone.html",
-    "href": "assignments/md-01/am-01-5-github-clone.html",
+    "objectID": "assignments/md-02/am-02-1-github-clone.html",
+    "href": "assignments/md-02/am-02-1-github-clone.html",
     "title": "Clone a GitHub repository",
     "section": "",
     "text": "NoteScreenshots will be updated\n\n\n\nThe screenshots in this assignment are from a previous course iteration and will be updated before the class starts.",
     "crumbs": [
-      "Module 1",
-      "am-01-5: GitHub clone"
+      "Module 2",
+      "am-02-1: GitHub clone"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-5-github-clone.html#clone-a-repository",
-    "href": "assignments/md-01/am-01-5-github-clone.html#clone-a-repository",
+    "objectID": "assignments/md-02/am-02-1-github-clone.html#clone-a-repository",
+    "href": "assignments/md-02/am-02-1-github-clone.html#clone-a-repository",
     "title": "Clone a GitHub repository",
     "section": "Clone a repository",
-    "text": "Clone a repository\nIn this assignment, you will clone your personal Module 1 repository from GitHub to Posit Cloud.\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/cven5999-ss26\n\n\n\nFind the repository md-01-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the cven5999-ss26 workspace on Posit Cloud: https://posit.cloud/spaces/784454/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: GitHub workflow.",
+    "text": "Clone a repository\nIn this assignment, you will clone your personal Module 2 repository from GitHub to Posit Cloud.\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/cven5999-ss26\n\n\n\nFind the repository md-02-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the cven5999-ss26 workspace on Posit Cloud: https://posit.cloud/spaces/784454/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: GitHub workflow.",
     "crumbs": [
-      "Module 1",
-      "am-01-5: GitHub clone"
+      "Module 2",
+      "am-02-1: GitHub clone"
     ]
   },
   {
@@ -1140,14 +1129,25 @@
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-8-github-issue.html",
-    "href": "assignments/md-01/am-01-8-github-issue.html",
-    "title": "Prepare questions and open an issue on GitHub",
+    "objectID": "assignments/md-01/am-01-4-github-pat.html",
+    "href": "assignments/md-01/am-01-4-github-pat.html",
+    "title": "GitHub Personal Access Token",
     "section": "",
-    "text": "Prepare questions\n Read the Course Overview and pay special attention to the sections Assignments, Grading scheme, and Late Work. Prepare at least one question.\n\n\nOpen an issue on GitHub\n\nOpen the issue tracker on the website repository: https://github.com/cven5999-ss26/website/issues.\nClick on “New issue” button.\nIn the “Title” field\n\nwrite: “Homework assignments for Module 1 completed”.\n\nIn the “Leave a comment” field,\n\ntag the course instructor with using the @ sign in combination with larnsce as the username,\npost your question that you prepared after reading the Course Overview,\nadd anything that you would like to add.",
+    "text": "NoteScreenshots will be updated\n\n\n\nThe screenshots in this assignment are from a previous course iteration and will be updated before the class starts.",
     "crumbs": [
       "Module 1",
-      "am-01-8: GitHub issue"
+      "am-01-4: GitHub PAT"
+    ]
+  },
+  {
+    "objectID": "assignments/md-01/am-01-4-github-pat.html#create-a-github-personal-access-token",
+    "href": "assignments/md-01/am-01-4-github-pat.html#create-a-github-personal-access-token",
+    "title": "GitHub Personal Access Token",
+    "section": "Create a GitHub Personal Access Token",
+    "text": "Create a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token (PAT):\n\n\n\n\n\n\nImportant\n\n\n\nTreat your access tokens like passwords and keep them secure (e.g., in password management software).\n\n\n\nLog in to your GitHub account.\n\n\n\nClick on your profile picture in the top-right corner of the page.\n\n\n\nSelect Settings from the dropdown menu.\n\n\n\nIn the left sidebar, click on Developer settings.\n\n\n\nClick on Personal access tokens.\n\n\n\nClick on “Tokens (classic)”.\n\n\n\nClick on Generate new token and from the dropdown menu select Generate new token (classic).\n\n\n\nIn the Note field, give your token the name: GITHUB_PAT\n\n\n\nUnder Expiration, select No expiration\n\n\n\nUnder Select scopes, select: repo, workflow\n\n\n\nAlso select user a bit further down the list.\n\n\n\nClick on Generate token.\n\n\n\nYour personal access token will be displayed on the screen. Copy it to your clipboard by clicking the copy icon next to the token. Make sure to copy it immediately, as you will not be able to see it again after you leave the page.\n\n\n\nDo not copy and store the token in a Word document (DOCX). Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone. On Windows, you can use Notepad, and on macOS, you can use TextEdit.\n\n\n\n\n\n\n\nTip\n\n\n\nYou will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. If you lose the token, you can generate a new one.\n\n\nContinue with the next assignment: Complete the pre-course survey.",
+    "crumbs": [
+      "Module 1",
+      "am-01-4: GitHub PAT"
     ]
   },
   {
@@ -1685,7 +1685,7 @@
     "href": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
     "title": "Module 2",
     "section": " Homework assignment",
-    "text": "Homework assignment\nDue date: June 05, 2026\nComplete the homework programming assignment that is in your project folder for Module 2 on Posit Cloud.\n\nhw-data-science-lifecycle.qmd",
+    "text": "Homework assignment\nDue date: June 05, 2026\nComplete these GitHub assignments before working on the programming assignment:\n\nAssignment 1: Clone a GitHub repository to Posit Cloud\nAssignment 2: GitHub workflow — configure git, commit, and push\n\nThen complete the homework programming assignment that is in your project folder for Module 2 on Posit Cloud.\n\nhw-data-science-lifecycle.qmd",
     "crumbs": [
       "Module 2"
     ]

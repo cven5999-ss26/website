@@ -55,7 +55,12 @@ Read [R for Data Science - Section 4 - Workflow basics](https://r4ds.had.co.nz/w
 
 [Due date:]{.highlight-yellow} `r homework_due_date`
 
-Complete the homework programming assignment that is in your project folder for Module 2 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
+Complete these GitHub assignments before working on the programming assignment:
+
+-   [Assignment 1](../assignments/md-02/am-02-1-github-clone.qmd): Clone a GitHub repository to Posit Cloud
+-   [Assignment 2](../assignments/md-02/am-02-2-github-workflow.qmd): GitHub workflow — configure git, commit, and push
+
+Then complete the homework programming assignment that is in your project folder for Module 2 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
 
 - hw-data-science-lifecycle.qmd
 

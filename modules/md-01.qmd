@@ -48,10 +48,8 @@ These homework assignments are pre-requisites for Module 2. Please complete them
 -   [Assignment 2](../assignments/md-01/am-01-2-orcid.qmd): Create your personal unique ORCID iD
 -   [Assignment 3](../assignments/md-01/am-01-3-posit-cloud.qmd): Log into Posit Cloud and join the course workspace
 -   [Assignment 4](../assignments/md-01/am-01-4-github-pat.qmd): Set up a GitHub Personal Access Token
--   [Assignment 5](../assignments/md-01/am-01-5-github-clone.qmd): Clone a GitHub repository to Posit Cloud
--   [Assignment 6](../assignments/md-01/am-01-6-github-workflow.qmd): GitHub workflow — configure git, commit, and push
--   [Assignment 7](../assignments/md-01/am-01-7-pre-course-survey.qmd): Complete the pre-course survey
--   [Assignment 8](../assignments/md-01/am-01-8-github-issue.qmd): Prepare questions and open an issue on GitHub
+-   [Assignment 5](../assignments/md-01/am-01-5-pre-course-survey.qmd): Complete the pre-course survey
+-   [Assignment 6](../assignments/md-01/am-01-6-github-issue.qmd): Prepare questions and open an issue on GitHub
 
 ## Thanks! {{< fa sun >}}
 
