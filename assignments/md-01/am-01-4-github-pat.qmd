@@ -78,4 +78,4 @@ Treat your access tokens like passwords and keep them secure (e.g., in password 
 You will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. [If you lose the token, you can generate a new one.]{.highlight-yellow}
 :::
 
-Continue with the next assignment: [Clone a GitHub repository](am-01-5-github-clone.qmd).
+Continue with the next assignment: [Complete the pre-course survey](am-01-5-pre-course-survey.qmd).

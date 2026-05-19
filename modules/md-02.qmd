@@ -37,10 +37,10 @@ homework_due_date <- format(as.Date(vars$`md-02`$`homework-due`), "%B %d, %Y")
 
 ## {{< fa display >}} Slides
 
-[View slides in full screen](../slides/lec-01-welcome.html) | [Download slides as PDF]({{< var course.github-org >}}/website/raw/main/slides/lec-01-welcome.pdf)
+[View slides in full screen](../slides/lec-a-welcome.html) | [Download slides as PDF]({{< var course.github-org >}}/website/raw/main/slides/lec-a-welcome.pdf)
 
 ```{=html}
-<iframe class="slide-deck" src="../slides/lec-01-welcome.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" src="../slides/lec-a-welcome.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## {{< fa book >}} Readings
@@ -55,7 +55,12 @@ Read [R for Data Science - Section 4 - Workflow basics](https://r4ds.had.co.nz/w
 
 [Due date:]{.highlight-yellow} `r homework_due_date`
 
-Complete the homework programming assignment that is in your project folder for Module 2 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
+Complete these GitHub assignments before working on the programming assignment:
+
+-   [Assignment 1](../assignments/md-02/am-02-1-github-clone.qmd): Clone a GitHub repository to Posit Cloud
+-   [Assignment 2](../assignments/md-02/am-02-2-github-workflow.qmd): GitHub workflow — configure git, commit, and push
+
+Then complete the homework programming assignment that is in your project folder for Module 2 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
 
 - hw-data-science-lifecycle.qmd
 

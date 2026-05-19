@@ -38,7 +38,7 @@ quarto render
 
 # Render specific content
 quarto render index.qmd
-quarto render slides/lec-01-welcome.qmd
+quarto render slides/lec-a-welcome.qmd
 quarto render modules/md-01.qmd
 ```
 
@@ -48,7 +48,7 @@ quarto render modules/md-01.qmd
 quarto preview
 
 # Preview specific slide deck
-quarto preview slides/lec-01-welcome.qmd
+quarto preview slides/lec-a-welcome.qmd
 ```
 
 ### Publishing
@@ -97,11 +97,11 @@ Homework repos live at `github.com/cven-dev/md-XX` and are cloned into Posit Clo
 
 | Module | Repo | Lecture |
 |--------|------|---------|
-| 2 | `md-02` | lec-01 |
-| 4 | `md-04` | lec-02 |
-| 5 | `md-05` | lec-03 |
-| 6 | `md-06` | lec-04 |
-| 7 | `md-07` | lec-05 |
+| 2 | `md-02` | lec-a |
+| 4 | `md-04` | lec-b |
+| 5 | `md-05` | lec-c |
+| 6 | `md-06` | lec-d |
+| 7 | `md-07` | lec-e |
 | 7 | `md-07-writing` | (scholarly writing companion) |
 
-`learning-XX.qmd` files inside each repo match the module number. `hw-*.qmd` and `live-*.qmd` filenames remain topic-named.
+Lecture qmds use letters (`lec-a` … `lec-e`) so they're not confused with module numbering. `learning-XX.qmd` files inside each repo match the module number. `hw-*.qmd` and `live-*.qmd` filenames remain topic-named.

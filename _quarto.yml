@@ -40,16 +40,17 @@ website:
             text: "am-01-3: Posit Cloud"
           - href: assignments/md-01/am-01-4-github-pat.qmd
             text: "am-01-4: GitHub PAT"
-          - href: assignments/md-01/am-01-5-github-clone.qmd
-            text: "am-01-5: GitHub clone"
-          - href: assignments/md-01/am-01-6-github-workflow.qmd
-            text: "am-01-6: GitHub workflow"
-          - href: assignments/md-01/am-01-7-pre-course-survey.qmd
-            text: "am-01-7: Pre-course survey"
-          - href: assignments/md-01/am-01-8-github-issue.qmd
-            text: "am-01-8: GitHub issue"
-      - href: modules/md-02.qmd
-        text: "Module 2"
+          - href: assignments/md-01/am-01-5-pre-course-survey.qmd
+            text: "am-01-5: Pre-course survey"
+          - href: assignments/md-01/am-01-6-github-issue.qmd
+            text: "am-01-6: GitHub issue"
+      - section: "Module 2"
+        href: modules/md-02.qmd
+        contents:
+          - href: assignments/md-02/am-02-1-github-clone.qmd
+            text: "am-02-1: GitHub clone"
+          - href: assignments/md-02/am-02-2-github-workflow.qmd
+            text: "am-02-2: GitHub workflow"
       - section: "Module 3"
         href: modules/md-03.qmd
         contents:

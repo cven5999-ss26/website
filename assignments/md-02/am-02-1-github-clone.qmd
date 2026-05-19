@@ -1,0 +1,57 @@
+---
+title: "Clone a GitHub repository"
+---
+
+::: {.callout-note}
+## Screenshots will be updated
+The screenshots in this assignment are from a previous course iteration and will be updated before the class starts.
+:::
+
+## Clone a repository
+
+In this assignment, you will clone your personal Module 2 repository from GitHub to Posit Cloud.
+
+1. Open <https://github.com/> in your browser.
+
+![](images/github-clone/screenshot-github-homepage.png){width=100%}
+
+2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+
+![](images/github-clone/screenshot-github-org-search.png){width=100%}
+
+3. Find the repository `md-02-USERNAME` that [ends with your GitHub username]{.highlight-yellow}, and open it by clicking on the repository name.
+
+- Replace `USERNAME` with your actual GitHub username.
+- For example, if your username is `johnsmith`, the repository will be `md-02-johnsmith`.
+
+::: {.callout-tip}
+You can search for your repository by typing your username in the search bar just below the Repository heading.
+:::
+
+![](images/github-clone/screenshot-github-repo-list.png){width=100%}
+
+4. Click on the green [Code]{.highlight-yellow} button.
+
+![](images/github-clone/screenshot-github-code-button.png){width=100%}
+
+5. Copy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.
+
+![](images/github-clone/screenshot-github-https-url.png){width=100%}
+
+6. Open the [Content]{.highlight-yellow} tab of the {{< var course.code >}} workspace on Posit Cloud: [{{< var platforms.posit-cloud >}}content/all?sort=name_asc]({{< var platforms.posit-cloud >}}content/all?sort=name_asc)
+
+![](images/github-clone/screenshot-posit-cloud-workspace.png){width=100%}
+
+7. Click the blue button [New Project]{.highlight-yellow} > [New Project from Git Repository]{.highlight-yellow}
+
+![](images/github-clone/screenshot-posit-cloud-new-project.png){width=100%}
+
+8. Paste the HTTPS URL from GitHub into the [URL of your Git Repository]{.highlight-yellow} field and click [OK]{.highlight-yellow}. Leave the checkbox under Packages checked.
+
+![](images/github-clone/screenshot-posit-cloud-git-url.png){width=100%}
+
+9. Wait until the project is deployed. This may take a few minutes, depending on your internet connection.
+
+![](images/github-clone/screenshot-posit-cloud-deploying.png){width=100%}
+
+10. Continue with the next assignment: [GitHub workflow](am-02-2-github-workflow.qmd).
