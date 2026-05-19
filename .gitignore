@@ -36,3 +36,6 @@ _extensions/
 .secrets
 
 **/*.quarto_ipynb
+
+# Node tooling (scripts/screenshots)
+scripts/*
