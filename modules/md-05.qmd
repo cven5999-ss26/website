@@ -35,10 +35,10 @@ homework_due_date <- format(as.Date(vars$`md-05`$`homework-due`), "%B %d, %Y")
 
 ## {{< fa display >}} Slides
 
-[View slides in full screen](../slides/lec-03-transformation.html) | [Download slides as PDF]({{< var course.github-org >}}/website/raw/main/slides/lec-03-transformation.pdf)
+[View slides in full screen](../slides/lec-c-transformation.html) | [Download slides as PDF]({{< var course.github-org >}}/website/raw/main/slides/lec-c-transformation.pdf)
 
 ```{=html}
-<iframe class="slide-deck" src="../slides/lec-03-transformation.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" src="../slides/lec-c-transformation.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## {{< fa book >}} Readings
