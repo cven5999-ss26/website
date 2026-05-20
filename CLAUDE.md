@@ -105,3 +105,16 @@ Homework repos live at `github.com/cven-dev/md-XX` and are cloned into Posit Clo
 | 7 | `md-07-writing` | (scholarly writing companion) |
 
 Lecture qmds use letters (`lec-a` … `lec-e`) so they're not confused with module numbering. `learning-XX.qmd` files inside each repo match the module number. `hw-*.qmd` and `live-*.qmd` filenames remain topic-named.
+
+## Puppeteer screenshot script
+
+`scripts/screenshots/take-screenshots.js` regenerates the 9 screenshots used in `assignments/md-02/am-02-1-github-clone.qmd`. Run with `cd scripts/screenshots && node take-screenshots.js` (add `LOGIN=true` only on first run / after deleting `.puppeteer-profile/`). The persistent profile at `scripts/screenshots/.puppeteer-profile/` holds the signed-in GitHub + Posit Cloud sessions.
+
+All 9 steps work. Step 8 finds the "New Project from Git Repository" dialog by anchoring on the native `<dialog class="modalDialog">` element (Posit Cloud renders the modal into `div#modalRoot > body`, not into the React app tree). The URL input is `input#repoURL` inside that dialog.
+
+**Notes:**
+- Red-box highlights only, no text labels (user preference).
+- `findFirstByText` uses exact match (not `startsWith`) to avoid "New Project" grabbing "New Project from Git Repository".
+- `page.goto` uses `waitUntil: "load"` (not `networkidle2`) because GitHub keeps long-lived background requests open — `networkidle2` was timing out.
+- Posit Cloud's workspace list is client-rendered. `waitForPositWorkspaceReady` polls for the "New Project" button before clicking on steps 6–9.
+- **Step 9 creates an actual project** `md-02-rainbow-train` in the Posit workspace. Delete the existing project from Posit before re-running, otherwise step 9 captures the post-create workspace list instead of the deploying screen.
