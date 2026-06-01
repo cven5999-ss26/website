@@ -54,6 +54,8 @@ website:
       - section: "Module 3"
         href: modules/md-03.qmd
         contents:
+          - href: assignments/md-03/am-03-2-case-study.qmd
+            text: "am-03-2: Case study"
           - href: assignments/md-03/am-03-1-bookmarks.qmd
             text: "am-03-1: Bookmarks"
       - href: modules/md-04.qmd

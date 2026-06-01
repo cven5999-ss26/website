@@ -194,17 +194,17 @@
     "href": "modules/md-03.html",
     "title": "Module 3",
     "section": "",
-    "text": "This module focuses on a case study exploring data management practices. There is no lecture this week. The material is currently being developed.",
+    "text": "This module is a case study on data stewardship in practice, built around the Global Health Engineering (GHE) group at ETH Zurich. There is no lecture this week; you will read an interview, watch a talk, and reflect on whether and how the approach could apply to your own research context.",
     "crumbs": [
       "Module 3"
     ]
   },
   {
-    "objectID": "modules/md-03.html#learning-objectives",
-    "href": "modules/md-03.html#learning-objectives",
+    "objectID": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "Module 3",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\n(Learning objectives to be defined)",
+    "section": " Learning Objectives",
+    "text": "Learning Objectives\n\n\nLearners can summarise the data stewardship model used by the Global Health Engineering group at ETH Zurich.\nLearners can explain what “open by default” means in a research group context and identify two organizational factors that enable or resist it.\nLearners can critique an existing data management strategy and propose adaptations for their own research context.",
     "crumbs": [
       "Module 3"
     ]
@@ -220,11 +220,21 @@
     ]
   },
   {
-    "objectID": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-assignments",
-    "href": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-assignments",
+    "objectID": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
+    "href": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
     "title": "Module 3",
-    "section": " Assignments",
-    "text": "Assignments\nComplete by 2026-06-12.\n\nAssignment 1: Support yourself with bookmarks",
+    "section": " Homework assignment",
+    "text": "Homework assignment\nDue date: June 12, 2026\nComplete the case-study assignments on the course website first, then complete the homework in your Posit Cloud project for Module 3.\n\nAssignment 1: Case study, Data stewardship at ETH GHE\nAssignment 2: Support yourself with bookmarks\n\nThen complete the homework programming assignment that is in your project folder for Module 3 on Posit Cloud.\n\nhw-data-stewardship.qmd",
+    "crumbs": [
+      "Module 3"
+    ]
+  },
+  {
+    "objectID": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
+    "href": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
+    "title": "Module 3",
+    "section": " Learning reflection",
+    "text": "Learning reflection\nComplete the learning reflection that is in your project folder for Module 3 by June 12, 2026 on Posit Cloud.\n\nlearning-03.qmd",
     "crumbs": [
       "Module 3"
     ]
@@ -825,6 +835,13 @@
     ]
   },
   {
+    "objectID": "assignments/md-03/initial-prompt.html",
+    "href": "assignments/md-03/initial-prompt.html",
+    "title": "initial-prompt",
+    "section": "",
+    "text": "Module 3 is a new module. Learners have had one lecture so far and have not yet worked a lot with code, but should start to have a grasp of the git workflow.\nFor this week, I want o prepare a case study. It’s the case study of the GLobal health engineering group at ETH ZUrich. GHE has an employee working as data steward for the group, who is developign a data management strategy and supports the group to implement it’s open science vision.\nLearn more in this interview:\nhttps://library.ethz.ch/en/about-us-and-locations/news/news-articles/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html\nOver the years, the group has developed a data management strategy and other workflows which are well described in this video:\nhttps://www.youtube.com/watch?v=zpVo_-Ne91c\nPart of this assignment is to read the interview and also to watch the talk, but I want students to then also complete some assignemtns that critiques this approach and makes them think about it for their context.\ngh-org-cven-dev/md-03 is added as a workspace and I want the layout to be the same as for other modules: hw- and learning reflection. The github workflow must also be practiced."
+  },
+  {
     "objectID": "assignments/hw-05-project-data-exploration.html",
     "href": "assignments/hw-05-project-data-exploration.html",
     "title": "HW: Project Data Exploration",
@@ -874,11 +891,77 @@
     "text": "All of the material here is available under the Creative Commons Attribution license.\nYou are free:\n\nto Share - to copy and redistribute the material in any medium or format\nto Adapt - remix, transform, and build upon the material for any purpose, even commercially.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit using “(c) Copyright 2022, Lars Schöbitz”, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\nNotice - For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to http://creativecommons.org/licenses/by/4.0/.\n\nFor the full legal text of this license, please see: http://creativecommons.org/licenses/by/4.0/legalcode."
   },
   {
+    "objectID": "assignments/md-03/am-03-2-case-study.html",
+    "href": "assignments/md-03/am-03-2-case-study.html",
+    "title": "Case study: Data stewardship at ETH GHE",
+    "section": "",
+    "text": "The Global Health Engineering (GHE) group at ETH Zurich has employed a dedicated data steward and built an “open by default” data management strategy. Studying a working model lets you compare a concrete implementation against the abstract principles laid out in Wilson et al. (2017) “Good enough practices in scientific computing”.\nThis week, your job is to surface what would transfer to your own research context, what would not, and what you would change. The point is not to copy the GHE approach; it is to use it as a mirror.",
+    "crumbs": [
+      "Module 3",
+      "am-03-2: Case study"
+    ]
+  },
+  {
+    "objectID": "assignments/md-03/am-03-2-case-study.html#why-this-case-study",
+    "href": "assignments/md-03/am-03-2-case-study.html#why-this-case-study",
+    "title": "Case study: Data stewardship at ETH GHE",
+    "section": "",
+    "text": "The Global Health Engineering (GHE) group at ETH Zurich has employed a dedicated data steward and built an “open by default” data management strategy. Studying a working model lets you compare a concrete implementation against the abstract principles laid out in Wilson et al. (2017) “Good enough practices in scientific computing”.\nThis week, your job is to surface what would transfer to your own research context, what would not, and what you would change. The point is not to copy the GHE approach; it is to use it as a mirror.",
+    "crumbs": [
+      "Module 3",
+      "am-03-2: Case study"
+    ]
+  },
+  {
+    "objectID": "assignments/md-03/am-03-2-case-study.html#read-this",
+    "href": "assignments/md-03/am-03-2-case-study.html#read-this",
+    "title": "Case study: Data stewardship at ETH GHE",
+    "section": "Read this",
+    "text": "Read this\n\nA vision for open science and data stewardship at ETH Zurich. Why read: surfaces the rationale for “open by default” and what a dedicated data steward actually does inside a research group.",
+    "crumbs": [
+      "Module 3",
+      "am-03-2: Case study"
+    ]
+  },
+  {
+    "objectID": "assignments/md-03/am-03-2-case-study.html#watch-this",
+    "href": "assignments/md-03/am-03-2-case-study.html#watch-this",
+    "title": "Case study: Data stewardship at ETH GHE",
+    "section": "Watch this",
+    "text": "Watch this\n\nPlan for tomorrow today: a model for data stewardship. Why watch: walks through the concrete day-to-day workflows the group uses.\nNational Prize for Open Research Data 2024: openwashdata. Why watch: external recognition for the open-data work GHE leads. Useful context for whether open practices “pay off” beyond the group itself.",
+    "crumbs": [
+      "Module 3",
+      "am-03-2: Case study"
+    ]
+  },
+  {
+    "objectID": "assignments/md-03/am-03-2-case-study.html#then-complete-the-homework",
+    "href": "assignments/md-03/am-03-2-case-study.html#then-complete-the-homework",
+    "title": "Case study: Data stewardship at ETH GHE",
+    "section": "Then complete the homework",
+    "text": "Then complete the homework\nOpen your Posit Cloud project for Module 3 (Posit Cloud) and work through hw-data-stewardship.qmd. The homework is reading and reflection this week; there is no code to run.",
+    "crumbs": [
+      "Module 3",
+      "am-03-2: Case study"
+    ]
+  },
+  {
+    "objectID": "assignments/md-03/am-03-2-case-study.html#practice-the-github-workflow-again",
+    "href": "assignments/md-03/am-03-2-case-study.html#practice-the-github-workflow-again",
+    "title": "Case study: Data stewardship at ETH GHE",
+    "section": "Practice the GitHub workflow again",
+    "text": "Practice the GitHub workflow again\nWhen you have finished the homework and the learning reflection, stage, commit, and push your changes from the RStudio Git pane the same way you did in Module 2. Then open an issue on your md-03-USERNAME GitHub repo and tag the instructor with @larnsce to submit the assignment.",
+    "crumbs": [
+      "Module 3",
+      "am-03-2: Case study"
+    ]
+  },
+  {
     "objectID": "assignments/md-03/am-03-1-bookmarks.html",
     "href": "assignments/md-03/am-03-1-bookmarks.html",
     "title": "Support yourself with bookmarks",
     "section": "",
-    "text": "NoteScreenshots will be updated\n\n\n\nThe screenshots in this assignment are from a previous course iteration and will be updated before the class starts.",
+    "text": "WarningScreenshots show a different course\n\n\n\nThe screenshots in this assignment show a class titled ds4owd-002. They were carried over from another course and have not yet been updated. For this course, you must use cven5999-ss26 wherever you see ds4owd-002 in the screenshots.",
     "crumbs": [
       "Module 3",
       "am-03-1: Bookmarks"

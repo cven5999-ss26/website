@@ -2,9 +2,9 @@
 title: "Support yourself with bookmarks"
 ---
 
-::: {.callout-note}
-## Screenshots will be updated
-The screenshots in this assignment are from a previous course iteration and will be updated before the class starts.
+::: {.callout-warning}
+## Screenshots show a different course
+The screenshots in this assignment show a class titled `ds4owd-002`. They were carried over from another course and have not yet been updated. For this course, you must use `cven5999-ss26` wherever you see `ds4owd-002` in the screenshots.
 :::
 
 ## Organize your digital workspace

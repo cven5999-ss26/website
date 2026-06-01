@@ -1,0 +1,26 @@
+---
+title: "Case study: Data stewardship at ETH GHE"
+---
+
+## Why this case study
+
+The Global Health Engineering (GHE) group at ETH Zurich has employed a dedicated data steward and built an "open by default" data management strategy. Studying a working model lets you compare a concrete implementation against the abstract principles laid out in Wilson et al. (2017) "Good enough practices in scientific computing".
+
+This week, your job is to surface what would transfer to your own research context, what would not, and what you would change. The point is not to copy the GHE approach; it is to use it as a mirror.
+
+## Read this
+
+-   [A vision for open science and data stewardship at ETH Zurich](https://library.ethz.ch/en/about-us-and-locations/news/news-articles/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html). Why read: surfaces the rationale for "open by default" and what a dedicated data steward actually does inside a research group.
+
+## Watch this
+
+-   [Plan for tomorrow today: a model for data stewardship](https://www.youtube.com/watch?v=zpVo_-Ne91c). Why watch: walks through the concrete day-to-day workflows the group uses.
+-   [National Prize for Open Research Data 2024: openwashdata](https://www.youtube.com/watch?v=590qPtQNCD0). Why watch: external recognition for the open-data work GHE leads. Useful context for whether open practices "pay off" beyond the group itself.
+
+## Then complete the homework
+
+Open your Posit Cloud project for Module 3 ([Posit Cloud]({{< var platforms.posit-cloud >}}content/all)) and work through `hw-data-stewardship.qmd`. The homework is reading and reflection this week; there is no code to run.
+
+## Practice the GitHub workflow again
+
+When you have finished the homework and the learning reflection, stage, commit, and push your changes from the RStudio Git pane the same way you did in Module 2. Then open an issue on your `md-03-USERNAME` GitHub repo and tag the instructor with `@larnsce` to submit the assignment.
