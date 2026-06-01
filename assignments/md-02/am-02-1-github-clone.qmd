@@ -6,6 +6,10 @@ title: "Clone a GitHub repository"
 
 In this assignment, you will clone your personal Module 2 repository from GitHub to Posit Cloud.
 
+::: {.callout-note}
+You already cloned your Module 2 repository as part of the in-class session, so you can skip the steps below for this module. The clone steps documented here are a one-time setup per homework repository: each new homework repo (Module 4, 5, 6, 7) needs to be cloned to Posit Cloud once. The repeating part of the workflow is stage, commit, push, which you will do every time you make changes; see the [GitHub workflow](am-02-2-github-workflow.qmd) assignment for those steps.
+:::
+
 1. Open <https://github.com/> in your browser. Login with your username if you are not logged in yet.
 
 ![](images/github-clone/screenshot-github-homepage.png){width=100%}

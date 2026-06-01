@@ -13,6 +13,10 @@ In this assignment, you will configure Git, then commit and push your first chan
 
 ## Step 1: Introduce yourself to git
 
+::: {.callout-note}
+You already completed the git configuration as part of the in-class session, so you can skip Step 1 entirely. Git configuration is a one-time setup; you do not need to repeat it for future homework repositories. From here on, your workflow for every module is just the commit and push steps in Step 2 below.
+:::
+
 1. In Posit Cloud, open the [md-02-USERNAME]{.highlight-yellow} project that ends with your GitHub username. Ensure that you are in the workspace of [{{< var course.code >}}]{.highlight-yellow}. You can verify this by looking at the top left corner next to your repository name. If this says [Your Workspace]{.highlight-yellow}, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the [{{< var course.code >}}]{.highlight-yellow} workspace.
 
 ![](images/github-workflow/screenshot-posit-cloud-project.png){width=100%}
