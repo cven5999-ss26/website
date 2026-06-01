@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HW: Project Data Exploration – CVEN 5999 - Summer 2026</title>
+<title>Case study: Data stewardship at ETH GHE – CVEN 5999 - Summer 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,62 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b165eb36346f47d4ad9eee4cc1f798ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assignments/md-03/am-03-1-bookmarks.html" rel="next">
+<link href="../../modules/md-03.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-b165eb36346f47d4ad9eee4cc1f798ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -125,7 +90,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">HW: Project Data Exploration</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../modules/md-03.html">Module 3</a></li><li class="breadcrumb-item"><a href="../../assignments/md-03/am-03-2-case-study.html">am-03-2: Case study</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -139,9 +104,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../img/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="../img/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../img/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../img/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/cven5999-ss26" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -156,14 +121,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Course Overview</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-01.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 1</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -172,37 +137,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-1-github-account.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-1-github-account.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-1: GitHub account</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-2-orcid.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-2-orcid.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-2: ORCID iD</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-3-posit-cloud.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-3-posit-cloud.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-3: Posit Cloud</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-4-github-pat.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-4-github-pat.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-4: GitHub PAT</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-5-pre-course-survey.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-5-pre-course-survey.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-5: Pre-course survey</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-6-github-issue.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-6-github-issue.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-6: GitHub issue</span></a>
   </div>
 </li>
@@ -210,7 +175,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-02.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 2</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -219,13 +184,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-02/am-02-1-github-clone.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-02/am-02-1-github-clone.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02-1: GitHub clone</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-02/am-02-2-github-workflow.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-02/am-02-2-github-workflow.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02-2: GitHub workflow</span></a>
   </div>
 </li>
@@ -233,22 +198,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-03.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 3</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-03/am-03-2-case-study.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-03/am-03-2-case-study.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">am-03-2: Case study</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-03/am-03-1-bookmarks.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-03/am-03-1-bookmarks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-03-1: Bookmarks</span></a>
   </div>
 </li>
@@ -256,32 +221,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-04.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 4</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-05.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 5</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-06.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-06.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 6</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-07.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-07.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 7</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../project/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Capstone Project</span></a>
   </div>
 </li>
@@ -295,30 +260,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives"><i class="fa-solid fa-bullseye" aria-label="bullseye"></i> Learning Objectives</a></li>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks"><i class="fa-solid fa-terminal" aria-label="terminal"></i> Assignment Tasks</a>
-  <ul class="collapse">
-  <li><a href="#version-control-requirements" id="toc-version-control-requirements" class="nav-link" data-scroll-target="#version-control-requirements">Version control requirements</a></li>
-  <li><a href="#create-a-quarto-document" id="toc-create-a-quarto-document" class="nav-link" data-scroll-target="#create-a-quarto-document">Create a Quarto document</a></li>
-  <li><a href="#set-up-your-document-structure" id="toc-set-up-your-document-structure" class="nav-link" data-scroll-target="#set-up-your-document-structure">Set up your document structure</a></li>
-  <li><a href="#read-in-your-data" id="toc-read-in-your-data" class="nav-link" data-scroll-target="#read-in-your-data">Read in your data</a></li>
-  <li><a href="#explore-your-data" id="toc-explore-your-data" class="nav-link" data-scroll-target="#explore-your-data">Explore your data</a></li>
-  <li><a href="#perform-initial-tidying" id="toc-perform-initial-tidying" class="nav-link" data-scroll-target="#perform-initial-tidying">Perform initial tidying</a></li>
-  <li><a href="#create-github-issues" id="toc-create-github-issues" class="nav-link" data-scroll-target="#create-github-issues">Create GitHub issues</a></li>
-  </ul></li>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-tips" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-tips" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-tips"><i class="fa-solid fa-lightbulb" aria-label="lightbulb"></i> Tips</a></li>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date"><i class="fa-solid fa-calendar-check" aria-label="calendar-check"></i> Due Date</a></li>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-submission" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-submission" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-submission"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Submission</a></li>
+  <li><a href="#why-this-case-study" id="toc-why-this-case-study" class="nav-link active" data-scroll-target="#why-this-case-study">Why this case study</a></li>
+  <li><a href="#read-this" id="toc-read-this" class="nav-link" data-scroll-target="#read-this">Read this</a></li>
+  <li><a href="#watch-this" id="toc-watch-this" class="nav-link" data-scroll-target="#watch-this">Watch this</a></li>
+  <li><a href="#then-complete-the-homework" id="toc-then-complete-the-homework" class="nav-link" data-scroll-target="#then-complete-the-homework">Then complete the homework</a></li>
+  <li><a href="#practice-the-github-workflow-again" id="toc-practice-the-github-workflow-again" class="nav-link" data-scroll-target="#practice-the-github-workflow-again">Practice the GitHub workflow again</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../modules/md-03.html">Module 3</a></li><li class="breadcrumb-item"><a href="../../assignments/md-03/am-03-2-case-study.html">am-03-2: Case study</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">HW: Project Data Exploration</h1>
-<p class="subtitle lead">Read your data and perform initial exploration</p>
+<h1 class="title">Case study: Data stewardship at ETH GHE</h1>
 </div>
 
 
@@ -335,174 +290,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives"><i class="fa-solid fa-bullseye" aria-label="bullseye"></i> Learning Objectives</h2>
-<p>By completing this assignment, you will:</p>
-<ol type="1">
-<li>Create a Quarto document (<code>index.qmd</code>) in your project’s docs folder</li>
-<li>Read your dataset into R using appropriate functions</li>
-<li>Perform initial data exploration and tidying</li>
-<li>Document your process with regular Git commits</li>
-<li>Create GitHub issues to track questions and challenges</li>
-</ol>
+<section id="why-this-case-study" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-case-study">Why this case study</h2>
+<p>The Global Health Engineering (GHE) group at ETH Zurich has employed a dedicated data steward and built an “open by default” data management strategy. Studying a working model lets you compare a concrete implementation against the abstract principles laid out in Wilson et al.&nbsp;(2017) “Good enough practices in scientific computing”.</p>
+<p>This week, your job is to surface what would transfer to your own research context, what would not, and what you would change. The point is not to copy the GHE approach; it is to use it as a mirror.</p>
 </section>
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks"><i class="fa-solid fa-terminal" aria-label="terminal"></i> Assignment Tasks</h2>
-<section id="version-control-requirements" class="level3">
-<h3 class="anchored" data-anchor-id="version-control-requirements">Version control requirements</h3>
-<p><strong>Make regular commits throughout your work:</strong></p>
-<ol type="1">
-<li>After creating the <code>index.qmd</code> file</li>
-<li>After successfully reading in your data</li>
-<li>After each major section is completed</li>
-<li>Use descriptive commit messages:
+<section id="read-this" class="level2">
+<h2 class="anchored" data-anchor-id="read-this">Read this</h2>
 <ul>
-<li>“Add index.qmd to docs folder”</li>
-<li>“Successfully read raw data file”</li>
-<li>“Complete initial data exploration”</li>
-<li>“Document data quality issues”</li>
-<li>“Perform initial data tidying and save processed data”</li>
-</ul></li>
-</ol>
-</section>
-<section id="create-a-quarto-document" class="level3">
-<h3 class="anchored" data-anchor-id="create-a-quarto-document">Create a Quarto document</h3>
-<ol type="1">
-<li><p>Open your capstone project in Posit Cloud</p></li>
-<li><p>Navigate to your <code>docs/</code> folder in the Files panel</p></li>
-<li><p>Create a new Quarto document:</p>
-<ul>
-<li>Click <strong>File -&gt; New File -&gt; Quarto Document</strong></li>
-<li>Title: “Data Exploration for [Your Project Name]”</li>
-<li>Author: Your name</li>
-<li>Save it as <code>index.qmd</code> in the <code>docs/</code> folder</li>
-</ul></li>
-<li><p>Update the YAML header to include:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Give your project a title"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Full Name"</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">orcid</span><span class="kw">:</span><span class="at"> </span><span class="st">"0000-0000-0000-0000"</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">email</span><span class="kw">:</span><span class="at"> </span><span class="st">"your.email@colorado.edu"</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">affiliation</span><span class="kw">:</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> </span><span class="st">"University of Colorado Boulder"</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">department</span><span class="kw">:</span><span class="at"> </span><span class="st">"Department of Civil, Environmental and Architectural Engineering"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">city</span><span class="kw">:</span><span class="at"> </span><span class="st">"Boulder"</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">state</span><span class="kw">:</span><span class="at"> </span><span class="st">"CO"</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">country</span><span class="kw">:</span><span class="at"> </span><span class="st">"USA"</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> today</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">editor</span><span class="kw">:</span><span class="at"> visual</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
-</ol>
-</section>
-<section id="set-up-your-document-structure" class="level3">
-<h3 class="anchored" data-anchor-id="set-up-your-document-structure">Set up your document structure</h3>
-<p>The report must render without errors to HTML format and contain at least four chapters of heading level 1:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Introduction</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Brief description of your project and dataset</span><span class="co">]</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Methods</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reading the Data</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data Exploration Approach</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">## Initial Data Tidying</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu"># Results</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">This will be the core of your analysis with specific requirements</span><span class="co">]</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="fu"># Conclusions</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## Summary of Findings</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Questions and Next Steps</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="read-in-your-data" class="level3">
-<h3 class="anchored" data-anchor-id="read-in-your-data">Read in your data</h3>
-<ol type="1">
-<li><p>In the “Methods” chapter under “Reading the Data”, create a code chunk that:</p>
-<ul>
-<li>Loads necessary packages (at minimum <code>tidyverse</code>)</li>
-<li>Reads your data from the <code>data/raw/</code> folder</li>
-<li>Stores it in an appropriately named object</li>
-</ul></li>
-<li><p>Example structure:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load packages</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Read data</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>my_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data/raw/your_file.csv"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
-<li><p>If you encounter any issues reading the data, document them and potential solutions</p></li>
-</ol>
-</section>
-<section id="explore-your-data" class="level3">
-<h3 class="anchored" data-anchor-id="explore-your-data">Explore your data</h3>
-<p>In the “Results” chapter under “Initial Data Exploration”, add code chunks to:</p>
-<ol type="1">
-<li><p><strong>View the first few rows</strong>: Use <code>head()</code> or <code>glimpse()</code></p></li>
-<li><p><strong>Check dimensions</strong>: Use <code>dim()</code> to see number of rows and columns</p></li>
-<li><p><strong>Summarize the data</strong>: Use <code>group_by()</code> and <code>summarize()</code> to compute descriptive statistics</p></li>
-</ol>
-</section>
-<section id="perform-initial-tidying" class="level3">
-<h3 class="anchored" data-anchor-id="perform-initial-tidying">Perform initial tidying</h3>
-<p>In the “Methods” chapter under “Initial Data Tidying”:</p>
-<ol type="1">
-<li><p>Address at least 2-3 data quality issues you identified</p></li>
-<li><p>Examples of tidying operations:</p>
-<ul>
-<li>Convert character dates to date format</li>
-<li>Standardize inconsistent categories</li>
-<li>Handle obvious data entry errors</li>
-<li>Create new variables if needed</li>
-<li>Use consistent variable naming conventions (e.g.&nbsp;<code>janitor::clean_names()</code> for snake_case convention.)</li>
-</ul></li>
-<li><p>Save your tidied data:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(tidied_data, here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data/processed/your_file_tidied.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
-</ol>
-</section>
-<section id="create-github-issues" class="level3">
-<h3 class="anchored" data-anchor-id="create-github-issues">Create GitHub issues</h3>
-<ol type="1">
-<li><p>As you work, create GitHub issues in your repository documenting:</p>
-<ul>
-<li>Questions about your data</li>
-<li>Challenges you encountered</li>
-<li>Decisions you need to make</li>
-<li>Next steps for analysis</li>
-</ul></li>
-<li><p>Use descriptive titles and provide context in the issue description</p></li>
-<li><p>Tag your instructor (<span class="citation" data-cites="larnsce">@larnsce</span>) in at least one issue where you need guidance</p></li>
-</ol>
-</section>
-</section>
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-tips" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-tips"><i class="fa-solid fa-lightbulb" aria-label="lightbulb"></i> Tips</h2>
-<ul>
-<li>If you’re unsure how to read your specific file type, search for examples or ask in an issue</li>
-<li>Remember to render your <code>index.qmd</code> to HTML periodically to check your output</li>
+<li><a href="https://library.ethz.ch/en/about-us-and-locations/news/news-articles/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html">A vision for open science and data stewardship at ETH Zurich</a>. Why read: surfaces the rationale for “open by default” and what a dedicated data steward actually does inside a research group.</li>
 </ul>
 </section>
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date"><i class="fa-solid fa-calendar-check" aria-label="calendar-check"></i> Due Date</h2>
-<p>This assignment is due: <span class="highlight-yellow"><strong>2026-06-26</strong></span></p>
-</section>
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-submission" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-submission"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Submission</h2>
-<ol type="1">
-<li><p>Ensure all your changes are committed and pushed to GitHub</p></li>
-<li><p>Your repository should now contain:</p>
+<section id="watch-this" class="level2">
+<h2 class="anchored" data-anchor-id="watch-this">Watch this</h2>
 <ul>
-<li><code>docs/index.qmd</code> with your data exploration</li>
-<li><code>docs/index.html</code> (the rendered output)</li>
-<li>Updated data in <code>data/processed/</code> folder</li>
-<li>GitHub issues documenting questions/challenges</li>
-</ul></li>
-</ol>
+<li><a href="https://www.youtube.com/watch?v=zpVo_-Ne91c">Plan for tomorrow today: a model for data stewardship</a>. Why watch: walks through the concrete day-to-day workflows the group uses.</li>
+<li><a href="https://www.youtube.com/watch?v=590qPtQNCD0">National Prize for Open Research Data 2024: openwashdata</a>. Why watch: external recognition for the open-data work GHE leads. Useful context for whether open practices “pay off” beyond the group itself.</li>
+</ul>
+</section>
+<section id="then-complete-the-homework" class="level2">
+<h2 class="anchored" data-anchor-id="then-complete-the-homework">Then complete the homework</h2>
+<p>Open your Posit Cloud project for Module 3 (<a href="https://posit.cloud/spaces/784454/content/all">Posit Cloud</a>) and work through <code>hw-data-stewardship.qmd</code>. The homework is reading and reflection this week; there is no code to run.</p>
+</section>
+<section id="practice-the-github-workflow-again" class="level2">
+<h2 class="anchored" data-anchor-id="practice-the-github-workflow-again">Practice the GitHub workflow again</h2>
+<p>When you have finished the homework and the learning reflection, stage, commit, and push your changes from the RStudio Git pane the same way you did in Module 2. Then open an issue on your <code>md-03-USERNAME</code> GitHub repo and tag the instructor with <code>@larnsce</code> to submit the assignment.</p>
 
 
 </section>
@@ -915,6 +727,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../modules/md-03.html" class="pagination-link" aria-label="Module 3">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Module 3</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../assignments/md-03/am-03-1-bookmarks.html" class="pagination-link" aria-label="am-03-1: Bookmarks">
+        <span class="nav-page-text">am-03-1: Bookmarks</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
