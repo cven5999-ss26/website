@@ -115,6 +115,6 @@ All 9 steps work. Step 8 finds the "New Project from Git Repository" dialog by a
 **Notes:**
 - Red-box highlights only, no text labels (user preference).
 - `findFirstByText` uses exact match (not `startsWith`) to avoid "New Project" grabbing "New Project from Git Repository".
-- `page.goto` uses `waitUntil: "load"` (not `networkidle2`) because GitHub keeps long-lived background requests open — `networkidle2` was timing out.
+- `page.goto` uses `waitUntil: "load"` (not `networkidle2`) because GitHub keeps long-lived background requests open; `networkidle2` was timing out.
 - Posit Cloud's workspace list is client-rendered. `waitForPositWorkspaceReady` polls for the "New Project" button before clicking on steps 6–9.
 - **Step 9 creates an actual project** `md-02-rainbow-train` in the Posit workspace. Delete the existing project from Posit before re-running, otherwise step 9 captures the post-create workspace list instead of the deploying screen.
