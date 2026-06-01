@@ -1,0 +1,21 @@
+---
+title: "initial-prompt"
+format: html
+---
+
+Module 3 is a new module. Learners have had one lecture so far and have not yet worked a lot with code, but should start to have a grasp of the git workflow.
+
+For this week, I want o prepare a case study. It's the case study of the GLobal health engineering group at ETH ZUrich. GHE has an employee working as data steward for the group, who is developign a data management strategy and supports the group to implement it's open science vision.
+
+Learn more in this interview: 
+
+https://library.ethz.ch/en/about-us-and-locations/news/news-articles/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html
+
+Over the years, the group has developed a data management strategy and other workflows which are well described in this video:
+
+https://www.youtube.com/watch?v=zpVo_-Ne91c
+
+Part of this assignment is to read the interview and also to watch the talk, but I want students to then also complete some assignemtns that critiques this approach and makes them think about it for their context. 
+
+gh-org-cven-dev/md-03 is added as a workspace and I want the layout to be the same as for other modules: hw- and learning reflection. The github workflow must also be practiced.
+
