@@ -2,9 +2,9 @@
 title: "GitHub workflow"
 ---
 
-::: {.callout-note}
-## Screenshots will be updated
-The screenshots in this assignment are from a previous course iteration and will be updated before the class starts.
+::: {.callout-warning}
+## Screenshots show a different course
+The screenshots in this assignment show a class titled `ds4owd-002`. They were carried over from another course and have not yet been updated. For this course, you must use `cven5999-ss26` wherever you see `ds4owd-002` in the screenshots (for example, in the Posit Cloud workspace name).
 :::
 
 ## Complete the GitHub workflow
@@ -36,6 +36,11 @@ These will be the details that git will use to identify you when you make change
 5. Render the document by clicking the [Render]{.highlight-yellow} button in the Source pane.
 
 ![](images/github-workflow/screenshot-render-button.png){width=100%}
+
+::: {.callout-note}
+## A new tab will open
+After rendering, a new browser tab will open showing the rendered output document. If your browser blocks it with a pop-up blocker, allow pop-ups for Posit Cloud and try again. You can close the new tab once you have seen the output; it is not needed for the rest of the assignment.
+:::
 
 6. Continue with the next step.
 

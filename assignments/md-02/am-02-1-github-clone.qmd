@@ -2,16 +2,11 @@
 title: "Clone a GitHub repository"
 ---
 
-::: {.callout-note}
-## Screenshots will be updated
-The screenshots in this assignment are from a previous course iteration and will be updated before the class starts.
-:::
-
 ## Clone a repository
 
 In this assignment, you will clone your personal Module 2 repository from GitHub to Posit Cloud.
 
-1. Open <https://github.com/> in your browser.
+1. Open <https://github.com/> in your browser. Login with your username if you are not logged in yet.
 
 ![](images/github-clone/screenshot-github-homepage.png){width=100%}
 
