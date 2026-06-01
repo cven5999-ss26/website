@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "LICENSE.md"
+    - "!assignments/*/initial-prompt.qmd"
 
 website:
   page-navigation: true
