@@ -700,6 +700,20 @@
     ]
   },
   {
+    "objectID": "assignments/md-03/am-03-3-github-clone.html",
+    "href": "assignments/md-03/am-03-3-github-clone.html",
+    "title": "Clone a GitHub repository",
+    "section": "",
+    "text": "In this assignment, you will clone your personal Module 3 repository from GitHub to Posit Cloud.\n\n\n\n\n\n\nNote\n\n\n\nThe clone steps documented here are a one-time setup per homework repository: each new homework repo (Module 3, 4, 5, 6, 7) needs to be cloned to Posit Cloud once. The repeating part of the workflow is stage, commit, push, which you will do at the end of each module; see Assignment 4: GitHub workflow for those steps.\n\n\n\nOpen https://github.com/ in your browser. Login with your username if you are not logged in yet.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/cven5999-ss26\n\n\n\nFind the repository md-03-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the cven5999-ss26 workspace on Posit Cloud: https://posit.cloud/spaces/784454/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: Case study, Data stewardship at ETH GHE."
+  },
+  {
+    "objectID": "assignments/md-03/am-03-3-github-clone.html#clone-a-repository",
+    "href": "assignments/md-03/am-03-3-github-clone.html#clone-a-repository",
+    "title": "Clone a GitHub repository",
+    "section": "",
+    "text": "In this assignment, you will clone your personal Module 3 repository from GitHub to Posit Cloud.\n\n\n\n\n\n\nNote\n\n\n\nThe clone steps documented here are a one-time setup per homework repository: each new homework repo (Module 3, 4, 5, 6, 7) needs to be cloned to Posit Cloud once. The repeating part of the workflow is stage, commit, push, which you will do at the end of each module; see Assignment 4: GitHub workflow for those steps.\n\n\n\nOpen https://github.com/ in your browser. Login with your username if you are not logged in yet.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/cven5999-ss26\n\n\n\nFind the repository md-03-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the cven5999-ss26 workspace on Posit Cloud: https://posit.cloud/spaces/784454/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: Case study, Data stewardship at ETH GHE."
+  },
+  {
     "objectID": "assignments/md-03/am-03-1-bookmarks.html",
     "href": "assignments/md-03/am-03-1-bookmarks.html",
     "title": "Support yourself with bookmarks",
@@ -1085,6 +1099,34 @@
     ]
   },
   {
+    "objectID": "assignments/md-03/am-03-4-github-workflow.html",
+    "href": "assignments/md-03/am-03-4-github-workflow.html",
+    "title": "GitHub workflow",
+    "section": "",
+    "text": "This is the final assignment for Module 3. By this point you should have:\n\nCloned your md-03-USERNAME repository to Posit Cloud (Assignment 1)\nWorked through the case study (Assignment 2) and written your answers into hw-data-stewardship.qmd in your Posit Cloud project\nCompleted the learning reflection in learning-03.qmd in your Posit Cloud project\n\nNow you will commit and push those changes to GitHub.\n\n\n\n\n\n\nNote\n\n\n\nYou already configured git as part of the Module 2 in-class session. Git configuration is a one-time setup; you do not need to repeat it for this or future homework repositories. Your workflow for every module from here on is just the commit and push steps below."
+  },
+  {
+    "objectID": "assignments/md-03/am-03-4-github-workflow.html#complete-the-github-workflow",
+    "href": "assignments/md-03/am-03-4-github-workflow.html#complete-the-github-workflow",
+    "title": "GitHub workflow",
+    "section": "",
+    "text": "This is the final assignment for Module 3. By this point you should have:\n\nCloned your md-03-USERNAME repository to Posit Cloud (Assignment 1)\nWorked through the case study (Assignment 2) and written your answers into hw-data-stewardship.qmd in your Posit Cloud project\nCompleted the learning reflection in learning-03.qmd in your Posit Cloud project\n\nNow you will commit and push those changes to GitHub.\n\n\n\n\n\n\nNote\n\n\n\nYou already configured git as part of the Module 2 in-class session. Git configuration is a one-time setup; you do not need to repeat it for this or future homework repositories. Your workflow for every module from here on is just the commit and push steps below."
+  },
+  {
+    "objectID": "assignments/md-03/am-03-4-github-workflow.html#commit-and-push-your-changes",
+    "href": "assignments/md-03/am-03-4-github-workflow.html#commit-and-push-your-changes",
+    "title": "GitHub workflow",
+    "section": "Commit and push your changes",
+    "text": "Commit and push your changes\n\nIn Posit Cloud, open the md-03-USERNAME project. Make sure you are in the cven5999-ss26 workspace (check the top left corner; if it says Your Workspace you are in the wrong place, go back to Assignment 1 and clone again into the correct workspace).\nConfirm both files have been saved with your work:\n\nhw-data-stewardship.qmd contains your written critique answers\nlearning-03.qmd contains your learning reflection\n\nRender each file (click the Render button in the Source pane) and check it produces an HTML output without errors.\nOpen the Git pane in the top-right window of RStudio.\nStage your changes by checking the boxes next to the changed files (hw-data-stewardship.qmd, learning-03.qmd, and any rendered output files).\nClick the Commit button. A new window opens.\nEnter a meaningful commit message, for example: completed week 3 data stewardship homework and learning reflection.\nClick Commit. You should see a confirmation message. Click Close.\nClick the Push button in the top right corner.\nWhen prompted, enter your GitHub username and click OK.\nWhen prompted, enter your GitHub Personal Access Token (PAT) and click OK. This is the PAT you created in Module 1, Assignment 4.\n\nIf you see a message that ends with HEAD -&gt; main, you have successfully pushed your changes to the remote repository on GitHub. Click Close.\n\n\n\n\n\n\nWarningPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely."
+  },
+  {
+    "objectID": "assignments/md-03/am-03-4-github-workflow.html#verify-on-github",
+    "href": "assignments/md-03/am-03-4-github-workflow.html#verify-on-github",
+    "title": "GitHub workflow",
+    "section": "Verify on GitHub",
+    "text": "Verify on GitHub\n\nNavigate to your md-03-USERNAME repository at https://github.com/cven5999-ss26 and refresh the page.\nYou should see your commit message next to the updated files, and the changes you made in hw-data-stewardship.qmd and learning-03.qmd should be visible on GitHub.\n\nYou have now completed the GitHub workflow for Module 3."
+  },
+  {
     "objectID": "modules/md-01.html",
     "href": "modules/md-01.html",
     "title": "Module 1",
@@ -1169,7 +1211,7 @@
     "href": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
     "title": "Module 3",
     "section": " Homework assignment",
-    "text": "Homework assignment\nDue date: June 12, 2026\nComplete the case-study assignments on the course website first, then complete the homework in your Posit Cloud project for Module 3.\n\nAssignment 1: Case study, Data stewardship at ETH GHE\nAssignment 2: Support yourself with bookmarks\n\nThen complete the homework programming assignment that is in your project folder for Module 3 on Posit Cloud.\n\nhw-data-stewardship.qmd",
+    "text": "Homework assignment\nDue date: June 12, 2026\nWork through these assignments in order:\n\nAssignment 1: Clone a GitHub repository to Posit Cloud\nAssignment 2: Case study, Data stewardship at ETH GHE\nAssignment 3: Support yourself with bookmarks\nAssignment 4: GitHub workflow, commit and push\n\nThen complete the homework programming assignment that is in your project folder for Module 3 on Posit Cloud.\n\nhw-data-stewardship.qmd",
     "crumbs": [
       "Module 3"
     ]

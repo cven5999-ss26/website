@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Module 3 – CVEN 5999 - Summer 2026</title>
+<title>GitHub workflow – CVEN 5999 - Summer 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,48 +23,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../assignments/md-03/am-03-2-case-study.html" rel="next">
-<link href="../assignments/md-02/am-02-2-github-workflow.html" rel="prev">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b165eb36346f47d4ad9eee4cc1f798ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-b165eb36346f47d4ad9eee4cc1f798ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -111,7 +88,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/md-03.html">Module 3</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">GitHub workflow</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -125,9 +102,9 @@ div.csl-indent {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../img/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="../img/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../img/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../img/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/cven5999-ss26" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -142,14 +119,14 @@ div.csl-indent {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Course Overview</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-01.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 1</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -158,37 +135,37 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-1-github-account.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-1-github-account.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-1: GitHub account</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-2-orcid.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-2-orcid.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-2: ORCID iD</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-3-posit-cloud.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-3-posit-cloud.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-3: Posit Cloud</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-4-github-pat.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-4-github-pat.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-4: GitHub PAT</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-5-pre-course-survey.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-5-pre-course-survey.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-5: Pre-course survey</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-6-github-issue.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-6-github-issue.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-6: GitHub issue</span></a>
   </div>
 </li>
@@ -196,7 +173,7 @@ div.csl-indent {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-02.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 2</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -205,13 +182,13 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-02/am-02-1-github-clone.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-02/am-02-1-github-clone.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02-1: GitHub clone</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-02/am-02-2-github-workflow.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-02/am-02-2-github-workflow.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02-2: GitHub workflow</span></a>
   </div>
 </li>
@@ -219,22 +196,22 @@ div.csl-indent {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-03.html" class="sidebar-item-text sidebar-link active">
+            <a href="../../modules/md-03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 3</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-03/am-03-2-case-study.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-03/am-03-2-case-study.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-03-2: Case study</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-03/am-03-1-bookmarks.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-03/am-03-1-bookmarks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-03-1: Bookmarks</span></a>
   </div>
 </li>
@@ -242,32 +219,32 @@ div.csl-indent {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-04.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 4</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-05.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 5</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-06.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-06.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 6</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-07.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-07.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 7</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../project/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Capstone Project</span></a>
   </div>
 </li>
@@ -281,10 +258,9 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives"><i class="fa-solid fa-bullseye" aria-label="bullseye"></i> Learning Objectives</a></li>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings"><i class="fa-solid fa-book" aria-label="book"></i> Readings</a></li>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment"><i class="fa-solid fa-code" aria-label="code"></i> Homework assignment</a></li>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection"><i class="fa-solid fa-pen-clip" aria-label="pen-clip"></i> Learning reflection</a></li>
+  <li><a href="#complete-the-github-workflow" id="toc-complete-the-github-workflow" class="nav-link active" data-scroll-target="#complete-the-github-workflow">Complete the GitHub workflow</a></li>
+  <li><a href="#commit-and-push-your-changes" id="toc-commit-and-push-your-changes" class="nav-link" data-scroll-target="#commit-and-push-your-changes">Commit and push your changes</a></li>
+  <li><a href="#verify-on-github" id="toc-verify-on-github" class="nav-link" data-scroll-target="#verify-on-github">Verify on GitHub</a></li>
   </ul>
 </nav>
     </div>
@@ -293,8 +269,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Module 3</h1>
-<p class="subtitle lead">Data Management in Practice - Case Study</p>
+<h1 class="title">GitHub workflow</h1>
 </div>
 
 
@@ -311,52 +286,75 @@ div.csl-indent {
 </header>
 
 
-<p>This module is a case study on data stewardship in practice, built around the Global Health Engineering (GHE) group at ETH Zurich. There is no lecture this week; you will read an interview, watch a talk, and reflect on whether and how the approach could apply to your own research context.</p>
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives"><i class="fa-solid fa-bullseye" aria-label="bullseye"></i> Learning Objectives</h2>
-<div class="cell">
+<section id="complete-the-github-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="complete-the-github-workflow">Complete the GitHub workflow</h2>
+<p>This is the final assignment for Module 3. By this point you should have:</p>
+<ul>
+<li>Cloned your <code>md-03-USERNAME</code> repository to Posit Cloud (<a href="../../assignments/md-03/am-03-3-github-clone.html">Assignment 1</a>)</li>
+<li>Worked through the case study (<a href="../../assignments/md-03/am-03-2-case-study.html">Assignment 2</a>) and written your answers into <span class="highlight-yellow"><code>hw-data-stewardship.qmd</code></span> in your Posit Cloud project</li>
+<li>Completed the learning reflection in <span class="highlight-yellow"><code>learning-03.qmd</code></span> in your Posit Cloud project</li>
+</ul>
+<p>Now you will commit and push those changes to GitHub.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You already configured git as part of the Module 2 in-class session. Git configuration is a one-time setup; you do not need to repeat it for this or future homework repositories. Your workflow for every module from here on is just the commit and push steps below.</p>
+</div>
+</div>
+</section>
+<section id="commit-and-push-your-changes" class="level2">
+<h2 class="anchored" data-anchor-id="commit-and-push-your-changes">Commit and push your changes</h2>
 <ol type="1">
-<li>Learners can summarise the data stewardship model used by the Global Health Engineering group at ETH Zurich.</li>
-<li>Learners can explain what “open by default” means in a research group context and identify two organizational factors that enable or resist it.</li>
-<li>Learners can critique an existing data management strategy and propose adaptations for their own research context.</li>
+<li><p>In Posit Cloud, open the <span class="highlight-yellow">md-03-USERNAME</span> project. Make sure you are in the <span class="highlight-yellow">cven5999-ss26</span> workspace (check the top left corner; if it says <span class="highlight-yellow">Your Workspace</span> you are in the wrong place, go back to <a href="../../assignments/md-03/am-03-3-github-clone.html">Assignment 1</a> and clone again into the correct workspace).</p></li>
+<li><p>Confirm both files have been saved with your work:</p>
+<ul>
+<li><code>hw-data-stewardship.qmd</code> contains your written critique answers</li>
+<li><code>learning-03.qmd</code> contains your learning reflection</li>
+</ul></li>
+<li><p>Render each file (click the <span class="highlight-yellow">Render</span> button in the Source pane) and check it produces an HTML output without errors.</p></li>
+<li><p>Open the Git pane in the top-right window of RStudio.</p></li>
+<li><p>Stage your changes by checking the boxes next to the changed files (<code>hw-data-stewardship.qmd</code>, <code>learning-03.qmd</code>, and any rendered output files).</p></li>
+<li><p>Click the <span class="highlight-yellow">Commit</span> button. A new window opens.</p></li>
+<li><p>Enter a meaningful commit message, for example: <span class="highlight-yellow">completed week 3 data stewardship homework and learning reflection</span>.</p></li>
+<li><p>Click <span class="highlight-yellow">Commit</span>. You should see a confirmation message. Click <span class="highlight-yellow">Close</span>.</p></li>
+<li><p>Click the <span class="highlight-yellow">Push</span> button in the top right corner.</p></li>
+<li><p>When prompted, enter your GitHub username and click OK.</p></li>
+<li><p>When prompted, enter your GitHub Personal Access Token (PAT) and click OK. This is the PAT you created in <a href="../../assignments/md-01/am-01-4-github-pat.html">Module 1, Assignment 4</a>.</p></li>
 </ol>
+<p>If you see a message that ends with <code>HEAD -&gt; main</code>, you have successfully pushed your changes to the remote repository on GitHub. Click <span class="highlight-yellow">Close</span>.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>PAT Storage Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.</p>
+</div>
 </div>
 </section>
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings"><i class="fa-solid fa-book" aria-label="book"></i> Readings</h2>
-<p><i class="fa-solid fa-book" aria-label="book"></i> Read <span class="citation" data-cites="wilson2017">Wilson et al. (<a href="#ref-wilson2017" role="doc-biblioref">2017</a>)</span> “Good enough practices in scientific computing”.</p>
-</section>
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment"><i class="fa-solid fa-code" aria-label="code"></i> Homework assignment</h2>
-<p><span class="highlight-yellow">Due date:</span> June 12, 2026</p>
-<p>Work through these assignments in order:</p>
-<ul>
-<li><a href="../assignments/md-03/am-03-3-github-clone.html">Assignment 1</a>: Clone a GitHub repository to Posit Cloud</li>
-<li><a href="../assignments/md-03/am-03-2-case-study.html">Assignment 2</a>: Case study, Data stewardship at ETH GHE</li>
-<li><a href="../assignments/md-03/am-03-1-bookmarks.html">Assignment 3</a>: Support yourself with bookmarks</li>
-<li><a href="../assignments/md-03/am-03-4-github-workflow.html">Assignment 4</a>: GitHub workflow, commit and push</li>
-</ul>
-<p>Then complete the homework programming assignment that is in your project folder for Module 3 on <a href="https://posit.cloud/spaces/784454/content/all">Posit Cloud</a>.</p>
-<ul>
-<li>hw-data-stewardship.qmd</li>
-</ul>
-</section>
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection"><i class="fa-solid fa-pen-clip" aria-label="pen-clip"></i> Learning reflection</h2>
-<p>Complete the learning reflection that is in your project folder for Module 3 by <span class="highlight-yellow"><strong>June 12, 2026</strong></span> on <a href="https://posit.cloud/spaces/784454/content/all">Posit Cloud</a>.</p>
-<ul>
-<li>learning-03.qmd</li>
-</ul>
-
+<section id="verify-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="verify-on-github">Verify on GitHub</h2>
+<ol type="1">
+<li><p>Navigate to your <code>md-03-USERNAME</code> repository at <a href="https://github.com/cven5999-ss26">https://github.com/cven5999-ss26</a> and refresh the page.</p></li>
+<li><p>You should see your commit message next to the updated files, and the changes you made in <code>hw-data-stewardship.qmd</code> and <code>learning-03.qmd</code> should be visible on GitHub.</p></li>
+</ol>
+<p>You have now completed the GitHub workflow for Module 3.</p>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-wilson2017" class="csl-entry" role="listitem">
-Wilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. 2017. <span>“Good Enough Practices in Scientific Computing.”</span> <em>PLOS Computational Biology</em> 13 (6): e1005510. <a href="https://doi.org/10.1371/journal.pcbi.1005510">https://doi.org/10.1371/journal.pcbi.1005510</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -764,18 +762,6 @@ Wilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../assignments/md-02/am-02-2-github-workflow.html" class="pagination-link" aria-label="am-02-2: GitHub workflow">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">am-02-2: GitHub workflow</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../assignments/md-03/am-03-2-case-study.html" class="pagination-link" aria-label="am-03-2: Case study">
-        <span class="nav-page-text">am-03-2: Case study</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
