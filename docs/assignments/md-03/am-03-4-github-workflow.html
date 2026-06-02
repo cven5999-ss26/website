@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Clone a GitHub repository – CVEN 5999 - Summer 2026</title>
+<title>GitHub workflow – CVEN 5999 - Summer 2026</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -29,18 +32,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../assignments/md-02/am-02-2-github-workflow.html" rel="next">
-<link href="../../modules/md-02.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-87d7be9a06a758dcbbc500798b9054a4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b165eb36346f47d4ad9eee4cc1f798ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -87,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../modules/md-02.html">Module 2</a></li><li class="breadcrumb-item"><a href="../../assignments/md-02/am-02-1-github-clone.html">am-02-1: GitHub clone</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">GitHub workflow</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -102,7 +103,8 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../img/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../../img/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../img/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/cven5999-ss26" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -173,14 +175,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../modules/md-02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 2</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../assignments/md-02/am-02-1-github-clone.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../assignments/md-02/am-02-1-github-clone.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02-1: GitHub clone</span></a>
   </div>
 </li>
@@ -256,16 +258,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#clone-a-repository" id="toc-clone-a-repository" class="nav-link active" data-scroll-target="#clone-a-repository">Clone a repository</a></li>
+  <li><a href="#complete-the-github-workflow" id="toc-complete-the-github-workflow" class="nav-link active" data-scroll-target="#complete-the-github-workflow">Complete the GitHub workflow</a></li>
+  <li><a href="#commit-and-push-your-changes" id="toc-commit-and-push-your-changes" class="nav-link" data-scroll-target="#commit-and-push-your-changes">Commit and push your changes</a></li>
+  <li><a href="#verify-on-github" id="toc-verify-on-github" class="nav-link" data-scroll-target="#verify-on-github">Verify on GitHub</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../modules/md-02.html">Module 2</a></li><li class="breadcrumb-item"><a href="../../assignments/md-02/am-02-1-github-clone.html">am-02-1: GitHub clone</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Clone a GitHub repository</h1>
+<h1 class="title">GitHub workflow</h1>
 </div>
 
 
@@ -282,9 +286,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="clone-a-repository" class="level2">
-<h2 class="anchored" data-anchor-id="clone-a-repository">Clone a repository</h2>
-<p>In this assignment, you will clone your personal Module 2 repository from GitHub to Posit Cloud.</p>
+<section id="complete-the-github-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="complete-the-github-workflow">Complete the GitHub workflow</h2>
+<p>This is the final assignment for Module 3. By this point you should have:</p>
+<ul>
+<li>Cloned your <code>md-03-USERNAME</code> repository to Posit Cloud (<a href="../../assignments/md-03/am-03-3-github-clone.html">Assignment 1</a>)</li>
+<li>Worked through the case study (<a href="../../assignments/md-03/am-03-2-case-study.html">Assignment 2</a>) and written your answers into <span class="highlight-yellow"><code>hw-data-stewardship.qmd</code></span> in your Posit Cloud project</li>
+<li>Completed the learning reflection in <span class="highlight-yellow"><code>learning-03.qmd</code></span> in your Posit Cloud project</li>
+</ul>
+<p>Now you will commit and push those changes to GitHub.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -295,65 +305,51 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You already cloned your Module 2 repository as part of the in-class session, so you can skip the steps below for this module. The clone steps documented here are a one-time setup per homework repository: each new homework repo (Module 4, 5, 6, 7) needs to be cloned to Posit Cloud once. The repeating part of the workflow is stage, commit, push, which you will do every time you make changes; see the <a href="../../assignments/md-02/am-02-2-github-workflow.html">GitHub workflow</a> assignment for those steps.</p>
+<p>You already configured git as part of the Module 2 in-class session. Git configuration is a one-time setup; you do not need to repeat it for this or future homework repositories. Your workflow for every module from here on is just the commit and push steps below.</p>
 </div>
 </div>
+</section>
+<section id="commit-and-push-your-changes" class="level2">
+<h2 class="anchored" data-anchor-id="commit-and-push-your-changes">Commit and push your changes</h2>
 <ol type="1">
-<li>Open <a href="https://github.com/" class="uri">https://github.com/</a> in your browser. Login with your username if you are not logged in yet.</li>
-</ol>
-<p><img src="images/github-clone/screenshot-github-homepage.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="2" type="1">
-<li>Navigate to the GitHub organization for the course: <a href="https://github.com/cven5999-ss26">https://github.com/cven5999-ss26</a></li>
-</ol>
-<p><img src="images/github-clone/screenshot-github-org-search.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="3" type="1">
-<li>Find the repository <code>md-02-USERNAME</code> that <span class="highlight-yellow">ends with your GitHub username</span>, and open it by clicking on the repository name.</li>
-</ol>
+<li><p>In Posit Cloud, open the <span class="highlight-yellow">md-03-USERNAME</span> project. Make sure you are in the <span class="highlight-yellow">cven5999-ss26</span> workspace (check the top left corner; if it says <span class="highlight-yellow">Your Workspace</span> you are in the wrong place, go back to <a href="../../assignments/md-03/am-03-3-github-clone.html">Assignment 1</a> and clone again into the correct workspace).</p></li>
+<li><p>Confirm both files have been saved with your work:</p>
 <ul>
-<li>Replace <code>USERNAME</code> with your actual GitHub username.</li>
-<li>For example, if your username is <code>johnsmith</code>, the repository will be <code>md-02-johnsmith</code>.</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled">
+<li><code>hw-data-stewardship.qmd</code> contains your written critique answers</li>
+<li><code>learning-03.qmd</code> contains your learning reflection</li>
+</ul></li>
+<li><p>Render each file (click the <span class="highlight-yellow">Render</span> button in the Source pane) and check it produces an HTML output without errors.</p></li>
+<li><p>Open the Git pane in the top-right window of RStudio.</p></li>
+<li><p>Stage your changes by checking the boxes next to the changed files (<code>hw-data-stewardship.qmd</code>, <code>learning-03.qmd</code>, and any rendered output files).</p></li>
+<li><p>Click the <span class="highlight-yellow">Commit</span> button. A new window opens.</p></li>
+<li><p>Enter a meaningful commit message, for example: <span class="highlight-yellow">completed week 3 data stewardship homework and learning reflection</span>.</p></li>
+<li><p>Click <span class="highlight-yellow">Commit</span>. You should see a confirmation message. Click <span class="highlight-yellow">Close</span>.</p></li>
+<li><p>Click the <span class="highlight-yellow">Push</span> button in the top right corner.</p></li>
+<li><p>When prompted, enter your GitHub username and click OK.</p></li>
+<li><p>When prompted, enter your GitHub Personal Access Token (PAT) and click OK. This is the PAT you created in <a href="../../assignments/md-01/am-01-4-github-pat.html">Module 1, Assignment 4</a>.</p></li>
+</ol>
+<p>If you see a message that ends with <code>HEAD -&gt; main</code>, you have successfully pushed your changes to the remote repository on GitHub. Click <span class="highlight-yellow">Close</span>.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip
+<span class="screen-reader-only">Warning</span>PAT Storage Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can search for your repository by typing your username in the search bar just below the Repository heading.</p>
+<p>If you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.</p>
 </div>
 </div>
-<p><img src="images/github-clone/screenshot-github-repo-list.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="4" type="1">
-<li>Click on the green <span class="highlight-yellow">Code</span> button.</li>
+</section>
+<section id="verify-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="verify-on-github">Verify on GitHub</h2>
+<ol type="1">
+<li><p>Navigate to your <code>md-03-USERNAME</code> repository at <a href="https://github.com/cven5999-ss26">https://github.com/cven5999-ss26</a> and refresh the page.</p></li>
+<li><p>You should see your commit message next to the updated files, and the changes you made in <code>hw-data-stewardship.qmd</code> and <code>learning-03.qmd</code> should be visible on GitHub.</p></li>
 </ol>
-<p><img src="images/github-clone/screenshot-github-code-button.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="5" type="1">
-<li>Copy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.</li>
-</ol>
-<p><img src="images/github-clone/screenshot-github-https-url.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="6" type="1">
-<li>Open the <span class="highlight-yellow">Content</span> tab of the cven5999-ss26 workspace on Posit Cloud: <a href="https://posit.cloud/spaces/784454/content/all?sort=name_asc">https://posit.cloud/spaces/784454/content/all?sort=name_asc</a></li>
-</ol>
-<p><img src="images/github-clone/screenshot-posit-cloud-workspace.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="7" type="1">
-<li>Click the blue button <span class="highlight-yellow">New Project</span> &gt; <span class="highlight-yellow">New Project from Git Repository</span></li>
-</ol>
-<p><img src="images/github-clone/screenshot-posit-cloud-new-project.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="8" type="1">
-<li>Paste the HTTPS URL from GitHub into the <span class="highlight-yellow">URL of your Git Repository</span> field and click <span class="highlight-yellow">OK</span>. Leave the checkbox under Packages checked.</li>
-</ol>
-<p><img src="images/github-clone/screenshot-posit-cloud-git-url.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="9" type="1">
-<li>Wait until the project is deployed. This may take a few minutes, depending on your internet connection.</li>
-</ol>
-<p><img src="images/github-clone/screenshot-posit-cloud-deploying.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="10" type="1">
-<li>Continue with the next assignment: <a href="../../assignments/md-02/am-02-2-github-workflow.html">GitHub workflow</a>.</li>
-</ol>
+<p>You have now completed the GitHub workflow for Module 3.</p>
 
 
 </section>
@@ -410,13 +406,14 @@ Tip
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -765,18 +762,6 @@ Tip
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../modules/md-02.html" class="pagination-link" aria-label="Module 2">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Module 2</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../../assignments/md-02/am-02-2-github-workflow.html" class="pagination-link" aria-label="am-02-2: GitHub workflow">
-        <span class="nav-page-text">am-02-2: GitHub workflow</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

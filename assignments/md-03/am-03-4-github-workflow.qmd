@@ -1,0 +1,60 @@
+---
+title: "GitHub workflow"
+---
+
+## Complete the GitHub workflow
+
+This is the final assignment for Module 3. By this point you should have:
+
+- Cloned your `md-03-USERNAME` repository to Posit Cloud ([Assignment 1](am-03-3-github-clone.qmd))
+- Worked through the case study ([Assignment 2](am-03-2-case-study.qmd)) and written your answers into [`hw-data-stewardship.qmd`]{.highlight-yellow} in your Posit Cloud project
+- Completed the learning reflection in [`learning-03.qmd`]{.highlight-yellow} in your Posit Cloud project
+
+Now you will commit and push those changes to GitHub.
+
+::: {.callout-note}
+You already configured git as part of the Module 2 in-class session. Git configuration is a one-time setup; you do not need to repeat it for this or future homework repositories. Your workflow for every module from here on is just the commit and push steps below.
+:::
+
+## Commit and push your changes
+
+1. In Posit Cloud, open the [md-03-USERNAME]{.highlight-yellow} project. Make sure you are in the [{{< var course.code >}}]{.highlight-yellow} workspace (check the top left corner; if it says [Your Workspace]{.highlight-yellow} you are in the wrong place, go back to [Assignment 1](am-03-3-github-clone.qmd) and clone again into the correct workspace).
+
+2. Confirm both files have been saved with your work:
+
+    - `hw-data-stewardship.qmd` contains your written critique answers
+    - `learning-03.qmd` contains your learning reflection
+
+3. Render each file (click the [Render]{.highlight-yellow} button in the Source pane) and check it produces an HTML output without errors.
+
+4. Open the Git pane in the top-right window of RStudio.
+
+5. Stage your changes by checking the boxes next to the changed files (`hw-data-stewardship.qmd`, `learning-03.qmd`, and any rendered output files).
+
+6. Click the [Commit]{.highlight-yellow} button. A new window opens.
+
+7. Enter a meaningful commit message, for example: [completed week 3 data stewardship homework and learning reflection]{.highlight-yellow}.
+
+8. Click [Commit]{.highlight-yellow}. You should see a confirmation message. Click [Close]{.highlight-yellow}.
+
+9. Click the [Push]{.highlight-yellow} button in the top right corner.
+
+10. When prompted, enter your GitHub username and click OK.
+
+11. When prompted, enter your GitHub Personal Access Token (PAT) and click OK. This is the PAT you created in [Module 1, Assignment 4](../md-01/am-01-4-github-pat.qmd).
+
+If you see a message that ends with `HEAD -> main`, you have successfully pushed your changes to the remote repository on GitHub. Click [Close]{.highlight-yellow}.
+
+::: {.callout-warning}
+## PAT Storage Warning
+
+If you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.
+:::
+
+## Verify on GitHub
+
+1. Navigate to your `md-03-USERNAME` repository at [{{< var course.github-org >}}]({{< var course.github-org >}}) and refresh the page.
+
+2. You should see your commit message next to the updated files, and the changes you made in `hw-data-stewardship.qmd` and `learning-03.qmd` should be visible on GitHub.
+
+You have now completed the GitHub workflow for Module 3.
