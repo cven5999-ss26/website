@@ -235,7 +235,7 @@
     "href": "slides/lec-d-tidy-data.html#references",
     "title": "Concept of tidy data, vectors and pivoting",
     "section": "References",
-    "text": "References\n\n\n\n\nBen Aleya, Ali, Daniel Biek, Lin Boynton, Julia Jaeggi, Sebastian Camilo Loos, Chiara Meyer-Piening, Jonathan Olal Ogwang, et al. 2022. “Research Beyond the Lab, Spring Term 2022, Global Health Engineering, ETH Zurich. Raw Data and Analysis-Ready Derived Data on Waste Management in Public Spaces in Zurich, Switzerland.” Zenodo. https://doi.org/10.5281/ZENODO.7331119."
+    "text": "References\n\n\n\n\nBen Aleya, Ali, Daniel Biek, Lin Boynton, et al. 2022. Research Beyond the Lab, Spring Term 2022, Global Health Engineering, ETH Zurich. Raw Data and Analysis-Ready Derived Data on Waste Management in Public Spaces in Zurich, Switzerland. Zenodo. https://doi.org/10.5281/ZENODO.7331119."
   },
   {
     "objectID": "slides/lec-b-visualisation.html#section",
@@ -430,8 +430,8 @@
     ]
   },
   {
-    "objectID": "project/index.html#learning-objectives",
-    "href": "project/index.html#learning-objectives",
+    "objectID": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "Capstone Project",
     "section": " Learning Objectives",
     "text": "Learning Objectives\n\nLearners can apply the skills obtained during the course to write a short data analysis project report.",
@@ -440,8 +440,8 @@
     ]
   },
   {
-    "objectID": "project/index.html#github-repository",
-    "href": "project/index.html#github-repository",
+    "objectID": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-github-repository",
+    "href": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-github-repository",
     "title": "Capstone Project",
     "section": " GitHub repository",
     "text": "GitHub repository\nEach student creates their own capstone project repository in the course GitHub organization as part of HW 04b: Capstone Project Setup, assigned in Module 5. In that assignment, students set up the directory structure of the repository and upload their self-identified raw data to the data/raw/ folder. The course instructor can support students with data preparation if needed.\nIn HW 05: Project Data Exploration, assigned in Module 6, students create a Quarto file (index.qmd) inside the docs/ folder of the repository, read in their data, and perform an initial exploration and tidying. Students build on this document to write their capstone project report. A list of graded items was prepared to guide students in writing the report.",
@@ -450,8 +450,8 @@
     ]
   },
   {
-    "objectID": "project/index.html#github-issue-tracker",
-    "href": "project/index.html#github-issue-tracker",
+    "objectID": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-github-issue-tracker",
+    "href": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-github-issue-tracker",
     "title": "Capstone Project",
     "section": " GitHub issue tracker",
     "text": "GitHub issue tracker\nThe GitHub issue tracker of each student’s capstone project repository is used to communicate and ask questions about the Capstone Project report.",
@@ -460,8 +460,8 @@
     ]
   },
   {
-    "objectID": "project/index.html#submission-due-date",
-    "href": "project/index.html#submission-due-date",
+    "objectID": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-submission-due-date",
+    "href": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-submission-due-date",
     "title": "Capstone Project",
     "section": " Submission due date",
     "text": "Submission due date\nThe due date for submission of the report is July 17, 2026. Any commits after the due date will not be counted against the graded items.",
@@ -470,8 +470,8 @@
     ]
   },
   {
-    "objectID": "project/index.html#graded-items",
-    "href": "project/index.html#graded-items",
+    "objectID": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-graded-items",
+    "href": "project/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-graded-items",
     "title": "Capstone Project",
     "section": " Graded items",
     "text": "Graded items\nTable 1 presents a detailed list of items used for grading the capstone project report. The sum of points is 100 and spread over technical and intellectual items as presented in Table 2.\n\n\n\n\nTable 1: List of items and points for grading of the capstone project report.\n\n\n\n\n\n\n\n\n\n\n\ncategory\nitems\npoints\n\n\n\n\ntechnical\nThe report renders without errors to HTML format and contains at least four chapters of heading level 1 that are named: Introduction, Methods, Results, Conclusions.\n10\n\n\ntechnical\nYAML header of report has title, author, date, and table of contents that are correctly displayed in the compiled HTML output.\n8\n\n\ntechnical\nWarnings are hidden from the compiled output, but code is shown in the compiled output.\n2\n\n\ntechnical\nThe report has at least two data visualisations.\n20\n\n\ntechnical\nEach data visualisation has edited human-readable labels (e.g. axis labels, legend title).\n4\n\n\ntechnical\nEach data visualisation applies at least one scaling function (e.g. color/fill, axes).\n4\n\n\ntechnical\nEach data visualisation has a label defined in the code-chunk options.\n4\n\n\ntechnical\nEach data visualisation has a caption defined in the code-chunk options.\n4\n\n\ntechnical\nEach data visualisation has an alternative text that describes what type of visualisation it is and trends or learnings from the visualisation.\n4\n\n\ntechnical\nEach data visualisation is cross-referenced in the narrative using the defined label from the code-chunk options.\n4\n\n\ntechnical\nThe report has at least one table with summary statistics (e.g. count, mean, median, standard deviation, etc.)\n8\n\n\ntechnical\nEach table is formatted in the rendered output using a function taught during the course (e.g. kable() function or gt() function)\n2\n\n\ntechnical\nEach table has a label defined in the code-chunk options.\n2\n\n\ntechnical\nEach table has a caption defined in the code-chunk options.\n2\n\n\ntechnical\nEach table is cross-referenced in the narrative using the defined label from the code-chunk options.\n2\n\n\nintellectual\nIntroduction section with 3 to 5 sentences introduces the context within which the data was created.\n5\n\n\nintellectual\nMethods section describes in 3 to 5 sentences how the data was obtained.\n5\n\n\nintellectual\nFigures and tables in Results section are interpreted with 2 to 3 sentences each.\n5\n\n\nintellectual\nConclusions concisely summarize findings in a bullet point format.\n5\n\n\n\n\n\n\n\n\n\n\n\n\nTable 2: Sum of points for technical and intellectual part of report.\n\n\n\n\n\n\n\n\n\n\n\ncategory\ndescription\npoints\n\n\n\n\nintellectual\nThis item is part of the intellectual framing of the capstone project report.\n20\n\n\ntechnical\nThis item is a technical part of the capstone project report.\n80",
@@ -490,8 +490,8 @@
     ]
   },
   {
-    "objectID": "modules/md-06.html#learning-objectives",
-    "href": "modules/md-06.html#learning-objectives",
+    "objectID": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "Module 6",
     "section": "",
     "text": "Learners can apply functions from the dplyr R Package to transform their data from a wide to a long format and vice versa.\nLearners can list the four main atomic vector types in R.\nLearners can explain the three characteristics of tidy data.",
@@ -500,8 +500,8 @@
     ]
   },
   {
-    "objectID": "modules/md-06.html#slides",
-    "href": "modules/md-06.html#slides",
+    "objectID": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
+    "href": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
     "title": "Module 6",
     "section": " Slides",
     "text": "Slides\nView slides in full screen",
@@ -510,8 +510,8 @@
     ]
   },
   {
-    "objectID": "modules/md-06.html#readings",
-    "href": "modules/md-06.html#readings",
+    "objectID": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
+    "href": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
     "title": "Module 6",
     "section": " Readings",
     "text": "Readings\n\nRead R for Data Science - Section 12 - Tidy data\nRead R for Data Science - Section 15 - Factors",
@@ -520,8 +520,8 @@
     ]
   },
   {
-    "objectID": "modules/md-06.html#homework-assignment",
-    "href": "modules/md-06.html#homework-assignment",
+    "objectID": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
+    "href": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
     "title": "Module 6",
     "section": " Homework assignment",
     "text": "Homework assignment\nDue date: July 03, 2026\nComplete the homework programming assignments that are in your project folder for Module 6 on Posit Cloud:\n\nhw-tidyr.qmd\n\nComplete the following assignment, which is not documented in your Module 6 project folder:\n\nHW: Capstone Project Data Exploration",
@@ -530,8 +530,8 @@
     ]
   },
   {
-    "objectID": "modules/md-06.html#learning-reflection",
-    "href": "modules/md-06.html#learning-reflection",
+    "objectID": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
+    "href": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
     "title": "Module 6",
     "section": " Learning reflection",
     "text": "Learning reflection\nComplete the learning reflection that is in your project folder for Module 6 by July 03, 2026 on Posit Cloud.\n\nlearning-06.qmd",
@@ -540,8 +540,8 @@
     ]
   },
   {
-    "objectID": "modules/md-06.html#session-recording",
-    "href": "modules/md-06.html#session-recording",
+    "objectID": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
+    "href": "modules/md-06.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
     "title": "Module 6",
     "section": " Session Recording",
     "text": "Session Recording\nYou can access the recording of the Module 6 session held on June 29, 2026.\nRecording link will be added after the live session.",
@@ -560,8 +560,8 @@
     ]
   },
   {
-    "objectID": "modules/md-04.html#learning-objectives",
-    "href": "modules/md-04.html#learning-objectives",
+    "objectID": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "Module 4",
     "section": "",
     "text": "Learners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.\nLearners can control the colour scaling applied to a plot using colour as an aesthetic mapping.\nLearners can compare three different geoms and their use case.\nLearners can apply a theme to control font types and sizes within a plot.\nLearners can apply 12 principles for data organisation in spreadsheets in the layout of a collected dataset.",
@@ -570,8 +570,8 @@
     ]
   },
   {
-    "objectID": "modules/md-04.html#slides",
-    "href": "modules/md-04.html#slides",
+    "objectID": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
+    "href": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
     "title": "Module 4",
     "section": " Slides",
     "text": "Slides\nView slides in full screen",
@@ -580,8 +580,8 @@
     ]
   },
   {
-    "objectID": "modules/md-04.html#readings",
-    "href": "modules/md-04.html#readings",
+    "objectID": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
+    "href": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
     "title": "Module 4",
     "section": " Readings",
     "text": "Readings\n\nRead R for Data Science - Section 3 to 3.6 - Data visualisation\nRead Fundamentals of Data Visualization - Section 2 - Visualizing data: Mapping data onto aesthetics\nRead Data Organization in Spreadsheets",
@@ -590,8 +590,8 @@
     ]
   },
   {
-    "objectID": "modules/md-04.html#homework-assignment",
-    "href": "modules/md-04.html#homework-assignment",
+    "objectID": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
+    "href": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
     "title": "Module 4",
     "section": " Homework assignment",
     "text": "Homework assignment\nDue date: June 19, 2026\nComplete the homework programming assignment that is in your project folder for Module 4 on Posit Cloud.\n\nhw-data-visualisation.qmd\nhw-project-data.qmd",
@@ -600,8 +600,8 @@
     ]
   },
   {
-    "objectID": "modules/md-04.html#learning-reflection",
-    "href": "modules/md-04.html#learning-reflection",
+    "objectID": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
+    "href": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
     "title": "Module 4",
     "section": " Learning reflection",
     "text": "Learning reflection\nComplete the learning reflection that is in your project folder for Module 4 by June 19, 2026 on Posit Cloud.\n\nlearning-04.qmd",
@@ -610,8 +610,8 @@
     ]
   },
   {
-    "objectID": "modules/md-04.html#session-recording",
-    "href": "modules/md-04.html#session-recording",
+    "objectID": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
+    "href": "modules/md-04.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
     "title": "Module 4",
     "section": " Session Recording",
     "text": "Session Recording\nYou can access the recording of the Module 4 session held on June 15, 2026.\nRecording link will be added after the live session.",
@@ -630,8 +630,8 @@
     ]
   },
   {
-    "objectID": "modules/md-02.html#learning-objectives",
-    "href": "modules/md-02.html#learning-objectives",
+    "objectID": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "Module 2",
     "section": " Learning Objectives",
     "text": "Learning Objectives\n\n\nLearners can navigate the platforms (Posit Cloud, GitHub, Course Website) that are used for the course.\nLearners can render a Quarto file to an output file in HTML, PDF and DOCX format.\nLearners can list the six elements of the data science lifecycle.\nLearners can identify four components of a Quarto file (YAML, code chunk, R code, markdown).",
@@ -640,8 +640,8 @@
     ]
   },
   {
-    "objectID": "modules/md-02.html#slides",
-    "href": "modules/md-02.html#slides",
+    "objectID": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
+    "href": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
     "title": "Module 2",
     "section": " Slides",
     "text": "Slides\nView slides in full screen",
@@ -650,8 +650,8 @@
     ]
   },
   {
-    "objectID": "modules/md-02.html#readings",
-    "href": "modules/md-02.html#readings",
+    "objectID": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
+    "href": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
     "title": "Module 2",
     "section": " Readings",
     "text": "Readings\nRead R for Data Science - Section 1 - Introduction through Section 1.3.4\nRead R for Data Science - Section 2 - Introduction\nRead R for Data Science - Section 4 - Workflow basics",
@@ -660,8 +660,8 @@
     ]
   },
   {
-    "objectID": "modules/md-02.html#homework-assignment",
-    "href": "modules/md-02.html#homework-assignment",
+    "objectID": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
+    "href": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
     "title": "Module 2",
     "section": " Homework assignment",
     "text": "Homework assignment\nDue date: June 05, 2026\nComplete these GitHub assignments before working on the programming assignment:\n\nAssignment 1: Clone a GitHub repository to Posit Cloud\nAssignment 2: GitHub workflow, configure git, commit, and push\n\nThen complete the homework programming assignment that is in your project folder for Module 2 on Posit Cloud.\n\nhw-data-science-lifecycle.qmd",
@@ -670,8 +670,8 @@
     ]
   },
   {
-    "objectID": "modules/md-02.html#learning-reflection",
-    "href": "modules/md-02.html#learning-reflection",
+    "objectID": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
+    "href": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
     "title": "Module 2",
     "section": " Learning reflection",
     "text": "Learning reflection\nComplete the learning reflection that is in your project folder for Module 2 by June 05, 2026 on Posit Cloud.\n\nlearning-02.qmd",
@@ -680,8 +680,8 @@
     ]
   },
   {
-    "objectID": "modules/md-02.html#session-recording",
-    "href": "modules/md-02.html#session-recording",
+    "objectID": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
+    "href": "modules/md-02.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
     "title": "Module 2",
     "section": " Session Recording",
     "text": "Session Recording\nYou can access the recording of the Module 2 session held on June 01, 2026.\nRecording link will be added after the live session.",
@@ -726,7 +726,7 @@
     "href": "assignments/md-03/am-03-1-bookmarks.html",
     "title": "Support yourself with bookmarks",
     "section": "",
-    "text": "Screenshots show a previous course\n\n\n\nThe screenshots in this assignment were taken in a previous course (ds4owd-002). The steps are identical. Follow the written instructions and use your own repository and workspace names, for example cven5999-ss26 wherever a screenshot shows ds4owd-002.",
+    "text": "WarningScreenshots show a previous course\n\n\n\nThe screenshots in this assignment were taken in a previous course (ds4owd-002). The steps are identical. Follow the written instructions and use your own repository and workspace names, for example cven5999-ss26 wherever a screenshot shows ds4owd-002.",
     "crumbs": [
       "Module 3",
       "am-03-1: Bookmarks"
@@ -737,7 +737,7 @@
     "href": "assignments/md-03/am-03-1-bookmarks.html#organize-your-digital-workspace",
     "title": "Support yourself with bookmarks",
     "section": "Organize your digital workspace",
-    "text": "Organize your digital workspace\nThroughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nThese instructions are written specifically for Google Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.\n\n\n\n\n\n\n\n\nBrowser hygiene for better focus and performance\n\n\n\nBefore starting this assignment (and before each module’s lectures), consider these browser hygiene practices:\nClose unnecessary tabs: Start fresh by closing all open tabs except the one you’re currently using. This helps you focus and reduces memory usage.\nOptional - Clear browsing data: For optimal browser performance, you can clear your cache and browsing history (Three dots menu → Settings → Privacy and security → Clear browsing data).\nNote: Clearing browsing data will log you out of most websites, so only do this if you’re comfortable signing back into your accounts. Many people find this intimidating, but it can significantly improve browser performance, especially on older computers.",
+    "text": "Organize your digital workspace\nThroughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nNoteChrome-focused instructions\n\n\n\nThese instructions are written specifically for Google Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.\n\n\n\n\n\n\n\n\nTipBrowser hygiene for better focus and performance\n\n\n\nBefore starting this assignment (and before each module’s lectures), consider these browser hygiene practices:\nClose unnecessary tabs: Start fresh by closing all open tabs except the one you’re currently using. This helps you focus and reduces memory usage.\nOptional - Clear browsing data: For optimal browser performance, you can clear your cache and browsing history (Three dots menu → Settings → Privacy and security → Clear browsing data).\nNote: Clearing browsing data will log you out of most websites, so only do this if you’re comfortable signing back into your accounts. Many people find this intimidating, but it can significantly improve browser performance, especially on older computers.",
     "crumbs": [
       "Module 3",
       "am-03-1: Bookmarks"
@@ -814,7 +814,7 @@
     "href": "assignments/md-03/am-03-1-bookmarks.html#tips",
     "title": "Support yourself with bookmarks",
     "section": "Tips",
-    "text": "Tips\n\n\n\n\n\n\nSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome. 2. Click Turn on sync. 3. Sign in with your Google account. 4. Your cven5999-ss26 bookmarks will now be available on all devices where you’re signed into Chrome.",
+    "text": "Tips\n\n\n\n\n\n\nTipSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome. 2. Click Turn on sync. 3. Sign in with your Google account. 4. Your cven5999-ss26 bookmarks will now be available on all devices where you’re signed into Chrome.",
     "crumbs": [
       "Module 3",
       "am-03-1: Bookmarks"
@@ -869,7 +869,7 @@
     "href": "assignments/md-01/am-01-1-github-account.html",
     "title": "Get an account for GitHub",
     "section": "",
-    "text": "To set up an account on GitHub, follow these general steps:\n\nGo to the GitHub website at https://github.com/.\nClick on the “Sign up” button on the top right corner of the page.\nEnter your preferred username, email address, and password in the provided fields.\nChoose whether you want to receive updates and announcements via email.\nComplete the verification process by solving a puzzle and entering a verification code sent to your email.\n\n\n\n\n\n\n\nUsername advice from: Happy Git and GitHub for the useR\n\n\n\nYou will be able to upgrade to a paid level of service, apply discounts, join organizations, etc. in the future, so don’t fret about any of that now. Except your username. You might want to give that some thought.\nA few tips, which sadly tend to contradict each other:\n\nIncorporate your actual name! People like to know who they’re dealing with. Also makes your username easier for people to guess or remember.\nReuse your username from other contexts, e.g., Twitter or Slack. But, of course, someone with no GitHub activity will probably be squatting on that.\nPick a username you will be comfortable revealing to your future boss.\nShorter is better than longer.\nBe as unique as possible in as few characters as possible. In some settings GitHub auto-completes or suggests usernames.\nMake it timeless. Don’t highlight your current university, employer, or place of residence, e.g. JennyFromTheBlock.\nAvoid words laden with special meaning in programming.\nAvoid the use of upper vs. lower case to separate words. We highly recommend all lowercase. GitHub treats usernames in a case insensitive way, but using all lowercase is kinder to people doing downstream regular expression work with usernames, in various languages. A better strategy for word separation is to use a hyphen -.\n\nYou can change your username later, but better to get this right the first time.\n\nhttps://docs.github.com/en/account-and-profile/concepts/username-changes",
+    "text": "To set up an account on GitHub, follow these general steps:\n\nGo to the GitHub website at https://github.com/.\nClick on the “Sign up” button on the top right corner of the page.\nEnter your preferred username, email address, and password in the provided fields.\nChoose whether you want to receive updates and announcements via email.\nComplete the verification process by solving a puzzle and entering a verification code sent to your email.\n\n\n\n\n\n\n\nTipUsername advice from: Happy Git and GitHub for the useR\n\n\n\nYou will be able to upgrade to a paid level of service, apply discounts, join organizations, etc. in the future, so don’t fret about any of that now. Except your username. You might want to give that some thought.\nA few tips, which sadly tend to contradict each other:\n\nIncorporate your actual name! People like to know who they’re dealing with. Also makes your username easier for people to guess or remember.\nReuse your username from other contexts, e.g., Twitter or Slack. But, of course, someone with no GitHub activity will probably be squatting on that.\nPick a username you will be comfortable revealing to your future boss.\nShorter is better than longer.\nBe as unique as possible in as few characters as possible. In some settings GitHub auto-completes or suggests usernames.\nMake it timeless. Don’t highlight your current university, employer, or place of residence, e.g. JennyFromTheBlock.\nAvoid words laden with special meaning in programming.\nAvoid the use of upper vs. lower case to separate words. We highly recommend all lowercase. GitHub treats usernames in a case insensitive way, but using all lowercase is kinder to people doing downstream regular expression work with usernames, in various languages. A better strategy for word separation is to use a hyphen -.\n\nYou can change your username later, but better to get this right the first time.\n\nhttps://docs.github.com/en/account-and-profile/concepts/username-changes",
     "crumbs": [
       "Module 1",
       "am-01-1: GitHub account"
@@ -883,29 +883,29 @@
     "text": "By completing this assignment, you will:\n\nSet up your personal capstone project repository on GitHub\nClone the repository to Posit Cloud\nCreate a proper directory structure for your project with raw and processed data folders\nUpload your dataset to the appropriate folder\nDocument your data using a comprehensive README template"
   },
   {
-    "objectID": "assignments/hw-04b-capstone-project-setup.html#learning-objectives",
-    "href": "assignments/hw-04b-capstone-project-setup.html#learning-objectives",
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "HW: Capstone Project Setup",
     "section": "",
     "text": "By completing this assignment, you will:\n\nSet up your personal capstone project repository on GitHub\nClone the repository to Posit Cloud\nCreate a proper directory structure for your project with raw and processed data folders\nUpload your dataset to the appropriate folder\nDocument your data using a comprehensive README template"
   },
   {
-    "objectID": "assignments/hw-04b-capstone-project-setup.html#assignment-tasks",
-    "href": "assignments/hw-04b-capstone-project-setup.html#assignment-tasks",
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks",
+    "href": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks",
     "title": "HW: Capstone Project Setup",
     "section": " Assignment Tasks",
     "text": "Assignment Tasks\n\nCreate a new repository on GitHub & clone to Posit Cloud\n\nOpen the GitHub Organization for the course: https://github.com/cven5999-ss26\nTo the right of the field “Find a repository”, click on the green “New” button.\nIn the “Repository name” field write capstone-project-username. Replace username with your GitHub username. Avoid using spaces. For example: capstone-project-rainbow-train for the user with the username rainbow-train\nMake sure the repository is set to Public.\nScroll down on the same page, and click “Create repository”.\nIn the “Quick setup” field, click on the clipboard next to the HTTPS URL\nOpen the Posit Cloud workspace for the course: cven5999-ss26\nOpen the Content page\nClick on New Project -&gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nKeep the tick next to Add packages from the base project\nClick the OK button\nWait until the project is deployed.\n\n\n\nSet up initial directory structure\n\nIn your capstone project on Posit Cloud, create the following directory structure:\n\ndata/ - for storing your datasets\n\ndata/raw/ - for original, unprocessed datasets\ndata/processed/ - for cleaned and processed datasets\n\ndocs/ - for documentation and supplementary materials\n\nYou can create these directories by:\n\nUsing the Files panel in RStudio: Click “New Folder” and enter the folder names\nOr using the Console with: dir.create(\"data\"), dir.create(\"data/raw\"), dir.create(\"data/processed\"), and dir.create(\"docs\")\n\n\n\n\nAdd your dataset\n\nUpload your data file: Add your capstone project dataset to the data/raw/ folder. Your data must be in CSV or Excel format (.csv, .xlsx, or .xls).\nUpload methods:\n\nOption 1: Use the RStudio Files panel - click “Upload” and select your data file from your computer\nOption 2: If your data is available online, download it directly using R commands in the console\n\nFile naming: Use descriptive filenames without spaces (use underscores or hyphens instead). For example: household_survey_2023.csv or water-quality-measurements.xlsx\n\n\n\nCreate a README for your data folder\n\nNavigate to the Files tab in the bottom right window of RStudio.\nOpen the data folder you just created.\nClick on the “Blank File” button to create a new file.\nSelect “Text file”.\nEnter the name “README.md” and click OK.\nGo to: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md\nCopy the content displayed in the browser and paste it into the README.md file.\nComplete the template: Fill out all sections of the README template with information about your specific dataset (if you don’t have the information for some sections, state it):\n\nTitle: Give your dataset a descriptive title\nDescription: Explain what the data contains and why it was collected\nData source: Where did the data come from? Include URLs, citations, or collection details\nData collection methods: How was the data gathered?\nVariable descriptions: Describe each column/variable in your dataset\nData files: List and describe each file in your data folder\nContact information: Your information as the dataset maintainer\n\nSave the file.\n\n\n\nCommit and push your changes\n\nIn the Git panel (usually in the top right), stage all new files by checking the boxes next to them.\nClick “Commit”.\nWrite a meaningful commit message such as “Initial project setup with directory structure and data README”.\nClick “Commit”.\nClick “Push” to upload your changes to GitHub.\n\n\n\nFinal step\nOpen a Questions & Answers for the Capstone Project report issue on the GitHub issue tracker of your repository and tag the course instructor using the @ sign in combination with larnsce as the username."
   },
   {
-    "objectID": "assignments/hw-04b-capstone-project-setup.html#due-date",
-    "href": "assignments/hw-04b-capstone-project-setup.html#due-date",
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date",
+    "href": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date",
     "title": "HW: Capstone Project Setup",
     "section": " Due Date",
     "text": "Due Date\nThis assignment is due: 2026-06-26"
   },
   {
-    "objectID": "assignments/hw-04b-capstone-project-setup.html#submission",
-    "href": "assignments/hw-04b-capstone-project-setup.html#submission",
+    "objectID": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-submission",
+    "href": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-submission",
     "title": "HW: Capstone Project Setup",
     "section": " Submission",
     "text": "Submission\nNo separate submission is required. Your instructor will check your GitHub repository to verify completion of the setup tasks."
@@ -918,36 +918,36 @@
     "text": "By completing this assignment, you will:\n\nCreate a Quarto document (index.qmd) in your project’s docs folder\nRead your dataset into R using appropriate functions\nPerform initial data exploration and tidying\nDocument your process with regular Git commits\nCreate GitHub issues to track questions and challenges"
   },
   {
-    "objectID": "assignments/hw-05-project-data-exploration.html#learning-objectives",
-    "href": "assignments/hw-05-project-data-exploration.html#learning-objectives",
+    "objectID": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "HW: Project Data Exploration",
     "section": "",
     "text": "By completing this assignment, you will:\n\nCreate a Quarto document (index.qmd) in your project’s docs folder\nRead your dataset into R using appropriate functions\nPerform initial data exploration and tidying\nDocument your process with regular Git commits\nCreate GitHub issues to track questions and challenges"
   },
   {
-    "objectID": "assignments/hw-05-project-data-exploration.html#assignment-tasks",
-    "href": "assignments/hw-05-project-data-exploration.html#assignment-tasks",
+    "objectID": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks",
+    "href": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks",
     "title": "HW: Project Data Exploration",
     "section": " Assignment Tasks",
     "text": "Assignment Tasks\n\nVersion control requirements\nMake regular commits throughout your work:\n\nAfter creating the index.qmd file\nAfter successfully reading in your data\nAfter each major section is completed\nUse descriptive commit messages:\n\n“Add index.qmd to docs folder”\n“Successfully read raw data file”\n“Complete initial data exploration”\n“Document data quality issues”\n“Perform initial data tidying and save processed data”\n\n\n\n\nCreate a Quarto document\n\nOpen your capstone project in Posit Cloud\nNavigate to your docs/ folder in the Files panel\nCreate a new Quarto document:\n\nClick File -&gt; New File -&gt; Quarto Document\nTitle: “Data Exploration for [Your Project Name]”\nAuthor: Your name\nSave it as index.qmd in the docs/ folder\n\nUpdate the YAML header to include:\n---\ntitle: \"Give your project a title\"\nauthor:\n  - name: \"Your Full Name\"\n    orcid: \"0000-0000-0000-0000\"\n    email: \"your.email@colorado.edu\"\n    affiliation:\n      - name: \"University of Colorado Boulder\"\n        department: \"Department of Civil, Environmental and Architectural Engineering\"\n        city: \"Boulder\"\n        state: \"CO\"\n        country: \"USA\"\ndate: today\nformat: html\neditor: visual\n---\n\n\n\nSet up your document structure\nThe report must render without errors to HTML format and contain at least four chapters of heading level 1:\n# Introduction\n\n[Brief description of your project and dataset]\n\n# Methods\n\n## Reading the Data\n\n## Data Exploration Approach\n\n## Initial Data Tidying\n\n# Results\n\n[This will be the core of your analysis with specific requirements]\n\n# Conclusions\n\n## Summary of Findings\n\n## Questions and Next Steps\n\n\nRead in your data\n\nIn the “Methods” chapter under “Reading the Data”, create a code chunk that:\n\nLoads necessary packages (at minimum tidyverse)\nReads your data from the data/raw/ folder\nStores it in an appropriately named object\n\nExample structure:\n# Load packages\nlibrary(tidyverse)\n\n# Read data\nmy_data &lt;- read_csv(here::here(\"data/raw/your_file.csv\"))\nIf you encounter any issues reading the data, document them and potential solutions\n\n\n\nExplore your data\nIn the “Results” chapter under “Initial Data Exploration”, add code chunks to:\n\nView the first few rows: Use head() or glimpse()\nCheck dimensions: Use dim() to see number of rows and columns\nSummarize the data: Use group_by() and summarize() to compute descriptive statistics\n\n\n\nPerform initial tidying\nIn the “Methods” chapter under “Initial Data Tidying”:\n\nAddress at least 2-3 data quality issues you identified\nExamples of tidying operations:\n\nConvert character dates to date format\nStandardize inconsistent categories\nHandle obvious data entry errors\nCreate new variables if needed\nUse consistent variable naming conventions (e.g. janitor::clean_names() for snake_case convention.)\n\nSave your tidied data:\nwrite_csv(tidied_data, here::here(\"data/processed/your_file_tidied.csv\"))\n\n\n\nCreate GitHub issues\n\nAs you work, create GitHub issues in your repository documenting:\n\nQuestions about your data\nChallenges you encountered\nDecisions you need to make\nNext steps for analysis\n\nUse descriptive titles and provide context in the issue description\nTag your instructor (@larnsce) in at least one issue where you need guidance"
   },
   {
-    "objectID": "assignments/hw-05-project-data-exploration.html#tips",
-    "href": "assignments/hw-05-project-data-exploration.html#tips",
+    "objectID": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-tips",
+    "href": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-tips",
     "title": "HW: Project Data Exploration",
     "section": " Tips",
     "text": "Tips\n\nIf you’re unsure how to read your specific file type, search for examples or ask in an issue\nRemember to render your index.qmd to HTML periodically to check your output"
   },
   {
-    "objectID": "assignments/hw-05-project-data-exploration.html#due-date",
-    "href": "assignments/hw-05-project-data-exploration.html#due-date",
+    "objectID": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date",
+    "href": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date",
     "title": "HW: Project Data Exploration",
     "section": " Due Date",
     "text": "Due Date\nThis assignment is due: 2026-07-03"
   },
   {
-    "objectID": "assignments/hw-05-project-data-exploration.html#submission",
-    "href": "assignments/hw-05-project-data-exploration.html#submission",
+    "objectID": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-submission",
+    "href": "assignments/hw-05-project-data-exploration.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6973742d636865636b203e7d7d-submission",
     "title": "HW: Project Data Exploration",
     "section": " Submission",
     "text": "Submission\n\nEnsure all your changes are committed and pushed to GitHub\nYour repository should now contain:\n\ndocs/index.qmd with your data exploration\ndocs/index.html (the rendered output)\nUpdated data in data/processed/ folder\nGitHub issues documenting questions/challenges"
@@ -968,7 +968,7 @@
     "href": "assignments/md-01/am-01-4-github-pat.html",
     "title": "GitHub Personal Access Token",
     "section": "",
-    "text": "Screenshots may show a previous course\n\n\n\nSome screenshots in this assignment may show a previous course iteration. The steps are identical; follow the written instructions.",
+    "text": "NoteScreenshots may show a previous course\n\n\n\nSome screenshots in this assignment may show a previous course iteration. The steps are identical; follow the written instructions.",
     "crumbs": [
       "Module 1",
       "am-01-4: GitHub PAT"
@@ -1001,7 +1001,7 @@
     "href": "assignments/md-02/am-02-2-github-workflow.html",
     "title": "GitHub workflow",
     "section": "",
-    "text": "Screenshots show a previous course\n\n\n\nThe screenshots in this assignment were taken in a previous course (ds4owd-002). The steps are identical. Follow the written instructions and use your own repository and workspace names, for example cven5999-ss26 wherever a screenshot shows ds4owd-002 (such as the Posit Cloud workspace name).",
+    "text": "WarningScreenshots show a previous course\n\n\n\nThe screenshots in this assignment were taken in a previous course (ds4owd-002). The steps are identical. Follow the written instructions and use your own repository and workspace names, for example cven5999-ss26 wherever a screenshot shows ds4owd-002 (such as the Posit Cloud workspace name).",
     "crumbs": [
       "Module 2",
       "am-02-2: GitHub workflow"
@@ -1023,7 +1023,7 @@
     "href": "assignments/md-02/am-02-2-github-workflow.html#step-1-introduce-yourself-to-git",
     "title": "GitHub workflow",
     "section": "Step 1: Introduce yourself to git",
-    "text": "Step 1: Introduce yourself to git\n\n\n\n\n\n\nNote\n\n\n\nYou already completed the git configuration as part of the in-class session, so you can skip Step 1 entirely. Git configuration is a one-time setup; you do not need to repeat it for future homework repositories. From here on, your workflow for every module is just the commit and push steps in Step 2 below.\n\n\n\nIn Posit Cloud, open the md-02-USERNAME project that ends with your GitHub username. Ensure that you are in the workspace of cven5999-ss26. You can verify this by looking at the top left corner next to your repository name. If this says Your Workspace, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the cven5999-ss26 workspace.\n\n\n\nOpen the git-configuration.qmd file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.\n\n\n\nUnder the heading Git configuration edit the code in the code chunk:\n\n\nReplace the placeholder Your Name with your first and last name\nReplace Your Email with the email address associated with your GitHub account\nKeep the quotes!\n\nThese will be the details that git will use to identify you when you make changes to your work.\n\n\nSave the file by clicking on the Save icon in the Source pane or by pressing Ctrl + S (Windows/Linux) or Cmd + S (Mac).\nRender the document by clicking the Render button in the Source pane.\n\n\n\n\n\n\n\n\nA new tab will open\n\n\n\nAfter rendering, a new browser tab will open showing the rendered output document. If your browser blocks it with a pop-up blocker, allow pop-ups for Posit Cloud and try again. You can close the new tab once you have seen the output; it is not needed for the rest of the assignment.\n\n\n\nContinue with the next step.",
+    "text": "Step 1: Introduce yourself to git\n\n\n\n\n\n\nNote\n\n\n\nYou already completed the git configuration as part of the in-class session, so you can skip Step 1 entirely. Git configuration is a one-time setup; you do not need to repeat it for future homework repositories. From here on, your workflow for every module is just the commit and push steps in Step 2 below.\n\n\n\nIn Posit Cloud, open the md-02-USERNAME project that ends with your GitHub username. Ensure that you are in the workspace of cven5999-ss26. You can verify this by looking at the top left corner next to your repository name. If this says Your Workspace, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the cven5999-ss26 workspace.\n\n\n\nOpen the git-configuration.qmd file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.\n\n\n\nUnder the heading Git configuration edit the code in the code chunk:\n\n\nReplace the placeholder Your Name with your first and last name\nReplace Your Email with the email address associated with your GitHub account\nKeep the quotes!\n\nThese will be the details that git will use to identify you when you make changes to your work.\n\n\nSave the file by clicking on the Save icon in the Source pane or by pressing Ctrl + S (Windows/Linux) or Cmd + S (Mac).\nRender the document by clicking the Render button in the Source pane.\n\n\n\n\n\n\n\n\nNoteA new tab will open\n\n\n\nAfter rendering, a new browser tab will open showing the rendered output document. If your browser blocks it with a pop-up blocker, allow pop-ups for Posit Cloud and try again. You can close the new tab once you have seen the output; it is not needed for the rest of the assignment.\n\n\n\nContinue with the next step.",
     "crumbs": [
       "Module 2",
       "am-02-2: GitHub workflow"
@@ -1034,7 +1034,7 @@
     "href": "assignments/md-02/am-02-2-github-workflow.html#step-2-commit-and-push-your-changes",
     "title": "GitHub workflow",
     "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio.\n\n\n\nCheck the box next to the git-configuration.qmd file to stage it for commit.\n\n\n\nClick on the Commit button. A new window opens.\n\n\n\nEnter a commit message in the Commit message field in the top right corner. For example: replaced placeholders with my details.\n\n\n\nClick on the Commit button.\n\n\n\nIf you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on Close. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.\n\n\n\nClick on the Push button in the top right corner.\n\n\n\nEnter your GitHub username and click OK.\n\n\n\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Assignment 4.\n\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\nYou have now completed the GitHub workflow for Module 2.",
+    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio.\n\n\n\nCheck the box next to the git-configuration.qmd file to stage it for commit.\n\n\n\nClick on the Commit button. A new window opens.\n\n\n\nEnter a commit message in the Commit message field in the top right corner. For example: replaced placeholders with my details.\n\n\n\nClick on the Commit button.\n\n\n\nIf you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on Close. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.\n\n\n\nClick on the Push button in the top right corner.\n\n\n\nEnter your GitHub username and click OK.\n\n\n\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Assignment 4.\n\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nWarningPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\nYou have now completed the GitHub workflow for Module 2.",
     "crumbs": [
       "Module 2",
       "am-02-2: GitHub workflow"
@@ -1133,7 +1133,7 @@
     "href": "assignments/md-03/am-03-4-github-workflow.html#commit-and-push-your-changes",
     "title": "GitHub workflow",
     "section": "Commit and push your changes",
-    "text": "Commit and push your changes\n\nIn Posit Cloud, open the md-03-USERNAME project. Make sure you are in the cven5999-ss26 workspace (check the top left corner; if it says Your Workspace you are in the wrong place, go back to Assignment 3 (am-03-3) and clone again into the correct workspace).\nConfirm both files have been saved with your work:\n\nhw-data-stewardship.qmd contains your written critique answers\nlearning-03.qmd contains your learning reflection\n\nRender each file (click the Render button in the Source pane) and check it produces an HTML output without errors.\nOpen the Git pane in the top-right window of RStudio.\nStage your changes by checking the boxes next to the changed files (hw-data-stewardship.qmd, learning-03.qmd, and any rendered output files).\nClick the Commit button. A new window opens.\nEnter a meaningful commit message, for example: completed week 3 data stewardship homework and learning reflection.\nClick Commit. You should see a confirmation message. Click Close.\nClick the Push button in the top right corner.\nWhen prompted, enter your GitHub username and click OK.\nWhen prompted, enter your GitHub Personal Access Token (PAT) and click OK. This is the PAT you created in Module 1, Assignment 4.\n\nIf you see a message that ends with HEAD -&gt; main, you have successfully pushed your changes to the remote repository on GitHub. Click Close.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.",
+    "text": "Commit and push your changes\n\nIn Posit Cloud, open the md-03-USERNAME project. Make sure you are in the cven5999-ss26 workspace (check the top left corner; if it says Your Workspace you are in the wrong place, go back to Assignment 3 (am-03-3) and clone again into the correct workspace).\nConfirm both files have been saved with your work:\n\nhw-data-stewardship.qmd contains your written critique answers\nlearning-03.qmd contains your learning reflection\n\nRender each file (click the Render button in the Source pane) and check it produces an HTML output without errors.\nOpen the Git pane in the top-right window of RStudio.\nStage your changes by checking the boxes next to the changed files (hw-data-stewardship.qmd, learning-03.qmd, and any rendered output files).\nClick the Commit button. A new window opens.\nEnter a meaningful commit message, for example: completed week 3 data stewardship homework and learning reflection.\nClick Commit. You should see a confirmation message. Click Close.\nClick the Push button in the top right corner.\nWhen prompted, enter your GitHub username and click OK.\nWhen prompted, enter your GitHub Personal Access Token (PAT) and click OK. This is the PAT you created in Module 1, Assignment 4.\n\nIf you see a message that ends with HEAD -&gt; main, you have successfully pushed your changes to the remote repository on GitHub. Click Close.\n\n\n\n\n\n\nWarningPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.",
     "crumbs": [
       "Module 3",
       "am-03-4: GitHub workflow"
@@ -1161,8 +1161,8 @@
     ]
   },
   {
-    "objectID": "modules/md-01.html#learning-objectives",
-    "href": "modules/md-01.html#learning-objectives",
+    "objectID": "modules/md-01.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "modules/md-01.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "Module 1",
     "section": " Learning Objectives",
     "text": "Learning Objectives\n\n\nLearners can access the Posit Cloud workspace for the course.\nLearners have understood the grading scheme for the course.\nLearners can open an issue on GitHub and tag the course instructor.",
@@ -1171,8 +1171,8 @@
     ]
   },
   {
-    "objectID": "modules/md-01.html#readings",
-    "href": "modules/md-01.html#readings",
+    "objectID": "modules/md-01.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
+    "href": "modules/md-01.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
     "title": "Module 1",
     "section": " Readings",
     "text": "Readings\n Read the Course Overview and pay special attention to the sections Assignments, Grading scheme, and late work.",
@@ -1181,8 +1181,8 @@
     ]
   },
   {
-    "objectID": "modules/md-01.html#homework-assignments",
-    "href": "modules/md-01.html#homework-assignments",
+    "objectID": "modules/md-01.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignments",
+    "href": "modules/md-01.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignments",
     "title": "Module 1",
     "section": " Homework assignments",
     "text": "Homework assignments\nDue date: May 29, 2026\nThese homework assignments are pre-requisites for Module 2. Please complete them before the due date.\n\nAssignment 1: Get an account for GitHub\nAssignment 2: Create your personal unique ORCID iD\nAssignment 3: Log into Posit Cloud and join the course workspace\nAssignment 4: Set up a GitHub Personal Access Token\nAssignment 5: Complete the pre-course survey\nAssignment 6: Prepare questions and open an issue on GitHub",
@@ -1191,8 +1191,8 @@
     ]
   },
   {
-    "objectID": "modules/md-01.html#thanks",
-    "href": "modules/md-01.html#thanks",
+    "objectID": "modules/md-01.html#thanks-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612073756e203e7d7d",
+    "href": "modules/md-01.html#thanks-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612073756e203e7d7d",
     "title": "Module 1",
     "section": "Thanks! ",
     "text": "Thanks! \nThank you for working through these assignments. I am looking forward to meeting you in Module 2.",
@@ -1211,8 +1211,8 @@
     ]
   },
   {
-    "objectID": "modules/md-03.html#learning-objectives",
-    "href": "modules/md-03.html#learning-objectives",
+    "objectID": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "Module 3",
     "section": " Learning Objectives",
     "text": "Learning Objectives\n\n\nLearners can summarise the data stewardship model used by the Global Health Engineering group at ETH Zurich.\nLearners can explain what “open by default” means in a research group context and identify two organizational factors that enable or resist it.\nLearners can critique an existing data management strategy and propose adaptations for their own research context.",
@@ -1221,8 +1221,8 @@
     ]
   },
   {
-    "objectID": "modules/md-03.html#readings",
-    "href": "modules/md-03.html#readings",
+    "objectID": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
+    "href": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
     "title": "Module 3",
     "section": " Readings",
     "text": "Readings\n Read Wilson et al. (2017) “Good enough practices in scientific computing”.",
@@ -1231,8 +1231,8 @@
     ]
   },
   {
-    "objectID": "modules/md-03.html#homework-assignment",
-    "href": "modules/md-03.html#homework-assignment",
+    "objectID": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
+    "href": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
     "title": "Module 3",
     "section": " Homework assignment",
     "text": "Homework assignment\nDue date: June 12, 2026\nWork through these assignments in order:\n\nAssignment 1 (am-03-1): Support yourself with bookmarks\nAssignment 2 (am-03-2): Case study, Data stewardship at ETH GHE\nAssignment 3 (am-03-3): Clone a GitHub repository to Posit Cloud\nAssignment 4 (am-03-4): GitHub workflow, commit and push\n\nThen complete the homework programming assignment that is in your project folder for Module 3 on Posit Cloud.\n\nhw-data-stewardship.qmd",
@@ -1241,8 +1241,8 @@
     ]
   },
   {
-    "objectID": "modules/md-03.html#learning-reflection",
-    "href": "modules/md-03.html#learning-reflection",
+    "objectID": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
+    "href": "modules/md-03.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
     "title": "Module 3",
     "section": " Learning reflection",
     "text": "Learning reflection\nComplete the learning reflection that is in your project folder for Module 3 by June 12, 2026 on Posit Cloud.\n\nlearning-03.qmd",
@@ -1261,8 +1261,8 @@
     ]
   },
   {
-    "objectID": "modules/md-05.html#learning-objectives",
-    "href": "modules/md-05.html#learning-objectives",
+    "objectID": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "Module 5",
     "section": "",
     "text": "Learners can apply ten functions from the dplyr R Package to generate a subset of data for use in a table or plot.",
@@ -1271,8 +1271,8 @@
     ]
   },
   {
-    "objectID": "modules/md-05.html#slides",
-    "href": "modules/md-05.html#slides",
+    "objectID": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
+    "href": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
     "title": "Module 5",
     "section": " Slides",
     "text": "Slides\nView slides in full screen",
@@ -1281,8 +1281,8 @@
     ]
   },
   {
-    "objectID": "modules/md-05.html#readings",
-    "href": "modules/md-05.html#readings",
+    "objectID": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
+    "href": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
     "title": "Module 5",
     "section": " Readings",
     "text": "Readings\n\nRead R for Data Science - Section 5 - Data transformation\nRead Excuse Me, Do You Have a Moment to Talk About Version Control?",
@@ -1291,8 +1291,8 @@
     ]
   },
   {
-    "objectID": "modules/md-05.html#homework-assignment",
-    "href": "modules/md-05.html#homework-assignment",
+    "objectID": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
+    "href": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
     "title": "Module 5",
     "section": " Homework assignment",
     "text": "Homework assignment\nDue date: June 26, 2026\nComplete the homework programming assignments that are in your project folder for Module 5 on Posit Cloud.\n\nhw-data-transformation.qmd\n\nComplete the following assignment, which is not documented in your Module 5 project folder:\n\nHW: Capstone Project Setup: Set up your capstone project repository",
@@ -1301,8 +1301,8 @@
     ]
   },
   {
-    "objectID": "modules/md-05.html#learning-reflection",
-    "href": "modules/md-05.html#learning-reflection",
+    "objectID": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
+    "href": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
     "title": "Module 5",
     "section": " Learning reflection",
     "text": "Learning reflection\nComplete the learning reflection that is in your project folder for Module 5 by June 26, 2026 on Posit Cloud.\n\nlearning-05.qmd",
@@ -1311,8 +1311,8 @@
     ]
   },
   {
-    "objectID": "modules/md-05.html#session-recording",
-    "href": "modules/md-05.html#session-recording",
+    "objectID": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
+    "href": "modules/md-05.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
     "title": "Module 5",
     "section": " Session Recording",
     "text": "Session Recording\nYou can access the recording of the Module 5 session held on June 22, 2026.\nRecording link will be added after the live session.",
@@ -1331,8 +1331,8 @@
     ]
   },
   {
-    "objectID": "modules/md-07.html#learning-objectives",
-    "href": "modules/md-07.html#learning-objectives",
+    "objectID": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
+    "href": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c73657965203e7d7d-learning-objectives",
     "title": "Module 7",
     "section": "",
     "text": "Learners can use Quarto and GitHub Pages to publish an HTML file.\nLearners can add literature references to Quarto files using the navigation menu of RStudio visual editor.\nLearners can cross-reference figures and tables within an Quarto file.\nLearners can apply functions from the dplyr R Package to join multiple data sets.",
@@ -1341,8 +1341,8 @@
     ]
   },
   {
-    "objectID": "modules/md-07.html#slides",
-    "href": "modules/md-07.html#slides",
+    "objectID": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
+    "href": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120646973706c6179203e7d7d-slides",
     "title": "Module 7",
     "section": " Slides",
     "text": "Slides\nView slides in full screen",
@@ -1351,8 +1351,8 @@
     ]
   },
   {
-    "objectID": "modules/md-07.html#readings",
-    "href": "modules/md-07.html#readings",
+    "objectID": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
+    "href": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b203e7d7d-readings",
     "title": "Module 7",
     "section": " Readings",
     "text": "Readings\n\nRead R for Data Science - Section 13 - Relational data",
@@ -1361,8 +1361,8 @@
     ]
   },
   {
-    "objectID": "modules/md-07.html#homework-assignment",
-    "href": "modules/md-07.html#homework-assignment",
+    "objectID": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
+    "href": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f6465203e7d7d-homework-assignment",
     "title": "Module 7",
     "section": " Homework assignment",
     "text": "Homework assignment\nDue date: July 10, 2026\nComplete the homework programming assignments that are in your folder for Module 7 on Posit Cloud.\nYou will need to clone your md-07-USERNAME folder to Posit Cloud first and then complete:\n\nhw-01-data-import-exploration.qmd\nhw-02-filter-join.qmd\nhw-03-data-analysis.qmd\nhw-04-data-visualization-pivoting.qmd\n\nFor the scholarly writing exercise from the live session, clone your md-07-writing-USERNAME repository to Posit Cloud and complete:\n\nscholarly-writing.qmd",
@@ -1371,8 +1371,8 @@
     ]
   },
   {
-    "objectID": "modules/md-07.html#learning-reflection",
-    "href": "modules/md-07.html#learning-reflection",
+    "objectID": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
+    "href": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e2d636c6970203e7d7d-learning-reflection",
     "title": "Module 7",
     "section": " Learning reflection",
     "text": "Learning reflection\nComplete the learning reflection that is in your folder for Module 7 by July 10, 2026 on Posit Cloud.\n\nlearning-07.qmd",
@@ -1381,8 +1381,8 @@
     ]
   },
   {
-    "objectID": "modules/md-07.html#session-recording",
-    "href": "modules/md-07.html#session-recording",
+    "objectID": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
+    "href": "modules/md-07.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120766964656f203e7d7d-session-recording",
     "title": "Module 7",
     "section": " Session Recording",
     "text": "Session Recording\nYou can access the recording of the Module 7 session held on July 06, 2026.\nRecording link will be added after the live session.",
@@ -1461,11 +1461,18 @@
     "text": "Platforms and Tools\n\nR\nPosit Cloud\nRStudio IDE\ntidyverse R Packages\nQuarto publishing system"
   },
   {
-    "objectID": "slides/lec-a-welcome.html#section-1",
-    "href": "slides/lec-a-welcome.html#section-1",
+    "objectID": "slides/lec-a-welcome.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2076617220636f757273652e736974652d73686f7274203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b6d61726b203e7d7d",
+    "href": "slides/lec-a-welcome.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2076617220636f757273652e736974652d73686f7274203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b6d61726b203e7d7d",
     "title": "Welcome! & Data Science Life-cycle",
     "section": "cven5999-ss26.github.io/website/ ",
     "text": "cven5999-ss26.github.io/website/"
+  },
+  {
+    "objectID": "slides/lec-a-welcome.html#section-1",
+    "href": "slides/lec-a-welcome.html#section-1",
+    "title": "Welcome! & Data Science Life-cycle",
+    "section": "-",
+    "text": "-"
   },
   {
     "objectID": "slides/lec-a-welcome.html#section-2",
@@ -1505,13 +1512,6 @@
   {
     "objectID": "slides/lec-a-welcome.html#section-7",
     "href": "slides/lec-a-welcome.html#section-7",
-    "title": "Welcome! & Data Science Life-cycle",
-    "section": "-",
-    "text": "-"
-  },
-  {
-    "objectID": "slides/lec-a-welcome.html#section-8",
-    "href": "slides/lec-a-welcome.html#section-8",
     "title": "Welcome! & Data Science Life-cycle",
     "section": "-",
     "text": "-"
@@ -1587,50 +1587,50 @@
     "text": "Deep End\n\n\n\n\n\nvia GIPHY"
   },
   {
+    "objectID": "slides/lec-a-welcome.html#section-20",
+    "href": "slides/lec-a-welcome.html#section-20",
+    "title": "Welcome! & Data Science Life-cycle",
+    "section": "-",
+    "text": "-"
+  },
+  {
     "objectID": "slides/lec-a-welcome.html#section-21",
     "href": "slides/lec-a-welcome.html#section-21",
     "title": "Welcome! & Data Science Life-cycle",
     "section": "-",
-    "text": "-"
+    "text": "-\n\n\nFirst you must import your data into R. This typically means that you take data stored:\n\n\nin a file\nin a database,\nor web application, and load it into R.\n\n\nIf you can get your data into R, you can do data science on it!"
   },
   {
     "objectID": "slides/lec-a-welcome.html#section-22",
     "href": "slides/lec-a-welcome.html#section-22",
     "title": "Welcome! & Data Science Life-cycle",
     "section": "-",
-    "text": "-\n\n\nFirst you must import your data into R. This typically means that you take data stored:\n\n\nin a file\nin a database,\nor web application, and load it into R.\n\n\nIf you can get your data into R, you can do data science on it!"
+    "text": "-\n\n\nOnce you’ve imported your data, it is a good idea to tidy it.\nThis means to get it into a structure that lets you focus on the questions about your data and not the format it needs to be in\nThis is the step where we spend by far the biggest amount of our time.\nIt has been estimated that we spend about 80% of our time with cleaning and tidying data, so that we can use it fo our analyses.\nIn my courses you will learn how to structure your data in a tidy format as you collect it, and before you import it. A highly underestimated skill."
   },
   {
     "objectID": "slides/lec-a-welcome.html#section-23",
     "href": "slides/lec-a-welcome.html#section-23",
     "title": "Welcome! & Data Science Life-cycle",
     "section": "-",
-    "text": "-\n\n\nOnce you’ve imported your data, it is a good idea to tidy it.\nThis means to get it into a structure that lets you focus on the questions about your data and not the format it needs to be in\nThis is the step where we spend by far the biggest amount of our time.\nIt has been estimated that we spend about 80% of our time with cleaning and tidying data, so that we can use it fo our analyses.\nIn my courses you will learn how to structure your data in a tidy format as you collect it, and before you import it. A highly underestimated skill."
+    "text": "-\n\n\nOnce your data is tidy, a common first step is to transform it.\nThis includes\n\n\nnarrowing in on what interests you (like all people without toilets in one district, or all data from last year)\ncreating new variables from existing (like toilet density, as in number of people per toilet)\ncalculating summary statistics (like counts or the mean)\n\nTogether, tidying and transforming are called wrangling, because getting your data in a form that’s natural to work with often feels like a fight!"
   },
   {
     "objectID": "slides/lec-a-welcome.html#section-24",
     "href": "slides/lec-a-welcome.html#section-24",
     "title": "Welcome! & Data Science Life-cycle",
     "section": "-",
-    "text": "-\n\n\nOnce your data is tidy, a common first step is to transform it.\nThis includes\n\n\nnarrowing in on what interests you (like all people without toilets in one district, or all data from last year)\ncreating new variables from existing (like toilet density, as in number of people per toilet)\ncalculating summary statistics (like counts or the mean)\n\nTogether, tidying and transforming are called wrangling, because getting your data in a form that’s natural to work with often feels like a fight!"
+    "text": "-\n\n\nOnce you have tidy data with the variables you need, there are two main engines of knowledge generation:\n\n\nvisualisation\nand modelling.\n\n\nThese have complementary strengths and weaknesses so any real analysis will iterate between them many times.\nVisualisation is a fundamentally human activity. A good visualisation will show you things that you did not expect, or raise new questions about the data."
   },
   {
     "objectID": "slides/lec-a-welcome.html#section-25",
     "href": "slides/lec-a-welcome.html#section-25",
     "title": "Welcome! & Data Science Life-cycle",
     "section": "-",
-    "text": "-\n\n\nOnce you have tidy data with the variables you need, there are two main engines of knowledge generation:\n\n\nvisualisation\nand modelling.\n\n\nThese have complementary strengths and weaknesses so any real analysis will iterate between them many times.\nVisualisation is a fundamentally human activity. A good visualisation will show you things that you did not expect, or raise new questions about the data."
+    "text": "-\n\n\nModels are complementary tools to visualisation. Once you have made your questions sufficiently precise, you can use a model to answer them.\nIn my courses, they play a very small part, but I am confident that you will be able to enhance your knowledge on modelling once you understand the basic principles of using the R lanuage."
   },
   {
     "objectID": "slides/lec-a-welcome.html#section-26",
     "href": "slides/lec-a-welcome.html#section-26",
-    "title": "Welcome! & Data Science Life-cycle",
-    "section": "-",
-    "text": "-\n\n\nModels are complementary tools to visualisation. Once you have made your questions sufficiently precise, you can use a model to answer them.\nIn my courses, they play a very small part, but I am confident that you will be able to enhance your knowledge on modelling once you understand the basic principles of using the R lanuage."
-  },
-  {
-    "objectID": "slides/lec-a-welcome.html#section-27",
-    "href": "slides/lec-a-welcome.html#section-27",
     "title": "Welcome! & Data Science Life-cycle",
     "section": "-",
     "text": "-\n\n\nThe last step of data science is communication, an absolutely critical part of any data analysis project.\nIt doesn’t matter how well your models and visualisation have led you to understand the data, unless you can also communicate your results to others.\nAnd this is a part where R has become really strong."
@@ -1734,8 +1734,8 @@
     "text": "Homework due dates\n\nAll material on course website\nHomework assignment & learning reflection due: 2026-06-05"
   },
   {
-    "objectID": "slides/lec-a-welcome.html#section-28",
-    "href": "slides/lec-a-welcome.html#section-28",
+    "objectID": "slides/lec-a-welcome.html#section-27",
+    "href": "slides/lec-a-welcome.html#section-27",
     "title": "Welcome! & Data Science Life-cycle",
     "section": "",
     "text": "Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
