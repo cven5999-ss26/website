@@ -46,9 +46,9 @@ homework_due_date <- format(as.Date(vars$`md-03`$`homework-due`), "%B %d, %Y")
 
 Work through these assignments in order:
 
--   [Assignment 1](../assignments/md-03/am-03-3-github-clone.qmd): Clone a GitHub repository to Posit Cloud
+-   [Assignment 1](../assignments/md-03/am-03-1-bookmarks.qmd): Support yourself with bookmarks
 -   [Assignment 2](../assignments/md-03/am-03-2-case-study.qmd): Case study, Data stewardship at ETH GHE
--   [Assignment 3](../assignments/md-03/am-03-1-bookmarks.qmd): Support yourself with bookmarks
+-   [Assignment 3](../assignments/md-03/am-03-3-github-clone.qmd): Clone a GitHub repository to Posit Cloud
 -   [Assignment 4](../assignments/md-03/am-03-4-github-workflow.qmd): GitHub workflow, commit and push
 
 Then complete the homework programming assignment that is in your project folder for Module 3 on [Posit Cloud]({{< var platforms.posit-cloud >}}content/all).
