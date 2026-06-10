@@ -2,9 +2,13 @@
 title: "Case study: Data stewardship at ETH GHE"
 ---
 
+::: {.callout-note}
+Read through this whole page once before you start reading or watching any of the material below.
+:::
+
 ## Why this case study
 
-The Global Health Engineering (GHE) group at ETH Zurich has employed a dedicated data steward and built an "open by default" data management strategy. Studying a working model lets you compare a concrete implementation against the abstract principles laid out in Wilson et al. (2017) "Good enough practices in scientific computing".
+The [Global Health Engineering (GHE)](https://ghe.ethz.ch/) group at ETH Zurich has employed a dedicated data steward and built an "open by default" data management strategy. Studying a working model lets you compare a concrete implementation against the abstract principles laid out in Wilson et al. (2017) "Good enough practices in scientific computing".
 
 This week, your job is to surface what would transfer to your own research context, what would not, and what you would change. The point is not to copy the GHE approach; it is to use it as a mirror.
 
@@ -19,7 +23,7 @@ This week, your job is to surface what would transfer to your own research conte
 
 ## Then complete the homework
 
-Open your Posit Cloud project for Module 3 ([Posit Cloud]({{< var platforms.posit-cloud >}}content/all)) and work through `hw-data-stewardship.qmd`. The homework is reading and reflection this week; there is no code to run.
+The specific questions for completing the homework are stated in `hw-data-stewardship.qmd`, which is part of your personal `md-03-USERNAME` repository. You clone this repository from GitHub to Posit Cloud in [Assignment 3: Clone a GitHub repository](am-03-3-github-clone.qmd). The homework is reading and reflection this week; there is no code to run.
 
 ## Practice the GitHub workflow again
 

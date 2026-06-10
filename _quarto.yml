@@ -58,10 +58,14 @@ website:
       - section: "Module 3"
         href: modules/md-03.qmd
         contents:
-          - href: assignments/md-03/am-03-2-case-study.qmd
-            text: "am-03-2: Case study"
           - href: assignments/md-03/am-03-1-bookmarks.qmd
             text: "am-03-1: Bookmarks"
+          - href: assignments/md-03/am-03-2-case-study.qmd
+            text: "am-03-2: Case study"
+          - href: assignments/md-03/am-03-3-github-clone.qmd
+            text: "am-03-3: GitHub clone"
+          - href: assignments/md-03/am-03-4-github-workflow.qmd
+            text: "am-03-4: GitHub workflow"
       - href: modules/md-04.qmd
         text: "Module 4"
       - href: modules/md-05.qmd

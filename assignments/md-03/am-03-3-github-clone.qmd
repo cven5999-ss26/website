@@ -53,4 +53,4 @@ You can search for your repository by typing your username in the search bar jus
 
 ![](../md-02/images/github-clone/screenshot-posit-cloud-deploying.png){width=100%}
 
-10. Continue with the next assignment: [Case study, Data stewardship at ETH GHE](am-03-2-case-study.qmd).
+10. Continue with the next assignment: [GitHub workflow](am-03-4-github-workflow.qmd).
