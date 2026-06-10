@@ -6,8 +6,8 @@ title: "GitHub workflow"
 
 This is the final assignment for Module 3. By this point you should have:
 
-- Cloned your `md-03-USERNAME` repository to Posit Cloud ([Assignment 1](am-03-3-github-clone.qmd))
-- Worked through the case study ([Assignment 2](am-03-2-case-study.qmd)) and written your answers into [`hw-data-stewardship.qmd`]{.highlight-yellow} in your Posit Cloud project
+- Cloned your `md-03-USERNAME` repository to Posit Cloud ([Assignment 3 (am-03-3)](am-03-3-github-clone.qmd))
+- Worked through the case study ([Assignment 2 (am-03-2)](am-03-2-case-study.qmd)) and written your answers into [`hw-data-stewardship.qmd`]{.highlight-yellow} in your Posit Cloud project
 - Completed the learning reflection in [`learning-03.qmd`]{.highlight-yellow} in your Posit Cloud project
 
 Now you will commit and push those changes to GitHub.
@@ -18,7 +18,7 @@ You already configured git as part of the Module 2 in-class session. Git configu
 
 ## Commit and push your changes
 
-1. In Posit Cloud, open the [md-03-USERNAME]{.highlight-yellow} project. Make sure you are in the [{{< var course.code >}}]{.highlight-yellow} workspace (check the top left corner; if it says [Your Workspace]{.highlight-yellow} you are in the wrong place, go back to [Assignment 1](am-03-3-github-clone.qmd) and clone again into the correct workspace).
+1. In Posit Cloud, open the [md-03-USERNAME]{.highlight-yellow} project. Make sure you are in the [{{< var course.code >}}]{.highlight-yellow} workspace (check the top left corner; if it says [Your Workspace]{.highlight-yellow} you are in the wrong place, go back to [Assignment 3 (am-03-3)](am-03-3-github-clone.qmd) and clone again into the correct workspace).
 
 2. Confirm both files have been saved with your work:
 

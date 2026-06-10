@@ -14,7 +14,10 @@ editor_options:
 ```{r}
 library(tidyverse)
 
-grading <- read_csv(here::here("data/tbl-04-capstone-project-grading.csv")) 
+grading <- read_csv(here::here("data/tbl-04-capstone-project-grading.csv"))
+
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+project_due_date <- format(as.Date(vars$`md-08`$`homework-due`), "%B %d, %Y")
 ```
 
 
@@ -36,9 +39,9 @@ lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
 
 ## {{< fa code >}} GitHub repository
 
-A repository for each student is established during Module 5 of the course (see [HW 04b: Capstone Project Setup](../assignments/hw-04b-capstone-project-setup.qmd)). Students begin exploring their data and performing initial tidying in Module 6 (see [HW 05: Project Data Exploration](../assignments/hw-05-project-data-exploration.qmd)). This repository contains self-identified data that was shared in Module 4 of the course. Some data cleaning steps may be performed by the course instructor, so that each student has a tidy dataset to work with.
+Each student creates their own capstone project repository in the course GitHub organization as part of [HW 04b: Capstone Project Setup](../assignments/hw-04b-capstone-project-setup.qmd), assigned in Module 5. In that assignment, students set up the directory structure of the repository and upload their self-identified raw data to the `data/raw/` folder. The course instructor can support students with data preparation if needed.
 
-The repository further contains an empty Quarto file (index.qmd), which students must use to write their report. A list of graded items was prepared to guide students in writing the report.
+In [HW 05: Project Data Exploration](../assignments/hw-05-project-data-exploration.qmd), assigned in Module 6, students create a Quarto file (`index.qmd`) inside the `docs/` folder of the repository, read in their data, and perform an initial exploration and tidying. Students build on this document to write their capstone project report. A list of graded items was prepared to guide students in writing the report.
 
 ## {{< fa pen-clip >}} GitHub issue tracker
 
@@ -46,11 +49,11 @@ The GitHub issue tracker of each student's capstone project repository is used t
 
 ## {{< fa calendar-check >}} Submission due date
 
-The due date for submission of the report is [**{{< var md-08.homework-due >}}**]{.highlight-yellow}. Any commits after the due date will not be counted against the graded items. 
+The due date for submission of the report is [**`r project_due_date`**]{.highlight-yellow}. Any commits after the due date will not be counted against the graded items.
 
 ## {{< fa list-check >}} Graded items
 
-@tbl-grading-items is a detailed list of items for grading of the capstone project report are presented. The sum of points is 100 and spread over technical and intellectual items as presented in @tbl-grading-categories.
+@tbl-grading-items presents a detailed list of items used for grading the capstone project report. The sum of points is 100 and spread over technical and intellectual items as presented in @tbl-grading-categories.
 
 ```{r}
 #| label: tbl-grading-items

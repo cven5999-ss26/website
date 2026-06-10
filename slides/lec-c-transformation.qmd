@@ -22,8 +22,6 @@ params:
 library(countdown)
 library(ggplot2)
 library(readr)
-library(ggplot2)
-library(gapminder)
 library(dplyr)
 ```
 
@@ -75,7 +73,7 @@ lobj1 <- readr::read_csv(here::here("data/tbl-02-learning-objectives.csv")) |>
 
 ::: {.column width="40%"}
 
-```{r dplyr-part-of-tidyverse, echo=FALSE, out.width="70%", caption = "dplyr is part of the tidyverse"}
+```{r dplyr-part-of-tidyverse, echo=FALSE, out.width="70%"}
 knitr::include_graphics("img/lec-c/dplyr-part-of-tidyverse.png")
 ```
 
@@ -166,15 +164,13 @@ Photo by [Blake Wisz](https://unsplash.com/@blakewisz)
 ## Homework due dates
 
 - All material on [course website]({{< var course.site >}}modules/md-05.html)
-- Homework assignment & learning reflection due: [**{{< var md-04.homework-due >}}**]{.highlight-yellow}
+- Homework assignment & learning reflection due: [**{{< var md-05.homework-due >}}**]{.highlight-yellow}
 
 # Thanks! {{< fa sun >}}  {background-color="#0F4C81"}
 
 ## 
 
-Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
-
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-c-transformation.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). 
 

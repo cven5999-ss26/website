@@ -37,7 +37,7 @@ homework_due_date <- format(as.Date(vars$`md-02`$`homework-due`), "%B %d, %Y")
 
 ## {{< fa display >}} Slides
 
-[View slides in full screen](../slides/lec-a-welcome.html) | [Download slides as PDF]({{< var course.github-org >}}/website/raw/main/slides/lec-a-welcome.pdf)
+[View slides in full screen](../slides/lec-a-welcome.html)
 
 ```{=html}
 <iframe class="slide-deck" src="../slides/lec-a-welcome.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>

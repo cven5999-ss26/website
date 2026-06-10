@@ -21,7 +21,7 @@ By completing this assignment, you will:
 
 ### Create a new repository on GitHub & clone to Posit Cloud
 
-1. Open the GitHub Organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+1. Open the GitHub Organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
 
 2. To the right of the field ["Find a repository"]{.highlight-yellow}, click on the green ["New"]{.highlight-yellow} button.
 
@@ -45,7 +45,7 @@ By completing this assignment, you will:
 
 12. Click the **OK** button
 
-12. Wait until the project is deployed.
+13. Wait until the project is deployed.
 
 ### Set up initial directory structure
 
@@ -114,7 +114,7 @@ Open a **Questions & Answers for the Capstone Project report** issue on the GitH
 
 ## {{< fa calendar-check >}} Due Date
 
-This assignment is due: [**{{< var md-04.homework-due >}}**]{.highlight-yellow}
+This assignment is due: [**{{< var md-05.homework-due >}}**]{.highlight-yellow}
 
 ## {{< fa list-check >}} Submission
 

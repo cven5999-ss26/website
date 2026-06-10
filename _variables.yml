@@ -9,6 +9,7 @@ course:
   github-org: "https://github.com/cven5999-ss26"
 
 platforms:
+  canvas: "https://canvas.colorado.edu/courses/143788"
   posit-cloud: "https://posit.cloud/spaces/784454/"
   posit-cloud-access: "join?access_code=gwvc0zIUaURjb5YueeqY1jMRLqRNQK1MGUlMUrP_"
   pre-course-survey: "https://forms.gle/7m14HPfbYr7n9NKZ9"

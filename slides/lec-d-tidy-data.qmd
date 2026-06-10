@@ -98,8 +98,10 @@ waste_data_tidy <- waste_data_untidy |>
   group_by(objid) |> 
   mutate(percent = weight / sum(weight) * 100)
 
-waste_data_tidy |> 
-  write_rds(here::here("slides/data/intermediate_data/waste-characterisation-lord-of-the-bins-tidy.rds"))
+# The homework repo (md-06) consumes a copy of this rds; nothing in this deck
+# reads it, so the write is disabled to avoid rewriting the file on every render.
+# waste_data_tidy |>
+#   write_rds(here::here("slides/data/intermediate_data/waste-characterisation-lord-of-the-bins-tidy.rds"))
 
 ```
 
@@ -222,7 +224,7 @@ survey_data_small |>
   mutate(price_glass_new = case_when(
     price_glass == "5 to 10" ~ "7.5",
     price_glass == "05-Oct" ~ "7.5",
-    str_detect(price_glass, pattern = "2chf") == TRUE ~ "20",
+    str_detect(price_glass, pattern = "20") == TRUE ~ "20",
     str_detect(price_glass, pattern = "See comment") == TRUE ~ NA_character_,
     TRUE ~ price_glass
   )) 
@@ -245,7 +247,7 @@ survey_data_small |>
   knitr::kable()
 ```
 
-## Sumamrise? Argh!!!! {.smaller auto-animate="true"}
+## Summarise? Argh!!!! {.smaller auto-animate="true"}
 
 ```{r}
 #| echo: true
@@ -355,7 +357,7 @@ Illustrations from the [Openscapes](https://www.openscapes.org/) blog [Tidy Data
 
 ::: columns
 ::: {.column width="40%"}
-```{r dplyr-part-of-tidyverse, echo=FALSE, out.width="60%", caption = "tidyr is part of the tidyverse"}
+```{r tidyr-part-of-tidyverse, echo=FALSE, out.width="60%"}
 knitr::include_graphics("img/lec-d/tidyr-part-of-tidyverse.png")
 ```
 :::
@@ -572,15 +574,13 @@ ggplot(data = waste_data_tidy,
 ## Homework due dates
 
 -   All material on [course website]({{< var course.site >}}modules/md-06.html)
--   Homework assignment & learning reflection due: [**{{< var md-05.homework-due >}}**]{.highlight-yellow}
+-   Homework assignment & learning reflection due: [**{{< var md-06.homework-due >}}**]{.highlight-yellow}
 
 # Thanks! {{< fa sun >}}  {background-color="#0F4C81"}
 
 ## 
 
-Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
-
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-d-tidy-data.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). 
 

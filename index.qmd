@@ -14,7 +14,7 @@ Summer Online - Session C - May 25, 2026 - July 17, 2026; Monday 2:30 - 5:00 pm 
 
 Instructor: [Lars Schöbitz](https://www.linkedin.com/in/larsschoebitz/)
 
-Canvas: <https://canvas.colorado.edu/courses/143788>
+Canvas: [{{< var platforms.canvas >}}]({{< var platforms.canvas >}})
 
 # Course Information
 
@@ -54,14 +54,14 @@ readr::read_csv("data/tbl-01-course-schedule.csv") |>
 |          |                                           |
 |----------|-------------------------------------------|
 | **Monday**   |  Lecture              |
-| **Tuesday**  |                                   |
-| **Wednesday** |  |
+| **Tuesday**  | Self-paced work on homework assignments |
+| **Wednesday** | Self-paced work on homework assignments |
 | **Thursday** |       Feedback (grading) on assignments from previous module   |
 | **Friday**   | Homework assignment and learning reflection are due             |
 
 # Assignments
 
-**Homework assignments**: Each module will have at least one homework assignment. All assignments, but those for Module 1 are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub. Homework assignments are graded as pass/fail (100 points).
+**Homework assignments**: Each module will have at least one homework assignment. All assignments except those for Module 1 are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub. Homework assignments are graded as pass/fail (100 points).
 
 **Readings/Learning reflections**: Additional readings will be provided. Some are required, others are optional. Students will be asked to write 100 word reflections on the material that they have learned. These reflections are delivered as Quarto documents and graded as pass/fail (100 points). Students are required to submit their work through GitHub.
 
@@ -95,11 +95,11 @@ Due dates are set and all work is due on the stated date. This helps students to
 
 **Special circumstances**
 
-If you have a documented reason for why you are unable to to complete an assignment in the course, the reason will be assessed at the end of the course by the course committee. 
+If you have a documented reason for why you are unable to complete an assignment in the course, the reason will be assessed at the end of the course by the course committee. 
 
 # Classroom behavior 
 
-Both students and faculty are responsible for maintaining an appropriate learning environment in all instructional settings, whether in person, remote or online. Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and sensitivity are especially important with respect to individuals and topics dealing with race, color, national origin, sex, pregnancy, age, disability, creed, religion, sexual orientation, gender identity, gender expression, veteran status, political affiliation or political philosophy.  For more information, see the policies on [classroom behavior](http://www.colorado.edu/policies/student-classroom-and-course-related-behavior) and the [Student Conduct & Conflict Resolution policies](https://www.colorado.edu/sccr/student-conduct).
+Both students and faculty are responsible for maintaining an appropriate learning environment in all instructional settings, whether in person, remote or online. Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and sensitivity are especially important with respect to individuals and topics dealing with race, color, national origin, sex, pregnancy, age, disability, creed, religion, sexual orientation, gender identity, gender expression, veteran status, political affiliation or political philosophy.  For more information, see the policies on [classroom behavior](http://www.colorado.edu/policies/student-classroom-and-course-related-behavior) and the [Student Conduct & Conflict Resolution policies](https://www.colorado.edu/sccr/students/honor-code-and-student-code-conduct).
 
 
 # Preferred student names and pronouns
@@ -110,7 +110,7 @@ CU Boulder recognizes that students' legal information doesn't always align with
 
 All students enrolled in a University of Colorado Boulder course are responsible for knowing and adhering to the Honor Code academic integrity policy. Violations of the Honor Code may include, but are not limited to: plagiarism, cheating, fabrication, lying, bribery, threat, unauthorized access to academic materials, clicker fraud, submitting the same or similar work in more than one course without permission from all course instructors involved, and aiding academic dishonesty. All incidents of academic misconduct will be reported to the Honor Code (honor@colorado.edu); 303-492-5550). Students found responsible for violating the academic integrity policy will be subject to nonacademic sanctions from the Honor Code as well as academic sanctions from the faculty member. Additional information regarding the Honor Code academic integrity policy can be found on the [Honor Code website](https://www.colorado.edu/osccr/honor-code).
 
-# Sexual misconduct, discrimintation, harassment and/or related retaliation
+# Sexual misconduct, discrimination, harassment and/or related retaliation
 
 CU Boulder is committed to fostering an inclusive and welcoming learning, working, and living environment. The university will not tolerate acts of sexual misconduct (harassment, exploitation, and assault), intimate partner violence (dating or domestic violence), stalking, or protected-class discrimination or harassment by or against members of our community. Individuals who believe they have been subject to misconduct or retaliatory actions for reporting a concern should contact the Office of Institutional Equity and Compliance (OIEC) at 303-492-2127 or email cureport@colorado.edu. Information about university policies, [reporting options](https://www.colorado.edu/oiec/reporting-resolutions/making-report), and the support resources can be found on the [OIEC website](http://www.colorado.edu/institutionalequity/).
 

@@ -20,7 +20,6 @@ params:
 ```{r}
 #| include: false
 library(countdown)
-library(magrittr)
 ```
 
 # Welcome! {{< fa hand >}}  {background-color="#0F4C81"}
@@ -116,7 +115,7 @@ Artwork from [@juliesquid](https://twitter.com/juliesquid) for [@openscapes](htt
 ## Live Coding Exercises 
 
 - Instructor writes and narrates code out loud 
-- Intstructor explains elements and principles that are relevant
+- Instructor explains elements and principles that are relevant
 - Code is displayed on second screen / split screen
 - Learners join by writing and executing the same code
 - Learners "code-along" with the instructor
@@ -167,7 +166,7 @@ Artwork from [@juliesquid](https://twitter.com/juliesquid) for [@openscapes](htt
 ![](img/lec-a/bram-naus-N1gUD_dCvJE-unsplash.jpg)
 
 ::: footer
-Photo by [Brahm Naus](https://unsplash.com/photos/N1gUD_dCvJE)
+Photo by [Bram Naus](https://unsplash.com/photos/N1gUD_dCvJE)
 :::
 
 ## Screen setup
@@ -181,7 +180,7 @@ Photo by [Brahm Naus](https://unsplash.com/photos/N1gUD_dCvJE)
 ![](img/lec-a/daniel-korpai-vHVfpi3h5xk-unsplash.jpg)
 
 ::: footer
-Photo by [Daniel Korpai](https://unsplash.com/photos/N1gUD_dCvJE)
+Photo by [Daniel Korpai](https://unsplash.com/photos/vHVfpi3h5xk)
 :::
 
 # Email from GitHub? {background-color="#0F4C81"}
@@ -267,8 +266,8 @@ knitr::include_graphics("img/lec-a/git-logo.png")
 knitr::include_graphics("img/lec-a/github-logo.png")
 ```
 - GitHub is a hosting platform for version control using Git
-- Launched in 2008, aquired by Microsoft in in 2018, Microsoft for US$ 7.5 billion
-- 73 million Users ([February, 2022](https://github.com/about))
+- Launched in 2008, acquired by Microsoft in 2018 for US$ 7.5 billion
+- More than [100 million users](https://github.com/about)
 - Facebook for Software Developers
 :::
 
@@ -308,12 +307,6 @@ knitr::include_graphics("img/lec-a/github-logo.png")
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3pWRgRw86JyBa" width="75%" height="75%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/matthew-west-all-in-matthew-west-3pWRgRw86JyBa">via GIPHY</a></p>
 
 ## - {background-image="img/lec-a/data-science-lifecycle/data-science-lifecycle.001.png" background-size="contain"}
-
-::: {.notes}
-
-Add notes
-
-:::
 
 ## - {background-image="img/lec-a/data-science-lifecycle/data-science-lifecycle.002.png" background-size="contain"}
 
@@ -497,7 +490,7 @@ filter(.data = gapminder,
 
 - Function: `filter()`
 - Argument: `.data = ` 
-- Arguments following: `year == 2007` **What do do with the data**
+- Arguments following: `year == 2007` **What to do with the data**
 
 ## Objects {auto-animate="true"}
 
@@ -513,7 +506,7 @@ gapminder_yr_2007 <- filter(.data = gapminder,
 
 - Function: `filter()`
 - Argument: `.data = `
-- Arguments following: `year == 2007` **What do do with the data**
+- Arguments following: `year == 2007` **What to do with the data**
 - Object: `gapminder_yr_2007`
 
 ## Operators {auto-animate="true"}
@@ -530,7 +523,7 @@ gapminder_yr_2007 <- gapminder |>
 
 - Function: `filter()`
 - Argument: `.data = `
-- Arguments following: `year == 2007` **What do do with the data**
+- Arguments following: `year == 2007` **What to do with the data**
 - Object: `gapminder_yr_2007`
 - Assignment operator: `<-`
 - Pipe operator: `|>`
@@ -610,9 +603,7 @@ readr::read_csv(here::here("data/tbl-03-grading-scheme.csv")) |>
 
 ## 
 
-Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
-
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-a-welcome.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). 
 

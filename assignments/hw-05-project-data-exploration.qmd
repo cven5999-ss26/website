@@ -136,7 +136,7 @@ In the "Methods" chapter under "Initial Data Tidying":
 
 3. Save your tidied data:
    ```r
-   write_csv(tidied_data, here::here("data/processed/your_file_tidied.csv")
+   write_csv(tidied_data, here::here("data/processed/your_file_tidied.csv"))
    ```
 
 
@@ -159,7 +159,7 @@ In the "Methods" chapter under "Initial Data Tidying":
 
 ## {{< fa calendar-check >}} Due Date
 
-This assignment is due: [**{{< var md-05.homework-due >}}**]{.highlight-yellow}
+This assignment is due: [**{{< var md-06.homework-due >}}**]{.highlight-yellow}
 
 ## {{< fa list-check >}} Submission
 
