@@ -3,8 +3,8 @@ title: "Support yourself with bookmarks"
 ---
 
 ::: {.callout-warning}
-## Screenshots show a different course
-The screenshots in this assignment show a class titled `ds4owd-002`. They were carried over from another course and have not yet been updated. For this course, you must use `cven5999-ss26` wherever you see `ds4owd-002` in the screenshots.
+## Screenshots show a previous course
+The screenshots in this assignment were taken in a previous course (`ds4owd-002`). The steps are identical. Follow the written instructions and use your own repository and workspace names, for example `cven5999-ss26` wherever a screenshot shows `ds4owd-002`.
 :::
 
 ## Organize your digital workspace
@@ -95,7 +95,7 @@ Add the following bookmarks to your [{{< var course.code >}}]{.highlight-yellow}
 2. [GitHub organization]{.highlight-yellow}: [{{< var course.github-org >}}]({{< var course.github-org >}})
    - Name it: [GitHub - course org]{.highlight-yellow}
 
-3. [Canvas course page]{.highlight-yellow}: <https://canvas.colorado.edu/courses/143788>
+3. [Canvas course page]{.highlight-yellow}: [{{< var platforms.canvas >}}]({{< var platforms.canvas >}})
    - Name it: [Canvas - {{< var course.code >}}]{.highlight-yellow}
 
 ## Step 4: Take a screenshot
@@ -128,7 +128,7 @@ You can search for your repository by typing your username in the search bar jus
 
 6. In the [Title]{.highlight-yellow} field write: [Bookmarks setup completed]{.highlight-yellow}.
 
-7. In the [Leave a comment]{.highlight-yellow} field:
+7. In the [Add a description]{.highlight-yellow} field:
    - Drag and drop your screenshot from Step 4 into the comment field, or click [Attach files by dragging & dropping]{.highlight-yellow}.
    - Add a brief message like: "I have set up my bookmarks folder for {{< var course.code >}} with all essential course links."
    - Tag the course instructor `@larnsce`.

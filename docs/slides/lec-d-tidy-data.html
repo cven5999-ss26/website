@@ -119,7 +119,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2ff4faa38b4a989d8a4e8cbd1f0d7906.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-0279deb52e02c76a97ffaa97ee04acf5.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -546,7 +546,7 @@ Lars Schöbitz
 <span id="cb5-2"><a></a>  <span class="fu">mutate</span>(<span class="at">price_glass_new =</span> <span class="fu">case_when</span>(</span>
 <span id="cb5-3"><a></a>    price_glass <span class="sc">==</span> <span class="st">"5 to 10"</span> <span class="sc">~</span> <span class="st">"7.5"</span>,</span>
 <span id="cb5-4"><a></a>    price_glass <span class="sc">==</span> <span class="st">"05-Oct"</span> <span class="sc">~</span> <span class="st">"7.5"</span>,</span>
-<span id="cb5-5"><a></a>    <span class="fu">str_detect</span>(price_glass, <span class="at">pattern =</span> <span class="st">"2chf"</span>) <span class="sc">==</span> <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">"20"</span>,</span>
+<span id="cb5-5"><a></a>    <span class="fu">str_detect</span>(price_glass, <span class="at">pattern =</span> <span class="st">"20"</span>) <span class="sc">==</span> <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">"20"</span>,</span>
 <span id="cb5-6"><a></a>    <span class="fu">str_detect</span>(price_glass, <span class="at">pattern =</span> <span class="st">"See comment"</span>) <span class="sc">==</span> <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span>,</span>
 <span id="cb5-7"><a></a>    <span class="cn">TRUE</span> <span class="sc">~</span> price_glass</span>
 <span id="cb5-8"><a></a>  )) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -709,8 +709,8 @@ Lars Schöbitz
 </div>
 </div>
 </section>
-<section id="sumamrise-argh" class="slide level2 smaller" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Sumamrise? Argh!!!!</h2>
+<section id="summarise-argh" class="slide level2 smaller" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Summarise? Argh!!!!</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" data-code-line-numbers="9"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb6-1" class="hljs-ln-code"><a></a>survey_data_small <span class="sc">|&gt;</span> </span>
 <span id="cb6-2" class="hljs-ln-code"><a></a>  <span class="fu">mutate</span>(<span class="at">price_glass_new =</span> <span class="fu">case_when</span>(</span>
@@ -811,7 +811,7 @@ Lars Schöbitz
 <p><img data-src="img/lec-a/coffee-break.jpg"></p>
 <div class="cell">
 <div class="cell-output-display">
-<countdown-timer class="countdown" id="timer_0c60411e" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
+<countdown-timer class="countdown" id="timer_57851dfc" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
 </div>
 </div>
 
@@ -846,7 +846,7 @@ Lars Schöbitz
 <h2>A grammar of data tidying</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
-<div class="cell" data-caption="tidyr is part of the tidyverse">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <figure>
@@ -2084,7 +2084,7 @@ Lars Schöbitz
 <h2>Homework due dates</h2>
 <ul>
 <li>All material on <a href="https://cven5999-ss26.github.io/website/modules/md-06.html">course website</a></li>
-<li>Homework assignment &amp; learning reflection due: <span class="highlight-yellow"><strong>2026-06-26</strong></span></li>
+<li>Homework assignment &amp; learning reflection due: <span class="highlight-yellow"><strong>2026-07-03</strong></span></li>
 </ul>
 </section></section>
 <section>
@@ -2095,7 +2095,6 @@ Lars Schöbitz
 <section id="section-3" class="slide level2">
 <h2></h2>
 <p>Slides created via revealjs and Quarto: <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a></p>
-<p>Access slides as <a href="https://github.com/cven5999-ss26/website/raw/main/slides/lec-d-tidy-data.pdf">PDF on GitHub</a></p>
 <p>All material is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike 4.0 International</a>.</p>
 </section>
 <section id="references" class="slide level2 smaller scrollable">

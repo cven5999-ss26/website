@@ -3,8 +3,8 @@ title: "GitHub workflow"
 ---
 
 ::: {.callout-warning}
-## Screenshots show a different course
-The screenshots in this assignment show a class titled `ds4owd-002`. They were carried over from another course and have not yet been updated. For this course, you must use `cven5999-ss26` wherever you see `ds4owd-002` in the screenshots (for example, in the Posit Cloud workspace name).
+## Screenshots show a previous course
+The screenshots in this assignment were taken in a previous course (`ds4owd-002`). The steps are identical. Follow the written instructions and use your own repository and workspace names, for example `cven5999-ss26` wherever a screenshot shows `ds4owd-002` (such as the Posit Cloud workspace name).
 :::
 
 ## Complete the GitHub workflow
@@ -27,8 +27,8 @@ You already completed the git configuration as part of the in-class session, so 
 
 3. Under the heading [Git configuration]{.highlight-yellow} edit the code in the code chunk:
 
-- Replace the placeholder [Your Name]{.highlight-yellow} with your GitHub username
-- Replace [Your Email]{.highlight-yellow} with your email address
+- Replace the placeholder [Your Name]{.highlight-yellow} with your first and last name
+- Replace [Your Email]{.highlight-yellow} with the email address associated with your GitHub account
 - Keep the quotes!
 
 These will be the details that git will use to identify you when you make changes to your work.

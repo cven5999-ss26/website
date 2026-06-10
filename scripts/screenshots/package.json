@@ -1,0 +1,11 @@
+{
+  "name": "screenshots",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node take-screenshots.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}

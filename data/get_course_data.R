@@ -9,9 +9,11 @@ library(googlesheets4)
 library(readr)
 library(dplyr)
 
+stopifnot(nzchar(Sys.getenv("GOOGLE_EMAIL")))
+
 # authentication -----------------------------------------------------------
 
-gs4_auth(cache = ".secrets", email = Sys.getenv("GOOGLE_EMAIL"))
+gs4_auth(cache = here::here(".secrets"), email = Sys.getenv("GOOGLE_EMAIL"))
 
 # script ------------------------------------------------------------------
 
@@ -21,7 +23,7 @@ link_course_schedule <- "https://docs.google.com/spreadsheets/d/1yTbTPM2nZ46oPA7
 
 googlesheets4::read_sheet(link_course_schedule) |> 
   mutate(title = case_when(
-    is.na(page_link) == FALSE ~  paste0("[", title, "](", page_link, ")"),
+    !is.na(page_link) ~  paste0("[", title, "](", page_link, ")"),
     TRUE ~ title
   )) |> 
   write_csv(here::here("data/tbl-01-course-schedule.csv"))

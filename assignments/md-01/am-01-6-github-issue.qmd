@@ -12,7 +12,8 @@ title: "Prepare questions and open an issue on GitHub"
 -   Click on "New issue" button.
 -   In the "Title" field
     -   write: "Homework assignments for Module 1 completed".
--   In the "Leave a comment" field,
+-   In the "Add a description" field,
     -   tag the course instructor with using the `@` sign in combination with `larnsce` as the username,
     -   post your question that you prepared after reading the [Course Overview](../../index.html),
     -   add anything that you would like to add.
+-   Click the green "Create" button.

@@ -11,7 +11,7 @@ This is a Quarto-based course website for CVEN 5999: Special Topics - Data Analy
 ## Architecture
 
 ### Content Structure
-- **Main pages**: Course overview (`index.qmd`), project details (`project/index.qmd`), schedule (`schedule.qmd`)
+- **Main pages**: Course overview (`index.qmd`), project details (`project/index.qmd`); the course schedule lives in `data/tbl-01-course-schedule.csv` and is rendered on `index.qmd`
 - **Module content**: Located in `modules/` directory (md-01.qmd through md-07.qmd)
 - **Lecture slides**: Located in `slides/` directory with RevealJS format (.qmd files)
 - **Data**: Course data and R scripts in `data/` directory
@@ -98,6 +98,7 @@ Homework repos live at `github.com/cven-dev/md-XX` and are cloned into Posit Clo
 | Module | Repo | Lecture |
 |--------|------|---------|
 | 2 | `md-02` | lec-a |
+| 3 | `md-03` | (no lecture deck; case-study module) |
 | 4 | `md-04` | lec-b |
 | 5 | `md-05` | lec-c |
 | 6 | `md-06` | lec-d |

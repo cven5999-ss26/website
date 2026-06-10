@@ -100,7 +100,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2ff4faa38b4a989d8a4e8cbd1f0d7906.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-0279deb52e02c76a97ffaa97ee04acf5.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -223,8 +223,8 @@ Lars Schöbitz
 <h1>Solving coding problems</h1>
 
 </section>
-<section id="tipps-for-search-engines" class="slide level2">
-<h2>Tipps for search engines</h2>
+<section id="tips-for-search-engines" class="slide level2">
+<h2>Tips for search engines</h2>
 <ul>
 <li>Use actionable verbs that describe what you want to do</li>
 <li>Be specific</li>
@@ -257,15 +257,15 @@ Lars Schöbitz
 </ul>
 </div></div>
 </section>
-<section id="tipps-for-ai-tools" class="slide level2">
-<h2>Tipps for AI tools</h2>
+<section id="tips-for-ai-tools" class="slide level2">
+<h2>Tips for AI tools</h2>
 <ul>
 <li>Use actionable verbs that describe what you want to do</li>
-<li>Be specific</li>
-<li>Add R to the search query</li>
-<li>Add the name of the R package name to the search query</li>
+<li>Be specific about the result you expect</li>
+<li>State that you are working in R</li>
+<li>Include the package name and a minimal code example in your prompt</li>
 </ul>
-<p><strong>Example: “How to remove a legend from a plot in R ggplot2”</strong></p>
+<p><strong>Example: “How do I remove the legend from this ggplot2 plot in R?”</strong></p>
 </section>
 <section id="other-sources-for-help" class="slide level2">
 <h2>Other sources for help</h2>
@@ -337,14 +337,14 @@ Lars Schöbitz
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb2-1" class="hljs-ln-code"><a></a><span class="fu">ggplot</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
-<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
+<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
 <section id="code-structure-2" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Code structure</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb3-1" class="hljs-ln-code"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> gapminder_yr_2007)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
-<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
+<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
 <section id="code-structure-3" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Code structure</h2>
 <div class="cell">
@@ -352,7 +352,7 @@ Lars Schöbitz
 <span id="cb4-2" class="hljs-ln-code"><a></a>       <span class="at">mapping =</span> <span class="fu">aes</span>()) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
-<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
+<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
 <section id="code-structure-4" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Code structure</h2>
 <div class="cell">
@@ -361,7 +361,7 @@ Lars Schöbitz
 <span id="cb5-3" class="hljs-ln-code"><a></a>                     <span class="at">y =</span> lifeExp))  </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
-<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
+<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
 <section id="code-structure-5" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Code structure</h2>
 <div class="cell">
@@ -371,7 +371,7 @@ Lars Schöbitz
 <span id="cb6-4" class="hljs-ln-code"><a></a>  <span class="fu">geom_boxplot</span>() </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
-<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
+<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
 <section id="code-structure-6" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Code structure</h2>
 <div class="cell">
@@ -382,7 +382,7 @@ Lars Schöbitz
 <span id="cb7-5" class="hljs-ln-code"><a></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
-<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section>
+<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
 <section id="code-structure-7" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Code structure</h2>
 <div class="cell">
@@ -393,7 +393,7 @@ Lars Schöbitz
 <span id="cb8-5" class="hljs-ln-code"><a></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">14</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
-<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section></section>
+<img data-src="lec-b-visualisation_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section></section>
 <section>
 <section id="live-coding-exercise-reproduce-this-plot" class="title-slide slide level1 center" data-background-color="#0F4C81">
 <h1>Live Coding Exercise: Reproduce this plot</h1>
@@ -427,7 +427,7 @@ Lars Schöbitz
 <p><img data-src="img/lec-a/coffee-break.jpg"></p>
 <div class="cell">
 <div class="cell-output-display">
-<countdown-timer class="countdown" id="timer_81150515" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
+<countdown-timer class="countdown" id="timer_8c9bd24a" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
 </div>
 </div>
 
@@ -466,27 +466,27 @@ Lars Schöbitz
 </ul>
 </div></div>
 </section>
-<section id="section-2" class="slide level2" data-background-image="https://d33wubrfki0l68.cloudfront.net/1e7033393a2c70dc1255c5d0f1c563e945519251/61035/img/evol-ggplot/evol-ggplot-1.gif" data-background-size="contain">
+<section id="section-2" class="slide level2" data-background-image="img/lec-b/evol-ggplot-1.gif" data-background-size="contain">
 <h2></h2>
 
 <aside><div>
 <p><strong>Tutorial:</strong> https://www.cedricscherer.com/2019/05/17/the-evolution-of-a-ggplot-ep.-1/</p>
 </div></aside></section></section>
 <section>
-<section id="data-organisation-in-spreadsheets" class="title-slide slide level1 center">
+<section id="data-organisation-in-spreadsheets" class="title-slide slide level1 center" data-background-color="#0F4C81">
 <h1>Data Organisation in Spreadsheets</h1>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="img/lec-b/data-org-paper.png"></p>
+<p><img data-src="img/lec-b/data-org-paper.png" width="782"></p>
 </figure>
 </div>
 </div>
 </div>
 
 <aside><div>
-<p>Jorunal: The American Statistician, <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989?src=">Screenshot taken on 2022-03-23</a></p>
+<p>Journal: The American Statistician, <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989">Screenshot taken on 2022-03-23</a></p>
 </div></aside></section>
 <section id="data-organisation-in-spreadsheets-1" class="slide level2">
 <h2>Data Organisation in Spreadsheets</h2>
@@ -521,7 +521,7 @@ Lars Schöbitz
 </div>
 
 <aside><div>
-<p>Jorunal: The American Statistician, <a href="https://www.tandfonline.com/toc/utas20/current#b7689c1d-7975-46ed-aaf9-3a2939834054-b6de7b7c-de82-45a5-9538-313dd15c6659">Screenshot taken on 2022-07-11</a>]</p>
+<p>Journal: The American Statistician, <a href="https://www.tandfonline.com/toc/utas20/current#b7689c1d-7975-46ed-aaf9-3a2939834054-b6de7b7c-de82-45a5-9538-313dd15c6659">Screenshot taken on 2022-07-11</a></p>
 </div></aside></section>
 <section id="license-cc0" class="slide level2">
 <h2>License? CC0 (!)</h2>
@@ -555,7 +555,7 @@ Lars Schöbitz
 <h2>Homework due dates</h2>
 <ul>
 <li>All material on <a href="https://cven5999-ss26.github.io/website/modules/md-04.html">course website</a></li>
-<li>Homework assignment &amp; learning reflection due: <span class="highlight-yellow"><strong>2026-06-12</strong></span></li>
+<li>Homework assignment &amp; learning reflection due: <span class="highlight-yellow"><strong>2026-06-19</strong></span></li>
 </ul>
 </section></section>
 <section>
@@ -566,7 +566,6 @@ Lars Schöbitz
 <section id="section-3" class="slide level2">
 <h2></h2>
 <p>Slides created via revealjs and Quarto: <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a></p>
-<p>Access slides as <a href="https://github.com/cven5999-ss26/website/raw/main/slides/lec-b-visualisation.pdf">PDF on GitHub</a></p>
 <p>All material is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike 4.0 International</a>.</p>
 
 

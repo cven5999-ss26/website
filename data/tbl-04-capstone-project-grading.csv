@@ -4,7 +4,7 @@ capstone-project,technical,This item is a technical part of the capstone project
 capstone-project,technical,This item is a technical part of the capstone project report.,"Warnings are hidden from the compiled output, but code is shown in the compiled output.",2
 capstone-project,technical,This item is a technical part of the capstone project report.,The report has at least two data visualisations.,20
 capstone-project,technical,This item is a technical part of the capstone project report.,"Each data visualisation has edited human-readable labels (e.g. axis labels, legend title).",4
-capstone-project,technical,This item is a technical part of the capstone project report.,"Each data visualisation applies at least of once scaling function (e.g. color/fill, axes).",4
+capstone-project,technical,This item is a technical part of the capstone project report.,"Each data visualisation applies at least one scaling function (e.g. color/fill, axes).",4
 capstone-project,technical,This item is a technical part of the capstone project report.,Each data visualisation has a label defined in the code-chunk options.,4
 capstone-project,technical,This item is a technical part of the capstone project report.,Each data visualisation has a caption defined in the code-chunk options.,4
 capstone-project,technical,This item is a technical part of the capstone project report.,Each data visualisation has an alternative text that describes what type of visualisation it is and trends or learnings from the visualisation.,4

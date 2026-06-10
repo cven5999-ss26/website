@@ -1,3 +1,7 @@
+/*-- scss:uses --*/
+
+@use "sass:color";
+
 /*-- scss:defaults --*/
 
 // fonts
@@ -10,7 +14,7 @@ $font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
 $font-family-monospace: "Source Code Pro", monospace;
 $presentation-heading-color: #0F4C81;
 $link-color: #FF6100;
-$hover-color: lighten($link-color, 10%);
+$hover-color: color.adjust($link-color, $lightness: 10%);
 $code-block-font-size: 0.8em;
 $presentation-h2-font-size: 1.4em !default;
 $presentation-font-size-root: 36px !default;
@@ -54,8 +58,23 @@ $presentation-font-size-root: 36px !default;
   font-size: 0.9em;
 }
 
-.center-align {
-  text-align: center;
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.takeaway {
+  background-color: #D9E3E4;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  font-weight: 500;
+}
+
+.code-file {
+  font-family: $font-family-monospace;
+  font-weight: bold;
 }
 
 .reveal .hand {

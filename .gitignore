@@ -29,8 +29,6 @@ vignettes/*.pdf
 # ignore Mac files
 .DS_Store
 /.quarto/
-# extentions
-_extensions/
 .positai
 .secrets/
 .secrets
@@ -38,4 +36,9 @@ _extensions/
 **/*.quarto_ipynb
 
 # Node tooling (scripts/screenshots)
-scripts/*
+scripts/screenshots/.puppeteer-profile/
+scripts/screenshots/node_modules/
+scripts/screenshots/debug/
+
+# Screenshot script failure artifacts
+assignments/**/*.error.png

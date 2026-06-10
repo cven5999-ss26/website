@@ -25,7 +25,7 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 
 ```
 
-# Learning Objectives (for this module)
+## Learning Objectives (for this module)
 
 ```{r}
 
@@ -63,7 +63,7 @@ works <- read_csv(here::here("slides/data/scientists/works.csv"))
 #| eval: false
 professions <- read_csv(here::here("data/scientists/professions.csv")) 
 dates <- read_csv(here::here("data/scientists/dates.csv")) 
-works <- read_csv(here::here("scientists/works.csv")) 
+works <- read_csv(here::here("data/scientists/works.csv"))
 ```
 
 ## Data: Women in science {.smaller}
@@ -106,8 +106,8 @@ works |> kable()
 
 ```{r}
 professions %>%
-  left_join(dates) %>%
-  left_join(works) |> 
+  left_join(dates, by = join_by(name)) %>%
+  left_join(works, by = join_by(name)) |>
   kable()
 ```
 
@@ -212,7 +212,7 @@ include_graphics("img/lec-e/left-join.gif")
 ::: {.column width="47.5%"}
 ```{r}
 #| echo: true
-left_join(x, y)
+left_join(x, y, by = join_by(id))
 ```
 :::
 
@@ -224,13 +224,13 @@ left_join(x, y)
 #| echo: true
 #| eval: false
 professions %>%
-  left_join(dates) 
+  left_join(dates, by = join_by(name))
 ```
 
 ```{r}
 #| echo: false
 professions %>%
-  left_join(dates) |> 
+  left_join(dates, by = join_by(name)) |>
   kable()
 ```
 
@@ -251,7 +251,7 @@ include_graphics("img/lec-e/right-join.gif")
 ::: {.column width="47.5%"}
 ```{r}
 #| echo: true
-right_join(x, y)
+right_join(x, y, by = join_by(id))
 ```
 :::
 
@@ -263,13 +263,13 @@ right_join(x, y)
 #| echo: true
 #| eval: false
 professions %>%
-  right_join(dates)
+  right_join(dates, by = join_by(name))
 ```
 
 ```{r}
 #| echo: false
 professions %>%
-  right_join(dates) |> 
+  right_join(dates, by = join_by(name)) |>
   kable()
 ```
 
@@ -290,7 +290,7 @@ include_graphics("img/lec-e/full-join.gif")
 ::: {.column width="47.5%"}
 ```{r}
 #| echo: true
-full_join(x, y)
+full_join(x, y, by = join_by(id))
 ```
 :::
 
@@ -303,13 +303,13 @@ full_join(x, y)
 #| echo: true
 #| eval: false
 dates %>%
-  full_join(works) 
+  full_join(works, by = join_by(name))
 ```
 
 ```{r}
 #| echo: false
 dates %>%
-  full_join(works) |> 
+  full_join(works, by = join_by(name)) |>
   kable()
 ```
 
@@ -319,16 +319,16 @@ dates %>%
 #| echo: true
 #| eval: false
 professions %>%
-  left_join(dates) %>%
-  left_join(works) |> 
+  left_join(dates, by = join_by(name)) %>%
+  left_join(works, by = join_by(name)) |>
   kable()
 ```
 
 ```{r}
 #| echo: false
 professions %>%
-  left_join(dates) %>%
-  left_join(works) |> 
+  left_join(dates, by = join_by(name)) %>%
+  left_join(works, by = join_by(name)) |>
   kable()
 ```
 
@@ -608,7 +608,7 @@ tibble(
 ## Homework due dates
 
 - All material on [course website]({{< var course.site >}}modules/md-07.html)
-- Homework assignment & learning reflection due: [**{{< var md-06.homework-due >}}**]{.highlight-yellow}
+- Homework assignment & learning reflection due: [**{{< var md-07.homework-due >}}**]{.highlight-yellow}
 
 # Capstone Project Report
 
@@ -623,9 +623,7 @@ tibble(
 
 A large proportion of these slides are taken from [Mine Çetinkaya Rundel's "Hello Quarto" presentation](https://mine.quarto.pub/hello-quarto/#/hello-quarto-title) & [Thomas Mock's "Quarto for the Curious" presentation](https://jthomasmock.github.io/quarto-presentation/#/TitleSlide)
 
-Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
-
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-e-communicate.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). 
 

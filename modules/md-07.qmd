@@ -35,7 +35,7 @@ homework_due_date <- format(as.Date(vars$`md-07`$`homework-due`), "%B %d, %Y")
 
 ## {{< fa display >}} Slides
 
-[View slides in full screen](../slides/lec-e-communicate.html) | [Download slides as PDF]({{< var course.github-org >}}/website/raw/main/slides/lec-e-communicate.pdf)
+[View slides in full screen](../slides/lec-e-communicate.html)
 
 ```{=html}
 <iframe class="slide-deck" src="../slides/lec-e-communicate.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
@@ -57,6 +57,10 @@ You will need to clone your `md-07-USERNAME` folder to Posit Cloud first and the
 - hw-02-filter-join.qmd
 - hw-03-data-analysis.qmd
 - hw-04-data-visualization-pivoting.qmd
+
+For the scholarly writing exercise from the live session, clone your `md-07-writing-USERNAME` repository to Posit Cloud and complete:
+
+- scholarly-writing.qmd
 
 ## {{< fa pen-clip >}} Learning reflection
 
