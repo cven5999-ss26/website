@@ -2,6 +2,9 @@
 
 @import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
 
+// litera styles paragraphs with $font-family-serif; keep it on Atkinson
+$font-family-serif: "Atkinson Hyperlegible", sans-serif;
+
 $body-color: #1e1e1e;
 $body-bg: #f4f4f4;
 $link-color: #272bd1;
