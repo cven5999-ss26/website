@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>GitHub workflow – CVEN 5999 - Summer 2026</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -40,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-b165eb36346f47d4ad9eee4cc1f798ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-87d7be9a06a758dcbbc500798b9054a4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -105,8 +102,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../img/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="../../img/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <img src="../../img/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/cven5999-ss26" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -306,11 +302,11 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Screenshots show a different course
+Screenshots show a previous course
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The screenshots in this assignment show a class titled <code>ds4owd-002</code>. They were carried over from another course and have not yet been updated. For this course, you must use <code>cven5999-ss26</code> wherever you see <code>ds4owd-002</code> in the screenshots (for example, in the Posit Cloud workspace name).</p>
+<p>The screenshots in this assignment were taken in a previous course (<code>ds4owd-002</code>). The steps are identical. Follow the written instructions and use your own repository and workspace names, for example <code>cven5999-ss26</code> wherever a screenshot shows <code>ds4owd-002</code> (such as the Posit Cloud workspace name).</p>
 </div>
 </div>
 <section id="complete-the-github-workflow" class="level2">
@@ -344,8 +340,8 @@ Note
 <li>Under the heading <span class="highlight-yellow">Git configuration</span> edit the code in the code chunk:</li>
 </ol>
 <ul>
-<li>Replace the placeholder <span class="highlight-yellow">Your Name</span> with your GitHub username</li>
-<li>Replace <span class="highlight-yellow">Your Email</span> with your email address</li>
+<li>Replace the placeholder <span class="highlight-yellow">Your Name</span> with your first and last name</li>
+<li>Replace <span class="highlight-yellow">Your Email</span> with the email address associated with your GitHub account</li>
 <li>Keep the quotes!</li>
 </ul>
 <p>These will be the details that git will use to identify you when you make changes to your work.</p>
@@ -361,7 +357,7 @@ Note
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>A new tab will open
+A new tab will open
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -417,7 +413,7 @@ Note
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>PAT Storage Warning
+PAT Storage Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -481,14 +477,13 @@ Note
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
