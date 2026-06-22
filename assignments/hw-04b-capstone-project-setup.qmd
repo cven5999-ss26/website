@@ -55,11 +55,19 @@ By completing this assignment, you will:
      - `data/processed/` - for cleaned and processed datasets
    - `docs/` - for documentation and supplementary materials
 
-2. You can create these directories by:
-   - Using the Files panel in RStudio: Click "New Folder" and enter the folder names
-   - Or using the Console with: `dir.create("data")`, `dir.create("data/raw")`, `dir.create("data/processed")`, and `dir.create("docs")`
+2. Create these directories using the Files panel in RStudio:
+   - Click **New Folder** and enter `data`
+   - Open the `data` folder, click **New Folder** again, and create `raw`
+   - Still inside `data`, create another folder named `processed`
+   - Go back to the project root and create a `docs` folder
 
 ### Add your dataset
+
+::: {.callout-important}
+## Only submit non-sensitive data
+
+Your repository is **public**, so anything you upload can be seen by anyone. Only submit non-sensitive data. If you have any concerns that your data may be sensitive (for example, personal, confidential, or identifiable information), contact the course instructor first before uploading anything.
+:::
 
 1. **Upload your data file**: Add your capstone project dataset to the `data/raw/` folder. Your data must be in CSV or Excel format (.csv, .xlsx, or .xls).
 
