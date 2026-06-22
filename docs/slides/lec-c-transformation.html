@@ -38,6 +38,8 @@
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -176,7 +178,7 @@ Lars Schöbitz
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<countdown-timer class="countdown" id="timer_27c356ef" minutes="2" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
+<countdown-timer class="countdown" id="timer_b2ff4a24" minutes="2" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
 </div>
 </div>
 </section>
@@ -234,36 +236,76 @@ Lars Schöbitz
 </ul>
 </section></section>
 <section>
-<section id="live-coding-exercise-sdg-6.2.1" class="title-slide slide level1 center" data-background-color="#0F4C81">
-<h1>Live Coding Exercise: SDG 6.2.1</h1>
+<section id="our-turn-filter-arrange-select" class="title-slide slide level1 center" data-background-color="#0F4C81">
+<h1>Our turn: filter, arrange, select</h1>
 
 </section>
-<section id="live-data-transformation" class="slide level2">
-<h2>live-data-transformation</h2>
+<section id="follow-along-on-the-screen" class="slide level2">
+<h2>Follow along on the screen</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong><strong>Follow along on the screen</strong></strong></p>
+<p><strong>We work in <code>live-data-transformation.qmd</code></strong></p>
 </div>
 <div class="callout-content">
 <ol type="1">
-<li>Open the GitHub organisation for the course: <a href="https://github.com/cven5999-ss26">https://github.com/cven5999-ss26</a></li>
-<li>You will find a repository titled: <strong>md-05-USERNAME</strong> (with your GitHub Username)</li>
-<li>You will “clone” this repository to Posit Cloud</li>
+<li>Head over to <a href="https://posit.cloud/spaces/784454/content/all?sort=name_asc">posit.cloud</a></li>
+<li>Open the workspace for the course <a href="https://posit.cloud/spaces/784454/content/all?sort=name_asc">cven5999-ss26</a></li>
+<li>Open <strong>Content</strong> and open your project for Module 5</li>
+<li>Open the <code>live-data-transformation.qmd</code> file and follow along</li>
 </ol>
 </div>
 </div>
 </div>
+<p>I will demonstrate three verbs live:</p>
+<ul>
+<li><code>filter()</code>: pick rows matching criteria</li>
+<li><code>arrange()</code>: reorder rows</li>
+<li><code>select()</code>: pick columns by name</li>
+</ul>
+</section></section>
+<section>
+<section id="your-turn-breakout-1" class="title-slide slide level1 center" data-background-color="#0F4C81">
+<h1>Your turn: breakout #1</h1>
+
 </section>
-<section id="break" class="slide level2">
+<section id="how-breakout-rooms-work" class="slide level2">
+<h2>How breakout rooms work</h2>
+<ul>
+<li>Two learners work together in a break-out room</li>
+<li>One person (the <strong>driver</strong>) shares the screen and does the typing</li>
+<li>The other person (the <strong>navigator</strong>) offers comments and suggestions</li>
+<li>Switch roles after the first task</li>
+</ul>
+</section>
+<section id="breakout-1-hw-data-transformation.qmd" class="slide level2">
+<h2>Breakout #1: <code>hw-data-transformation.qmd</code></h2>
+<p>Work through <strong>Task 1 and Task 2</strong> together:</p>
+<ul>
+<li class="fragment"><strong>Task 1: Data import</strong> - read in <code>country_level_data_0.csv</code> with <code>read_csv()</code></li>
+<li class="fragment"><strong>Task 2: Data tidying</strong> - <code>select()</code> and <code>rename()</code> to build <code>composition_tidy</code></li>
+</ul>
+<p>Open <code>hw-data-transformation.qmd</code> in your Module 5 project and start at Task 1.</p>
+<div class="cell">
+<div class="cell-output-display">
+<countdown-timer class="countdown" id="timer_80408481" minutes="15" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
+</div>
+</div>
+</section></section>
+<section>
+<section id="break" class="title-slide slide level1 center" data-background-color="#0F4C81">
+<h1>Break</h1>
+
+</section>
+<section id="break-1" class="slide level2">
 <h2>Break</h2>
 <p><img data-src="img/lec-a/coffee-break.jpg"></p>
 <div class="cell">
 <div class="cell-output-display">
-<countdown-timer class="countdown" id="timer_f00b6405" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
+<countdown-timer class="countdown" id="timer_8c475f41" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
 </div>
 </div>
 
@@ -271,34 +313,72 @@ Lars Schöbitz
 <p>Photo by <a href="https://unsplash.com/@blakewisz">Blake Wisz</a></p>
 </div></aside></section></section>
 <section>
-<section id="pair-programming-exercise" class="title-slide slide level1 center" data-background-color="#0F4C81">
-<h1>Pair Programming Exercise</h1>
+<section id="our-turn-the-remaining-verbs" class="title-slide slide level1 center" data-background-color="#0F4C81">
+<h1>Our turn: the remaining verbs</h1>
 
 </section>
-<section id="pair-programming-exercises" class="slide level2">
-<h2>Pair Programming Exercises</h2>
+<section id="follow-along-on-the-screen-1" class="slide level2">
+<h2>Follow along on the screen</h2>
+<p>Back in <code>live-data-transformation.qmd</code>, I will demonstrate the remaining verbs live:</p>
 <ul>
-<li>Two learners work together in a break out session</li>
-<li>One person (the driver) shares the screen and does the typing</li>
-<li>The other person (the navigator) offers comments and suggestions</li>
-<li>Roles get switched</li>
+<li><code>rename()</code>: change column names</li>
+<li><code>relocate()</code>: change the order of columns</li>
+<li><code>mutate()</code>: add new columns (and factors)</li>
+<li><code>group_by()</code> &amp; <code>summarise()</code>: grouped summaries</li>
 </ul>
+</section></section>
+<section>
+<section id="break-2" class="title-slide slide level1 center" data-background-color="#0F4C81">
+<h1>Break</h1>
+
 </section>
-<section id="hw-data-transformation" class="slide level2">
-<h2>hw-data-transformation</h2>
-<ol type="1">
-<li>Head over to posit.cloud</li>
-<li>Open the workspace for the course <a href="https://posit.cloud/spaces/784454/content/all?sort=name_asc">cven5999-ss26</a></li>
-<li>Open “Content”</li>
-<li>Open your project</li>
-<li>Open the <code>hw-data-transformation.qmd</code> file</li>
-<li>Start working through the exercises in the file together</li>
-</ol>
+<section id="break-3" class="slide level2">
+<h2>Break</h2>
+<p><img data-src="img/lec-a/coffee-break.jpg"></p>
+<div class="cell">
+<div class="cell-output-display">
+<countdown-timer class="countdown" id="timer_877c86a4" minutes="5" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
+</div>
+</div>
+
+<aside><div>
+<p>Photo by <a href="https://unsplash.com/@blakewisz">Blake Wisz</a></p>
+</div></aside></section></section>
+<section>
+<section id="your-turn-breakout-2" class="title-slide slide level1 center" data-background-color="#0F4C81">
+<h1>Your turn: breakout #2</h1>
+
+</section>
+<section id="breakout-2-hw-data-transformation.qmd" class="slide level2">
+<h2>Breakout #2: <code>hw-data-transformation.qmd</code></h2>
+<p>Back into your break-out rooms. Continue in <code>hw-data-transformation.qmd</code> and work through the remaining tasks in <strong>Task 3</strong>:</p>
+<ul>
+<li class="fragment"><code>filter()</code> (Parts 1-6)</li>
+<li class="fragment"><code>mutate()</code> &amp; <code>relocate()</code></li>
+<li class="fragment"><code>mutate()</code> &amp; <code>case_when()</code></li>
+<li class="fragment"><code>group_by()</code> &amp; <code>summarise()</code></li>
+</ul>
+<p>Swap driver and navigator roles as you go.</p>
+<div class="cell">
+<div class="cell-output-display">
+<countdown-timer class="countdown" id="timer_792365bb" minutes="20" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-padding:10px;--countdown-font-size:2em;"></countdown-timer>
+</div>
+</div>
 </section></section>
 <section>
 <section id="homework-module-5" class="title-slide slide level1 center" data-background-color="#0F4C81">
 <h1>Homework Module 5</h1>
 
+</section>
+<section id="what-is-left-for-homework" class="slide level2">
+<h2>What is left for homework</h2>
+<p>Everything you did not finish in the breakout rooms is now homework. In <code>hw-data-transformation.qmd</code> that is:</p>
+<ul>
+<li>Any remaining parts of <strong>Task 3</strong> (transformation)</li>
+<li><strong>Task 4</strong>: Data visualisations</li>
+<li><strong>Task 5</strong>: Tables</li>
+<li><strong>Task 6</strong>: Stage, commit &amp; push, and open an issue</li>
+</ul>
 </section>
 <section id="homework-due-dates" class="slide level2">
 <h2>Homework due dates</h2>
@@ -334,6 +414,7 @@ Lars Schöbitz
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -355,7 +436,8 @@ Lars Schöbitz
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -526,7 +608,7 @@ Lars Schöbitz
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,

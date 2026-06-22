@@ -894,7 +894,7 @@
     "href": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207465726d696e616c203e7d7d-assignment-tasks",
     "title": "HW: Capstone Project Setup",
     "section": " Assignment Tasks",
-    "text": "Assignment Tasks\n\nCreate a new repository on GitHub & clone to Posit Cloud\n\nOpen the GitHub Organization for the course: https://github.com/cven5999-ss26\nTo the right of the field “Find a repository”, click on the green “New” button.\nIn the “Repository name” field write capstone-project-username. Replace username with your GitHub username. Avoid using spaces. For example: capstone-project-rainbow-train for the user with the username rainbow-train\nMake sure the repository is set to Public.\nScroll down on the same page, and click “Create repository”.\nIn the “Quick setup” field, click on the clipboard next to the HTTPS URL\nOpen the Posit Cloud workspace for the course: cven5999-ss26\nOpen the Content page\nClick on New Project -&gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nKeep the tick next to Add packages from the base project\nClick the OK button\nWait until the project is deployed.\n\n\n\nSet up initial directory structure\n\nIn your capstone project on Posit Cloud, create the following directory structure:\n\ndata/ - for storing your datasets\n\ndata/raw/ - for original, unprocessed datasets\ndata/processed/ - for cleaned and processed datasets\n\ndocs/ - for documentation and supplementary materials\n\nYou can create these directories by:\n\nUsing the Files panel in RStudio: Click “New Folder” and enter the folder names\nOr using the Console with: dir.create(\"data\"), dir.create(\"data/raw\"), dir.create(\"data/processed\"), and dir.create(\"docs\")\n\n\n\n\nAdd your dataset\n\nUpload your data file: Add your capstone project dataset to the data/raw/ folder. Your data must be in CSV or Excel format (.csv, .xlsx, or .xls).\nUpload methods:\n\nOption 1: Use the RStudio Files panel - click “Upload” and select your data file from your computer\nOption 2: If your data is available online, download it directly using R commands in the console\n\nFile naming: Use descriptive filenames without spaces (use underscores or hyphens instead). For example: household_survey_2023.csv or water-quality-measurements.xlsx\n\n\n\nCreate a README for your data folder\n\nNavigate to the Files tab in the bottom right window of RStudio.\nOpen the data folder you just created.\nClick on the “Blank File” button to create a new file.\nSelect “Text file”.\nEnter the name “README.md” and click OK.\nGo to: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md\nCopy the content displayed in the browser and paste it into the README.md file.\nComplete the template: Fill out all sections of the README template with information about your specific dataset (if you don’t have the information for some sections, state it):\n\nTitle: Give your dataset a descriptive title\nDescription: Explain what the data contains and why it was collected\nData source: Where did the data come from? Include URLs, citations, or collection details\nData collection methods: How was the data gathered?\nVariable descriptions: Describe each column/variable in your dataset\nData files: List and describe each file in your data folder\nContact information: Your information as the dataset maintainer\n\nSave the file.\n\n\n\nCommit and push your changes\n\nIn the Git panel (usually in the top right), stage all new files by checking the boxes next to them.\nClick “Commit”.\nWrite a meaningful commit message such as “Initial project setup with directory structure and data README”.\nClick “Commit”.\nClick “Push” to upload your changes to GitHub.\n\n\n\nFinal step\nOpen a Questions & Answers for the Capstone Project report issue on the GitHub issue tracker of your repository and tag the course instructor using the @ sign in combination with larnsce as the username."
+    "text": "Assignment Tasks\n\nCreate a new repository on GitHub & clone to Posit Cloud\n\nOpen the GitHub Organization for the course: https://github.com/cven5999-ss26\nTo the right of the field “Find a repository”, click on the green “New” button.\nIn the “Repository name” field write capstone-project-username. Replace username with your GitHub username. Avoid using spaces. For example: capstone-project-rainbow-train for the user with the username rainbow-train\nMake sure the repository is set to Public.\nScroll down on the same page, and click “Create repository”.\nIn the “Quick setup” field, click on the clipboard next to the HTTPS URL\nOpen the Posit Cloud workspace for the course: cven5999-ss26\nOpen the Content page\nClick on New Project -&gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nKeep the tick next to Add packages from the base project\nClick the OK button\nWait until the project is deployed.\n\n\n\nSet up initial directory structure\n\nIn your capstone project on Posit Cloud, create the following directory structure:\n\ndata/ - for storing your datasets\n\ndata/raw/ - for original, unprocessed datasets\ndata/processed/ - for cleaned and processed datasets\n\ndocs/ - for documentation and supplementary materials\n\nCreate these directories using the Files panel in RStudio:\n\nClick New Folder and enter data\nOpen the data folder, click New Folder again, and create raw\nStill inside data, create another folder named processed\nGo back to the project root and create a docs folder\n\n\n\n\nAdd your dataset\n\n\n\n\n\n\nImportantOnly submit non-sensitive data\n\n\n\nYour repository is public, so anything you upload can be seen by anyone. Only submit non-sensitive data. If you have any concerns that your data may be sensitive (for example, personal, confidential, or identifiable information), contact the course instructor first before uploading anything.\n\n\n\nUpload your data file: Add your capstone project dataset to the data/raw/ folder. Your data must be in CSV or Excel format (.csv, .xlsx, or .xls).\nUpload methods:\n\nOption 1: Use the RStudio Files panel - click “Upload” and select your data file from your computer\nOption 2: If your data is available online, download it directly using R commands in the console\n\nFile naming: Use descriptive filenames without spaces (use underscores or hyphens instead). For example: household_survey_2023.csv or water-quality-measurements.xlsx\n\n\n\nCreate a README for your data folder\n\nNavigate to the Files tab in the bottom right window of RStudio.\nOpen the data folder you just created.\nClick on the “Blank File” button to create a new file.\nSelect “Text file”.\nEnter the name “README.md” and click OK.\nGo to: https://raw.githubusercontent.com/rbtl-dev/metadata-readme-template/main/README.md\nCopy the content displayed in the browser and paste it into the README.md file.\nComplete the template: Fill out all sections of the README template with information about your specific dataset (if you don’t have the information for some sections, state it):\n\nTitle: Give your dataset a descriptive title\nDescription: Explain what the data contains and why it was collected\nData source: Where did the data come from? Include URLs, citations, or collection details\nData collection methods: How was the data gathered?\nVariable descriptions: Describe each column/variable in your dataset\nData files: List and describe each file in your data folder\nContact information: Your information as the dataset maintainer\n\nSave the file.\n\n\n\nCommit and push your changes\n\nIn the Git panel (usually in the top right), stage all new files by checking the boxes next to them.\nClick “Commit”.\nWrite a meaningful commit message such as “Initial project setup with directory structure and data README”.\nClick “Commit”.\nClick “Push” to upload your changes to GitHub.\n\n\n\nFinal step\nOpen a Questions & Answers for the Capstone Project report issue on the GitHub issue tracker of your repository and tag the course instructor using the @ sign in combination with larnsce as the username."
   },
   {
     "objectID": "assignments/hw-04b-capstone-project-setup.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e6461722d636865636b203e7d7d-due-date",
@@ -1769,32 +1769,60 @@
     "text": "dplyr rules\nRules of dplyr functions:\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
   },
   {
-    "objectID": "slides/lec-c-transformation.html#live-data-transformation",
-    "href": "slides/lec-c-transformation.html#live-data-transformation",
+    "objectID": "slides/lec-c-transformation.html#follow-along-on-the-screen",
+    "href": "slides/lec-c-transformation.html#follow-along-on-the-screen",
     "title": "Data transformation and descriptive statistics",
-    "section": "live-data-transformation",
-    "text": "live-data-transformation\n\n\n\n\n\n\nFollow along on the screen\n\n\n\nOpen the GitHub organisation for the course: https://github.com/cven5999-ss26\nYou will find a repository titled: md-05-USERNAME (with your GitHub Username)\nYou will “clone” this repository to Posit Cloud"
+    "section": "Follow along on the screen",
+    "text": "Follow along on the screen\n\n\n\n\n\n\nWe work in live-data-transformation.qmd\n\n\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss26\nOpen Content and open your project for Module 5\nOpen the live-data-transformation.qmd file and follow along\n\n\n\n\nI will demonstrate three verbs live:\n\nfilter(): pick rows matching criteria\narrange(): reorder rows\nselect(): pick columns by name"
   },
   {
-    "objectID": "slides/lec-c-transformation.html#break",
-    "href": "slides/lec-c-transformation.html#break",
+    "objectID": "slides/lec-c-transformation.html#how-breakout-rooms-work",
+    "href": "slides/lec-c-transformation.html#how-breakout-rooms-work",
+    "title": "Data transformation and descriptive statistics",
+    "section": "How breakout rooms work",
+    "text": "How breakout rooms work\n\nTwo learners work together in a break-out room\nOne person (the driver) shares the screen and does the typing\nThe other person (the navigator) offers comments and suggestions\nSwitch roles after the first task"
+  },
+  {
+    "objectID": "slides/lec-c-transformation.html#breakout-1-hw-data-transformation.qmd",
+    "href": "slides/lec-c-transformation.html#breakout-1-hw-data-transformation.qmd",
+    "title": "Data transformation and descriptive statistics",
+    "section": "Breakout #1: hw-data-transformation.qmd",
+    "text": "Breakout #1: hw-data-transformation.qmd\nWork through Task 1 and Task 2 together:\n\nTask 1: Data import - read in country_level_data_0.csv with read_csv()\nTask 2: Data tidying - select() and rename() to build composition_tidy\n\nOpen hw-data-transformation.qmd in your Module 5 project and start at Task 1."
+  },
+  {
+    "objectID": "slides/lec-c-transformation.html#break-1",
+    "href": "slides/lec-c-transformation.html#break-1",
     "title": "Data transformation and descriptive statistics",
     "section": "Break",
     "text": "Break\n\n\n\n\n\n\n\n\nPhoto by Blake Wisz"
   },
   {
-    "objectID": "slides/lec-c-transformation.html#pair-programming-exercises",
-    "href": "slides/lec-c-transformation.html#pair-programming-exercises",
+    "objectID": "slides/lec-c-transformation.html#follow-along-on-the-screen-1",
+    "href": "slides/lec-c-transformation.html#follow-along-on-the-screen-1",
     "title": "Data transformation and descriptive statistics",
-    "section": "Pair Programming Exercises",
-    "text": "Pair Programming Exercises\n\nTwo learners work together in a break out session\nOne person (the driver) shares the screen and does the typing\nThe other person (the navigator) offers comments and suggestions\nRoles get switched"
+    "section": "Follow along on the screen",
+    "text": "Follow along on the screen\nBack in live-data-transformation.qmd, I will demonstrate the remaining verbs live:\n\nrename(): change column names\nrelocate(): change the order of columns\nmutate(): add new columns (and factors)\ngroup_by() & summarise(): grouped summaries"
   },
   {
-    "objectID": "slides/lec-c-transformation.html#hw-data-transformation",
-    "href": "slides/lec-c-transformation.html#hw-data-transformation",
+    "objectID": "slides/lec-c-transformation.html#break-3",
+    "href": "slides/lec-c-transformation.html#break-3",
     "title": "Data transformation and descriptive statistics",
-    "section": "hw-data-transformation",
-    "text": "hw-data-transformation\n\nHead over to posit.cloud\nOpen the workspace for the course cven5999-ss26\nOpen “Content”\nOpen your project\nOpen the hw-data-transformation.qmd file\nStart working through the exercises in the file together"
+    "section": "Break",
+    "text": "Break\n\n\n\n\n\n\n\n\nPhoto by Blake Wisz"
+  },
+  {
+    "objectID": "slides/lec-c-transformation.html#breakout-2-hw-data-transformation.qmd",
+    "href": "slides/lec-c-transformation.html#breakout-2-hw-data-transformation.qmd",
+    "title": "Data transformation and descriptive statistics",
+    "section": "Breakout #2: hw-data-transformation.qmd",
+    "text": "Breakout #2: hw-data-transformation.qmd\nBack into your break-out rooms. Continue in hw-data-transformation.qmd and work through the remaining tasks in Task 3:\n\nfilter() (Parts 1-6)\nmutate() & relocate()\nmutate() & case_when()\ngroup_by() & summarise()\n\nSwap driver and navigator roles as you go."
+  },
+  {
+    "objectID": "slides/lec-c-transformation.html#what-is-left-for-homework",
+    "href": "slides/lec-c-transformation.html#what-is-left-for-homework",
+    "title": "Data transformation and descriptive statistics",
+    "section": "What is left for homework",
+    "text": "What is left for homework\nEverything you did not finish in the breakout rooms is now homework. In hw-data-transformation.qmd that is:\n\nAny remaining parts of Task 3 (transformation)\nTask 4: Data visualisations\nTask 5: Tables\nTask 6: Stage, commit & push, and open an issue"
   },
   {
     "objectID": "slides/lec-c-transformation.html#homework-due-dates",
