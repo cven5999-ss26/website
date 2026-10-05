@@ -20,7 +20,7 @@ This is a Quarto-based course website for CVEN 5999: Special Topics - Data Analy
 ### Configuration
 - **Main config**: `_quarto.yml` - Controls website structure, theme, sidebar navigation
 - **Variables**: `_variables.yml` - Course-specific variables (dates, titles, GitHub org)
-- **Theme**: `theme.scss` and `slides.scss` for styling
+- **Theme**: `theme.scss` and `style/slides.scss` for styling
 - **Output**: Builds to `docs/` directory for GitHub Pages deployment
 
 ### Key Technologies
@@ -52,17 +52,14 @@ quarto preview slides/lec-a-welcome.qmd
 ```
 
 ### Publishing
-```bash
-# Publish to GitHub Pages (builds to docs/ directory)
-quarto publish gh-pages
-```
+Run `quarto render` and commit the updated `docs/` folder. GitHub Pages serves the site from `docs/`.
 
 ## Content Guidelines
 
 ### File Organization
 - Module content follows naming convention: `md-XX.qmd` where XX is module number (01-07)
-- Lecture slides follow: `lec-XX-topic.qmd` pattern (lecture numbers are independent of module numbers)
-- Images organized in `slides/img/lec-XX/` subdirectories
+- Lecture slides follow the `lec-X-topic.qmd` pattern, with a letter in place of X (for example `lec-a-welcome.qmd`), so they are not confused with module numbers
+- Images organized in `slides/img/lec-X/` subdirectories (for example `slides/img/lec-a/`)
 - Data files in `data/` with R scripts for processing
 
 ### YAML Frontmatter Patterns
